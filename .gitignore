@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Removed for GitHub file's dimension rule
+# Every time that the repo is cloned, you need to download all the Packages
+/Game_Room/Library/ArtifactDB
+/Game_Room/Library/PackageCache
