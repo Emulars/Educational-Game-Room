@@ -4,5 +4,47 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DM/Scenes/Main_Scenario.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/DM/Scenes/Metroidvania/Metroidvania_Menu.unity
+    guid: 5c43fd7c633025249b92fb8b8d2fdb4c
+  - enabled: 1
+    path: Assets/DM/Scenes/Metroidvania/Level_1-1.unity
+    guid: 5debd0034ad7d6b4fb7bc9728ad921ab
+  - enabled: 1
+    path: Assets/DM/Scenes/Metroidvania/Level_1-2.unity
+    guid: 6b2d9ad451766ad4d8d5375a966d9820
+  - enabled: 1
+    path: Assets/DM/Scenes/Metroidvania/Level_1-3.unity
+    guid: 63b192dd6e445334b8ee92e2e59f53a1
+  - enabled: 1
+    path: Assets/DM/Scenes/Metroidvania/Metroidvania_End.unity
+    guid: 60118f270e3fb0840aac131a5bbbcd41
+  - enabled: 1
+    path: Assets/DM/Scenes/Puzzle/Puzzle_Menu.unity
+    guid: 6a87de19079d5e542aaaaa67f1a7d30f
+  - enabled: 1
+    path: Assets/DM/Scenes/Puzzle/Character_Selection.unity
+    guid: fce79eea1cc42e948ab0cd31ac4d7c98
+  - enabled: 1
+    path: Assets/DM/Scenes/Puzzle/Level_2-1.unity
+    guid: e87cfc14835682144b8309440e77d098
+  - enabled: 1
+    path: Assets/Blockly/Scenes/Metroidvania-1.unity
+    guid: ae5a7c3b1a3e1bd4a9738c69ebdff580
+  - enabled: 1
+    path: Assets/Blockly/Scenes/Metroidvania-2.unity
+    guid: 8cc3fa0a2f1164d43ad3ee633454071d
+  - enabled: 1
+    path: Assets/Blockly/Scenes/Metroidvania-3.unity
+    guid: f6e450b2be54eb5488d4a91b8d93d1aa
+  - enabled: 1
+    path: Assets/Blockly/Scenes/Puzzle-1.unity
+    guid: 5e1c46aa5cf76bc46a0d4f3f6938747b
+  - enabled: 1
+    path: Assets/Blockly/Scenes/Puzzle-2.unity
+    guid: efca4bc73e1565c4fb87fb963fcdaeb5
   m_configObjects: {}

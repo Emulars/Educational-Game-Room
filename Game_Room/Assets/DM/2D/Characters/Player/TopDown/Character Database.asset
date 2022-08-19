@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73f4e9e79721824e936411a44ce7fa4, type: 3}
+  m_Name: Character Database
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: Alexander
+    characterSprite: {fileID: 878439868, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Melis
+    characterSprite: {fileID: 842678050, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Gwillym
+    characterSprite: {fileID: 878200300, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Aurora
+    characterSprite: {fileID: 352928328, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Gwen
+    characterSprite: {fileID: 1586393599, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Randy
+    characterSprite: {fileID: -1930099187, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Gregory
+    characterSprite: {fileID: -753114926, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Howard
+    characterSprite: {fileID: 1186601004, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+  - characterName: Jude
+    characterSprite: {fileID: 1437726978, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
