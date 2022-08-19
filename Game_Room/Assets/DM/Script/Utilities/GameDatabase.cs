@@ -20,7 +20,7 @@ namespace Assets.DM.Script.Utilities
             // Labyrinth / Puzzle
             games.Add("Puzzle", new GameInfos
             {
-                firstSceneIndex = 5,
+                firstSceneIndex = 6,
                 sceneMaterialPath = "Puzzle"
             });
 
