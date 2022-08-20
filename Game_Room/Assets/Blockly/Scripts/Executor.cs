@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
-namespace Assets.Blockly.Scripts
+namespace Assets.Scripts
 {
     public class Executor : MonoBehaviour
     {
@@ -12,7 +12,7 @@ namespace Assets.Blockly.Scripts
 
         public static Dictionary<string, string> variabili = new Dictionary<string, string>();
 
-        public string IsInDictionary(string variableName)
+        public string isInDictionary(string variableName)
         {
             return variabili.ContainsKey(variableName) ? variabili[variableName] : null;
         }
@@ -39,6 +39,7 @@ namespace Assets.Blockly.Scripts
         public void CatchError(ErrorCode e)
         {
             Debug.Log("Error: " + e);
+            throw new ArgumentNullException();
         }
 
         public void IsFinish(string s)

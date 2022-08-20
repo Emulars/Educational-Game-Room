@@ -118,19 +118,19 @@ namespace Assets.AssetsStore.StarterAssets.FirstPersonController.Scripts
 		private void Update()
 		{
             // if "E" is pressed and the player is in the arcade trigger, lock the player
-            if (Input.GetKeyDown(KeyCode.E) && inArcadeTrigger)
+            if (Input.GetKeyDown(KeyCode.E) && inArcadeTrigger && enabledMovement)
 			{
-				Debug.Log("E pressed");
+				Debug.Log("E-lock pressed");
 				enabledMovement = false;
 			}
             // if "F" is pressed and the player is in the arcade trigger, unlock the player
-			else if (Input.GetKeyDown(KeyCode.F) && inArcadeTrigger)
-			{
-				Debug.Log("F pressed");
-				enabledMovement = true;
-			}
+            else if (Input.GetKeyDown(KeyCode.E) && inArcadeTrigger && !enabledMovement)
+            {
+                Debug.Log("E-unlock pressed");
+                enabledMovement = true;
+            }
 
-			if (!enabledMovement)
+            if (!enabledMovement)
 				return;
 
 			JumpAndGravity();

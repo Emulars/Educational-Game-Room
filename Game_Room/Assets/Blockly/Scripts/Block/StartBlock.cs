@@ -1,18 +1,20 @@
-using Assets.Blockly.Scripts.Block.Interface;
-using Assets.Blockly.Scripts.DragAndDrop;
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-namespace Assets.Blockly.Scripts.Block
+public class StartBlock : MonoBehaviour
 {
-    public class StartBlock : MonoBehaviour
+    private void Start()
     {
-        public void Execute()
+        GetComponentInChildren<DropPosition>().SetActive();
+    }
+    public void Execute()
+    {
+        var next = GetComponentInChildren<DropPosition>().droppedGameObject;
+        if (next != null)
         {
-            var next = GetComponentInChildren<DropPosition>().droppedGameObject;
-            if (next != null)
-            {
-                next.GetComponent<IBlock>().Execute();
-            }
+            next.GetComponent<IBlock>().Execute();
         }
     }
 }

@@ -1,7 +1,7 @@
 using System;
-using Assets.Blockly.Scripts;
 using Assets.DM.Script.Metroidvania.Player;
 using Assets.DM.Script.Puzzle;
+using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -177,17 +177,16 @@ public class BlocklyHandler : MonoBehaviour
                     // disable the first quest giver 
                     bindedObject.SetActive(false);
                     // enable the second one
-                    //GameObject.Find("Quest Giver 2").SetActive(true);
+                    GameObject.Find("Quest Giver 2").SetActive(true);
                 }
             }
-            /*
-        else
-        {
+            else
+            {
             Array.Clear(bindedObject.GetComponent<QuestGiver>().dialogue, 0, bindedObject.GetComponent<QuestGiver>().dialogue.Length);
             bindedObject.GetComponent<QuestGiver>().dialogue[0] = "I need 3 sheep to complete this quest";
             bindedObject.GetComponent<QuestGiver>().dialogue[1] = "Press F1 to open the Block UI";
-        }
-        */
+            }
+        
         }
     }
 }

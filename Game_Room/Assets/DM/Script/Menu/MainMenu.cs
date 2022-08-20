@@ -14,16 +14,10 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
+        Debug.Log("Playgame pressed");
         var changeLevel = gameObject.GetComponent<ChangeLevel>();
         var collider = transform.GetComponent<Collider2D>();
 
         changeLevel.OnTriggerEnter2D(collider);
-    }
-
-    // TODO: REMOVE THIS FUNCTION
-    public void QuitGame()
-    {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1, LoadSceneMode.Single);
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }

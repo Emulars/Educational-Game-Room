@@ -21,6 +21,7 @@ namespace Assets.DM.Script.Utilities
             games.Add("Puzzle", new GameInfos
             {
                 firstSceneIndex = 6,
+                numLevels = 3,
                 sceneMaterialPath = "Puzzle"
             });
 

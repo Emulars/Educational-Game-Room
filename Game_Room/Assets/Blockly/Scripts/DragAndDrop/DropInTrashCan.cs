@@ -1,15 +1,12 @@
-using Assets.Blockly.Scripts.Block.Interface;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Blockly.Scripts.DragAndDrop
+public class DropInTrashCan : MonoBehaviour, IDropHandler
 {
-    public class DropInTrashCan : MonoBehaviour, IDropHandler
+    public void OnDrop(PointerEventData eventData)
     {
-        public void OnDrop(PointerEventData eventData)
-        {
-            if (eventData.pointerDrag.GetComponent<IBlock>() == null) return; //cannot drop not IBlock obj
-            Destroy(eventData.pointerDrag);
-        }
+        if (eventData.pointerDrag.GetComponent<IBlock>() == null) return; //cannot drop not IBlock obj
+        Destroy(eventData.pointerDrag);
     }
 }

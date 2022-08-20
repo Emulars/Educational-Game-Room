@@ -1,7 +1,8 @@
-namespace Assets.Blockly.Scripts.Block.Interface
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public interface IEndStatement
 {
-    public interface IEndStatement
-    {
     
-    }
 }
