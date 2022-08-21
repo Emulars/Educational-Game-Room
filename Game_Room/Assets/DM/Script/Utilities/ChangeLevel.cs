@@ -101,7 +101,7 @@ public class ChangeLevel : MonoBehaviour
         if(canvasImage != null)
         {
             Transform canvasText = canvasImage.transform.Find("Text");
-            canvasText.GetComponent<TextMeshProUGUI>().text = "Press 'E' to start playing";
+            canvasText.GetComponent<TextMeshProUGUI>().text = "Press 'F2' to start/stop playing";
             canvasImage.SetActive(true);
             yield return new WaitForSeconds(3);
             canvasImage.SetActive(false);

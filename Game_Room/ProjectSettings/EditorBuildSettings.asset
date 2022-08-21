@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/DM/Scenes/Puzzle/Level_2-1.unity
     guid: e87cfc14835682144b8309440e77d098
   - enabled: 1
+    path: Assets/DM/Scenes/Puzzle/Puzzle_End.unity
+    guid: b34d8f8aee2f25341a27a0d9fe0fecf1
+  - enabled: 1
     path: Assets/DM/Scenes/Blockly/Metroidvania-1.unity
     guid: e81d039a820ea8244955758b941a60fb
   - enabled: 1

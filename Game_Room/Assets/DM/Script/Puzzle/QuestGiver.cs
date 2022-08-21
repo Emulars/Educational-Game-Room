@@ -20,7 +20,7 @@ namespace Assets.DM.Script.Puzzle
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.E) && playerIsClose && !dialogueInProgress)
+            if (Input.GetKeyDown(KeyCode.F3) && playerIsClose && !dialogueInProgress)
             {
                 if (dialoguePanel.activeInHierarchy)
                 {
@@ -39,7 +39,7 @@ namespace Assets.DM.Script.Puzzle
             }
 
             // NextLine with key press
-            if (Input.GetKeyDown(KeyCode.E) && playerIsClose && dialogueInProgress)
+            if (Input.GetKeyDown(KeyCode.F3) && playerIsClose && dialogueInProgress)
             {
                 NextLine();
             }

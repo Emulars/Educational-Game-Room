@@ -14,7 +14,7 @@ namespace Assets.DM.Script.Puzzle
 
         public GameObject[] playerPrefabs;
         public CinemachineVirtualCamera virtualCamera;
-        public static Vector2 lastCheckPointPos = new Vector2(-0.4744037f, -4.392186f);
+        public static Vector2 lastCheckPointPos = new Vector2(-0.49f, 16.74f);
 
         private void Awake()
         {
@@ -24,12 +24,6 @@ namespace Assets.DM.Script.Puzzle
                 Load();
 
             UpdateCharacter(selectedOption);
-        }
-    
-        // Start is called before the first frame update
-        void Start()
-        {
-
         }
 
         private void UpdateCharacter(int selectedOption)

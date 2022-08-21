@@ -35614,7 +35614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bindedObject: {fileID: 791426071}
-  guiLevelIndex: 12
+  guiLevelIndex: 14
+  questGiver2: {fileID: 0}
 --- !u!1 &814809491
 GameObject:
   m_ObjectHideFlags: 0
@@ -35819,7 +35820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -848.01, y: -483.6009}
+  m_AnchoredPosition: {x: -848.01, y: -483.6}
   m_SizeDelta: {x: -1696.0135, y: -967.2029}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174712938
@@ -39017,7 +39018,7 @@ MonoBehaviour:
 
     - WASD: to move
 
-    - E: to interact'
+    - F3: to interact'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ce73e36ea2a90f2479cdf72fab49d9da, type: 2}
   m_sharedMaterial: {fileID: 5858338647236202377, guid: ce73e36ea2a90f2479cdf72fab49d9da, type: 2}
@@ -41850,7 +41851,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554350062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 102, z: 0}
+  m_LocalPosition: {x: 0, y: 21, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44081,4 +44082,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bindedObject: {fileID: 4158962811759616303}
-  guiLevelIndex: 11
+  guiLevelIndex: 13
+  questGiver2: {fileID: 791426071}

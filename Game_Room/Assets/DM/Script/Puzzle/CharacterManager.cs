@@ -18,8 +18,6 @@ namespace Assets.DM.Script.Puzzle
         // Start is called before the first frame update
         void Start()
         {
-            transform.Find("Play Button").GetComponent<Button>().Select();
-
             if (!PlayerPrefs.HasKey("selectedOption"))
                 selectedOption = 0;
             else

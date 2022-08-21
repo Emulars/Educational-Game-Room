@@ -14,10 +14,8 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        Debug.Log("Playgame pressed");
         var changeLevel = gameObject.GetComponent<ChangeLevel>();
         var collider = transform.GetComponent<Collider2D>();
-
         changeLevel.OnTriggerEnter2D(collider);
     }
 }

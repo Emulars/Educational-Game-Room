@@ -16,20 +16,25 @@ DM/Scenes/Metroidvania/End                      5
 DM/Scenes/Puzzle/Puzzle_Menu                    6
 DM/Scenes/Puzzle/Puzzle_Character_Selection     7
 DM/Scenes/Puzzle/Level_2-1                      8
+DM/Scenes/Puzzle/Puzzle_End                     9
 
-Blockly/Scenese/Metroidvania-1                  9
-Blockly/Scenese/Metroidvania-2                  10
-Blockly/Scenese/Metroidvania-3                  11
+Blockly/Scenese/Metroidvania-1                  10
+Blockly/Scenese/Metroidvania-2                  11
+Blockly/Scenese/Metroidvania-3                  12
 
-Blockly/Scenese/Puzzle-1                        12
-Blockly/Scenese/Puzzle-2                        13
+Blockly/Scenese/Puzzle-1                        13
+Blockly/Scenese/Puzzle-2                        14
 */
 
 
 public class BlocklyHandler : MonoBehaviour
 {
+    [Header("All level")]
     [SerializeField] GameObject bindedObject;
     [SerializeField] private int guiLevelIndex;
+
+    [Header("Quest Giver 1")]
+    [SerializeField] GameObject questGiver2;
 
     private bool isGuiOpen = false; // To check if the Block UI is already open, to be able to close it with the same key
     private int currentLevel; // To store the current level index
@@ -52,7 +57,7 @@ public class BlocklyHandler : MonoBehaviour
         switch (guiLevelIndex)
         {
             // First Puzzle interaction
-            case 12:
+            case 13:
                 Executor.variabili.Add("word", "sheep");
                 Executor.variabili.Add("space", " ");
                 Executor.variabili.Add("result", "");
@@ -83,28 +88,28 @@ public class BlocklyHandler : MonoBehaviour
             switch (guiLevelIndex)
             {
                 // First Metroidvania level
-                case 9:
+                case 10:
                     MetroidvaniaLevel1();
                     break;
 
                 // Second Metroidvania level
-                case 10:
+                case 11:
                     MetroidvaniaLevel2();
                     break;
 
                 // Third Metroidvania level
-                case 11:
+                case 12:
                     MetroidvaniaLevel3();
                     break;
 
                 // First Puzzle interaction
-                case 12:
+                case 13:
                     PuzzleQuest1();
                     break;
 
                 // Second Puzzle interaction
-                case 13:
-                    PuzzleQuest1();
+                case 14:
+                    PuzzleQuest2();
                     break;
 
                 default:
@@ -177,16 +182,37 @@ public class BlocklyHandler : MonoBehaviour
                     // disable the first quest giver 
                     bindedObject.SetActive(false);
                     // enable the second one
-                    GameObject.Find("Quest Giver 2").SetActive(true);
+                    questGiver2.SetActive(true);
                 }
             }
             else
             {
-            Array.Clear(bindedObject.GetComponent<QuestGiver>().dialogue, 0, bindedObject.GetComponent<QuestGiver>().dialogue.Length);
-            bindedObject.GetComponent<QuestGiver>().dialogue[0] = "I need 3 sheep to complete this quest";
-            bindedObject.GetComponent<QuestGiver>().dialogue[1] = "Press F1 to open the Block UI";
+                // Change Quest Giver Dialog
+                Array.Clear(bindedObject.GetComponent<QuestGiver>().dialogue, 0, bindedObject.GetComponent<QuestGiver>().dialogue.Length);
+                bindedObject.GetComponent<QuestGiver>().dialogue[0] = "You need to return the murmur \'1 sheep...2 sheep...3 sheep...\' to complete this quest";
+                bindedObject.GetComponent<QuestGiver>().dialogue[1] = "Try to use the available variables to complete the sentence";
+                bindedObject.GetComponent<QuestGiver>().dialogue[2] = "Maybe a counting variable should be useful...";
+                bindedObject.GetComponent<QuestGiver>().dialogue[3] = "And a while loop can be useful...";
+                bindedObject.GetComponent<QuestGiver>().dialogue[4] = "Press F1 to open the Block UI";
+
+                // Reset Variable
+                Executor.variabili["word"] = "sheep";
+                Executor.variabili["space"] = " ";
+                Executor.variabili["result"] = "";
             }
         
+        }
+    }
+
+    private void PuzzleQuest2()
+    {
+        if (Executor.variabili.Count != 0)
+        {
+            if (Executor.variabili["result"].Equals("true"))
+            {
+                if (bindedObject.GetComponent<QuestGiver>().playerIsClose)
+                    bindedObject.SetActive(false);  // disable quest giver 
+            }
         }
     }
 }
