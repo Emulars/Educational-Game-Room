@@ -25,6 +25,14 @@ namespace Assets.DM.Script.Utilities
                 sceneMaterialPath = "Puzzle"
             });
 
+            //Dystopian Future
+            games.Add("DystopianFuture", new GameInfos
+            {
+                firstSceneIndex = 15,
+                numLevels = 2,
+                sceneMaterialPath = "DystopianFuture"
+            });
+
         }
     }
 }
