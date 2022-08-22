@@ -33,16 +33,24 @@ public class ChangeLevel : MonoBehaviour
 
         if (collision.tag == "Player")
         {
-            LoadNextLevel();
-            
-            // Unload the current scene
-            SceneManager.UnloadSceneAsync(IndexToLoad-1);
-            
-            // SendMessage to LoadResources.ChangeRenderTexture() SendMessageUpwards("ChangeRenderTexture", countEnterTrigger2D);
-            ChangeRenderTexture(gameInfo.sceneMaterialIndex);
+            if(CompareTag("Restart"))
+            {
+                LoadNextLevel(true);
 
-            // Increse the counter for the next level
-            UpdateCounter();
+                // Unload the current scene
+                SceneManager.UnloadSceneAsync(IndexToLoad - 1);
+            }
+            else
+            {
+                LoadNextLevel(false);
+
+                // Unload the current scene
+                SceneManager.UnloadSceneAsync(IndexToLoad - 1);
+                // SendMessage to LoadResources.ChangeRenderTexture() SendMessageUpwards("ChangeRenderTexture", countEnterTrigger2D);
+                ChangeRenderTexture(gameInfo.sceneMaterialIndex);
+                // Increse the counter for the next level
+                UpdateCounter();
+            }
         }
     }
 
@@ -58,7 +66,7 @@ public class ChangeLevel : MonoBehaviour
 
             _meshRenderer = transform.Find("Screen").GetComponent<MeshRenderer>();
 
-            LoadNextLevel();
+            LoadNextLevel(false);
 
             StartCoroutine(ActiveMessage());
 
@@ -67,34 +75,21 @@ public class ChangeLevel : MonoBehaviour
         }
     }
 
-    private void LoadNextLevel()
+    private void LoadNextLevel(bool restart)
     {
         // take the game property
         gameInfo = GameDatabase.games[gameName];
-
-        if (gameInfo.isCompleted) return;
         
         // Get the game's material
         renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
 
         // Player entered, so move level
         //indexToLoad = gameInfo.firstSceneIndex + gameInfo.sceneMaterialIndex;
-        SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
-    }
+        if (restart)
+            SceneManager.LoadScene(IndexToLoad-1, LoadSceneMode.Additive);
+        else
+            SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
 
-    private void RepeatLevel()
-    {
-        // take the game property
-        gameInfo = GameDatabase.games[gameName];
-
-        if (gameInfo.isCompleted) return;
-
-        // Get the game's material
-        renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
-
-        // Player entered, so move level
-        //indexToLoad = gameInfo.firstSceneIndex + gameInfo.sceneMaterialIndex;
-        SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
     }
 
     private void OnTriggerExit(Collider other)

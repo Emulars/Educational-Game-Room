@@ -1,0 +1,1496 @@
+fileFormatVersion: 2
+guid: cd29d0dd446bed140b5c54499422f298
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8261150530872701204
+    second: sploomy - animated_0
+  - first:
+      213: 5526413283208906955
+    second: sploomy - animated_1
+  - first:
+      213: 9213495940522272069
+    second: sploomy - animated_2
+  - first:
+      213: -6229146524355535120
+    second: sploomy - animated_3
+  - first:
+      213: -9220024747649745525
+    second: sploomy - animated_4
+  - first:
+      213: -8200662537993068030
+    second: sploomy - animated_5
+  - first:
+      213: -3597824646567155389
+    second: sploomy - animated_6
+  - first:
+      213: -1346320619181393297
+    second: sploomy - animated_7
+  - first:
+      213: 484332004836047137
+    second: sploomy - animated_8
+  - first:
+      213: -2181227313243660190
+    second: sploomy - animated_9
+  - first:
+      213: -4092159287328283439
+    second: sploomy - animated_10
+  - first:
+      213: -7244060658394479795
+    second: sploomy - animated_11
+  - first:
+      213: -4802701957920215813
+    second: sploomy - animated_12
+  - first:
+      213: 7838620761837619146
+    second: sploomy - animated_13
+  - first:
+      213: -616009300648121951
+    second: sploomy - animated_14
+  - first:
+      213: 7889291102625746859
+    second: sploomy - animated_15
+  - first:
+      213: 2067366359794697752
+    second: sploomy - animated_16
+  - first:
+      213: 4289674308053443957
+    second: sploomy - animated_17
+  - first:
+      213: -8670236328978730201
+    second: sploomy - animated_18
+  - first:
+      213: 3619172265092655617
+    second: sploomy - animated_19
+  - first:
+      213: -4161141624342921454
+    second: sploomy - animated_20
+  - first:
+      213: -7450922907997379697
+    second: sploomy - animated_21
+  - first:
+      213: 1552639005402444808
+    second: sploomy - animated_22
+  - first:
+      213: -555381487929988308
+    second: sploomy - animated_23
+  - first:
+      213: 2146447486394032241
+    second: sploomy - animated_24
+  - first:
+      213: -4322940300324033611
+    second: sploomy - animated_25
+  - first:
+      213: 1667129662619443493
+    second: sploomy - animated_26
+  - first:
+      213: -4304900045893830732
+    second: sploomy - animated_27
+  - first:
+      213: 5469625981438432406
+    second: sploomy - animated_28
+  - first:
+      213: 4151803197422064050
+    second: sploomy - animated_29
+  - first:
+      213: 5926312502066360045
+    second: sploomy - animated_30
+  - first:
+      213: -2273162327478791348
+    second: sploomy - animated_31
+  - first:
+      213: 4806008698962105455
+    second: sploomy - animated_32
+  - first:
+      213: -2056123638325369392
+    second: sploomy - animated_33
+  - first:
+      213: 2678828355635691676
+    second: sploomy - animated_34
+  - first:
+      213: -5429719446667356940
+    second: sploomy - animated_35
+  - first:
+      213: 5452947362323230708
+    second: sploomy - animated_36
+  - first:
+      213: 6086296218632247097
+    second: sploomy - animated_37
+  - first:
+      213: -6469372163751648906
+    second: sploomy - animated_38
+  - first:
+      213: -188427695255356921
+    second: sploomy - animated_39
+  - first:
+      213: 6801971399562082471
+    second: sploomy - animated_40
+  - first:
+      213: -5642206264753491524
+    second: sploomy - animated_41
+  - first:
+      213: 8233051153634646610
+    second: sploomy - animated_42
+  - first:
+      213: -1515254700261981858
+    second: sploomy - animated_43
+  - first:
+      213: -3875513892140488202
+    second: sploomy - animated_44
+  - first:
+      213: 3199004107207881753
+    second: sploomy - animated_45
+  - first:
+      213: -4369933086196113599
+    second: sploomy - animated_46
+  - first:
+      213: -2237605673746228297
+    second: sploomy - animated_47
+  - first:
+      213: 3659408142794917240
+    second: sploomy - animated_48
+  - first:
+      213: -4569827038153524858
+    second: sploomy - animated_49
+  - first:
+      213: -1856722655491606142
+    second: sploomy - animated_50
+  - first:
+      213: -6853163241456266167
+    second: sploomy - animated_51
+  - first:
+      213: -3421903913526017042
+    second: sploomy - animated_52
+  - first:
+      213: -3307102319458320964
+    second: sploomy - animated_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sploomy - animated_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1120
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee8d439c5f7a5d80800000000000000
+      internalID: -8261150530872701204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1120
+        width: 90
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8caa3d993c1bc40800000000000000
+      internalID: 5526413283208906955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1119
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54565522eb9ecdf70800000000000000
+      internalID: 9213495940522272069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_3
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1120
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fedde15d30ad89a0800000000000000
+      internalID: -6229146524355535120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1120
+        width: 125
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db6008754eb0080800000000000000
+      internalID: -9220024747649745525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1120
+        width: 128
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202e114eed4613e80800000000000000
+      internalID: -8200662537993068030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_6
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1120
+        width: 103
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3492839cb85f11ec0800000000000000
+      internalID: -3597824646567155389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_7
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1120
+        width: 112
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab8eba788e05de0800000000000000
+      internalID: -1346320619181393297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_8
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1118
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129fa9d6461b8b600800000000000000
+      internalID: 484332004836047137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 894
+        width: 108
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2606bb3b059bab1e0800000000000000
+      internalID: -2181227313243660190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 896
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d46b723fcab537c0800000000000000
+      internalID: -4092159287328283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_11
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 896
+        width: 96
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43c30d363de77b90800000000000000
+      internalID: -7244060658394479795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 894
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfca71cd300695db0800000000000000
+      internalID: -4802701957920215813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_13
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 126
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac745565d0068cc60800000000000000
+      internalID: 7838620761837619146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_14
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 896
+        width: 122
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a928880ece7377f0800000000000000
+      internalID: -616009300648121951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_15
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 894
+        width: 129
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf48a565746c7d60800000000000000
+      internalID: 7889291102625746859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_16
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 896
+        width: 137
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816c72830c2c0bc10800000000000000
+      internalID: 2067366359794697752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_17
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 896
+        width: 143
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57525a53e0cf78b30800000000000000
+      internalID: 4289674308053443957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 672
+        width: 93
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7233984eef12da780800000000000000
+      internalID: -8670236328978730201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_19
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 675
+        width: 99
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a2bc9fff1e93230800000000000000
+      internalID: 3619172265092655617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 672
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fb2f44db7a046c0800000000000000
+      internalID: -4161141624342921454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_21
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 673
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83eef38711099890800000000000000
+      internalID: -7450922907997379697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 125
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804bd6df2f41c8510800000000000000
+      internalID: 1552639005402444808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_23
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 672
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bea11ba73ea48f0800000000000000
+      internalID: -555381487929988308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_24
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 672
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170eb83dd96b9cd10800000000000000
+      internalID: 2146447486394032241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_25
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 672
+        width: 104
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb27f563b4d104c0800000000000000
+      internalID: -4322940300324033611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_26
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 672
+        width: 110
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521e2f66895d22710800000000000000
+      internalID: 1667129662619443493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_27
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 448
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77fe2773ce144c0800000000000000
+      internalID: -4304900045893830732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 448
+        width: 123
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69492edc9d308eb40800000000000000
+      internalID: 5469625981438432406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_29
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 448
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b15ca7c20b2e9930800000000000000
+      internalID: 4151803197422064050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_30
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 448
+        width: 126
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee2f9952dd7e3250800000000000000
+      internalID: 5926312502066360045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_31
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 448
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4393d928ea1470e0800000000000000
+      internalID: -2273162327478791348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_32
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 448
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d219c27f52b240800000000000000
+      internalID: 4806008698962105455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_33
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 448
+        width: 103
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5255bd17e2773e0800000000000000
+      internalID: -2056123638325369392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_34
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 448
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90c8e7423c1d2520800000000000000
+      internalID: 2678828355635691676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_35
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 448
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f49c5f5ee2c5a4b0800000000000000
+      internalID: -5429719446667356940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 224
+        width: 104
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffed2e2cb2ccab40800000000000000
+      internalID: 5452947362323230708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 224
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937d06d0a2ed67450800000000000000
+      internalID: 6086296218632247097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_38
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 225
+        width: 100
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67168c31b4c2836a0800000000000000
+      internalID: -6469372163751648906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_39
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 224
+        width: 126
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a757e6202926df0800000000000000
+      internalID: -188427695255356921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_40
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 224
+        width: 128
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b34313f4756e50800000000000000
+      internalID: 6801971399562082471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_41
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 224
+        width: 134
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb172efbb4bd2b1b0800000000000000
+      internalID: -5642206264753491524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_42
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 224
+        width: 154
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5306576ca14270800000000000000
+      internalID: 8233051153634646610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_43
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 224
+        width: 159
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c4a6d0ebb8fae0800000000000000
+      internalID: -1515254700261981858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_44
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 225
+        width: 154
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9efd006a8673ac0800000000000000
+      internalID: -3875513892140488202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 98
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91434255945256c20800000000000000
+      internalID: 3199004107207881753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_46
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 92
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fdd01d201ea53c0800000000000000
+      internalID: -4369933086196113599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_47
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 103
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb15fcbe7d62f0e0800000000000000
+      internalID: -2237605673746228297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_48
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 118
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87586774154d8c230800000000000000
+      internalID: 3659408142794917240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_49
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 123
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68932e15586b490c0800000000000000
+      internalID: -4569827038153524858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_50
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289b00905989b36e0800000000000000
+      internalID: -1856722655491606142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_51
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 0
+        width: 158
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9441c3d675ca4e0a0800000000000000
+      internalID: -6853163241456266167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_52
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 0
+        width: 159
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee343ca4584f280d0800000000000000
+      internalID: -3421903913526017042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sploomy - animated_53
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 0
+        width: 158
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdf0d456ffca12d0800000000000000
+      internalID: -3307102319458320964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5748db222932f224f9617e5c435ce78a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sploomy - animated_19: 3619172265092655617
+      sploomy - animated_49: -4569827038153524858
+      sploomy - animated_18: -8670236328978730201
+      sploomy - animated_9: -2181227313243660190
+      sploomy - animated_23: -555381487929988308
+      sploomy - animated_14: -616009300648121951
+      sploomy - animated_48: 3659408142794917240
+      sploomy - animated_42: 8233051153634646610
+      sploomy - animated_36: 5452947362323230708
+      sploomy - animated_24: 2146447486394032241
+      sploomy - animated_22: 1552639005402444808
+      sploomy - animated_10: -4092159287328283439
+      sploomy - animated_29: 4151803197422064050
+      sploomy - animated_33: -2056123638325369392
+      sploomy - animated_1: 5526413283208906955
+      sploomy - animated_44: -3875513892140488202
+      sploomy - animated_52: -3421903913526017042
+      sploomy - animated_7: -1346320619181393297
+      sploomy - animated_15: 7889291102625746859
+      sploomy - animated_25: -4322940300324033611
+      sploomy - animated_4: -9220024747649745525
+      sploomy - animated_39: -188427695255356921
+      sploomy - animated_3: -6229146524355535120
+      sploomy - animated_43: -1515254700261981858
+      sploomy - animated_37: 6086296218632247097
+      sploomy - animated_12: -4802701957920215813
+      sploomy - animated_40: 6801971399562082471
+      sploomy - animated_50: -1856722655491606142
+      sploomy - animated_20: -4161141624342921454
+      sploomy - animated_51: -6853163241456266167
+      sploomy - animated_21: -7450922907997379697
+      sploomy - animated_32: 4806008698962105455
+      sploomy - animated_30: 5926312502066360045
+      sploomy - animated_45: 3199004107207881753
+      sploomy - animated_0: -8261150530872701204
+      sploomy - animated_13: 7838620761837619146
+      sploomy - animated_46: -4369933086196113599
+      sploomy - animated_41: -5642206264753491524
+      sploomy - animated_6: -3597824646567155389
+      sploomy - animated_38: -6469372163751648906
+      sploomy - animated_11: -7244060658394479795
+      sploomy - animated_8: 484332004836047137
+      sploomy - animated_17: 4289674308053443957
+      sploomy - animated_28: 5469625981438432406
+      sploomy - animated_53: -3307102319458320964
+      sploomy - animated_35: -5429719446667356940
+      sploomy - animated_27: -4304900045893830732
+      sploomy - animated_34: 2678828355635691676
+      sploomy - animated_47: -2237605673746228297
+      sploomy - animated_5: -8200662537993068030
+      sploomy - animated_31: -2273162327478791348
+      sploomy - animated_26: 1667129662619443493
+      sploomy - animated_2: 9213495940522272069
+      sploomy - animated_16: 2067366359794697752
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,15 @@ TagManager:
   - Enemy
   - Arcade
   - CinemachineTarget
+  - newVar
+  - boolOpBlock
+  - getValue
+  - value
+  - AssignVar
+  - floatOpBlock
+  - SideBar
+  - Main
+  - Restart
   layers:
   - Default
   - TransparentFX

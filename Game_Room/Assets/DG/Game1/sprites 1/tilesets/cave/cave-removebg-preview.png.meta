@@ -1,0 +1,5971 @@
+fileFormatVersion: 2
+guid: 3763054d9209e6f4f931f21eb89472bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8992601767836440540
+    second: cave-removebg-preview_0
+  - first:
+      213: 9006835510135071871
+    second: cave-removebg-preview_1
+  - first:
+      213: 8870732185194189940
+    second: cave-removebg-preview_2
+  - first:
+      213: 6203187973032934635
+    second: cave-removebg-preview_3
+  - first:
+      213: -5280534308138234819
+    second: cave-removebg-preview_4
+  - first:
+      213: 5141604972245872488
+    second: cave-removebg-preview_5
+  - first:
+      213: -8171134395635708068
+    second: cave-removebg-preview_6
+  - first:
+      213: 7064075608523737253
+    second: cave-removebg-preview_7
+  - first:
+      213: -3461103469023657407
+    second: cave-removebg-preview_8
+  - first:
+      213: 3285881842563672614
+    second: cave-removebg-preview_9
+  - first:
+      213: 7249937655328284761
+    second: cave-removebg-preview_10
+  - first:
+      213: 6691205886320156570
+    second: cave-removebg-preview_11
+  - first:
+      213: 5220908096161000602
+    second: cave-removebg-preview_12
+  - first:
+      213: 4210067912226805011
+    second: cave-removebg-preview_13
+  - first:
+      213: -1929356066290478514
+    second: cave-removebg-preview_14
+  - first:
+      213: 744429702123764732
+    second: cave-removebg-preview_15
+  - first:
+      213: -3114417404161750486
+    second: cave-removebg-preview_16
+  - first:
+      213: 8584922193853014554
+    second: cave-removebg-preview_17
+  - first:
+      213: 193253694907906591
+    second: cave-removebg-preview_18
+  - first:
+      213: 1176333000659681427
+    second: cave-removebg-preview_19
+  - first:
+      213: -6074475801043873501
+    second: cave-removebg-preview_20
+  - first:
+      213: -6594479382931576083
+    second: cave-removebg-preview_21
+  - first:
+      213: 1718473166769792652
+    second: cave-removebg-preview_22
+  - first:
+      213: 5545804909047242561
+    second: cave-removebg-preview_23
+  - first:
+      213: 4394272661385710603
+    second: cave-removebg-preview_24
+  - first:
+      213: -1090253086496655683
+    second: cave-removebg-preview_25
+  - first:
+      213: 3485463194316310185
+    second: cave-removebg-preview_26
+  - first:
+      213: -9209818328263595078
+    second: cave-removebg-preview_27
+  - first:
+      213: 6805462212394756292
+    second: cave-removebg-preview_28
+  - first:
+      213: 3621276736337984464
+    second: cave-removebg-preview_29
+  - first:
+      213: -8450741528996379681
+    second: cave-removebg-preview_30
+  - first:
+      213: -6390251373694241172
+    second: cave-removebg-preview_31
+  - first:
+      213: 5024809179486211490
+    second: cave-removebg-preview_32
+  - first:
+      213: -1518238962942057572
+    second: cave-removebg-preview_33
+  - first:
+      213: 5208309606968178854
+    second: cave-removebg-preview_34
+  - first:
+      213: -6228817670388865220
+    second: cave-removebg-preview_35
+  - first:
+      213: -3248015444104475346
+    second: cave-removebg-preview_36
+  - first:
+      213: 4295516905781499995
+    second: cave-removebg-preview_37
+  - first:
+      213: -4736946078807312760
+    second: cave-removebg-preview_38
+  - first:
+      213: 6446821884459122655
+    second: cave-removebg-preview_39
+  - first:
+      213: -990487095569284844
+    second: cave-removebg-preview_40
+  - first:
+      213: -1909579959584561235
+    second: cave-removebg-preview_41
+  - first:
+      213: 3253491570074569303
+    second: cave-removebg-preview_42
+  - first:
+      213: 3128442786580470996
+    second: cave-removebg-preview_43
+  - first:
+      213: -7029255897919954006
+    second: cave-removebg-preview_44
+  - first:
+      213: -4919693795193134152
+    second: cave-removebg-preview_45
+  - first:
+      213: -6829715257889336243
+    second: cave-removebg-preview_46
+  - first:
+      213: -8536341073760008445
+    second: cave-removebg-preview_47
+  - first:
+      213: 7323421181102767469
+    second: cave-removebg-preview_48
+  - first:
+      213: -7738007277515501869
+    second: cave-removebg-preview_49
+  - first:
+      213: 6591049131951951818
+    second: cave-removebg-preview_50
+  - first:
+      213: 2360038800265015365
+    second: cave-removebg-preview_51
+  - first:
+      213: 9165779383139540515
+    second: cave-removebg-preview_52
+  - first:
+      213: 6319796915546547340
+    second: cave-removebg-preview_53
+  - first:
+      213: -4318646906404996512
+    second: cave-removebg-preview_54
+  - first:
+      213: 2583938848959982181
+    second: cave-removebg-preview_55
+  - first:
+      213: -2868656712600937141
+    second: cave-removebg-preview_56
+  - first:
+      213: 6142093224795311669
+    second: cave-removebg-preview_57
+  - first:
+      213: -8332297882101844076
+    second: cave-removebg-preview_58
+  - first:
+      213: -913133584778158071
+    second: cave-removebg-preview_59
+  - first:
+      213: -8614923386788289761
+    second: cave-removebg-preview_60
+  - first:
+      213: -3784293836025705275
+    second: cave-removebg-preview_61
+  - first:
+      213: -8016862305661136356
+    second: cave-removebg-preview_62
+  - first:
+      213: 4652348073822758811
+    second: cave-removebg-preview_63
+  - first:
+      213: -4322141749362325463
+    second: cave-removebg-preview_64
+  - first:
+      213: 1697380296617145254
+    second: cave-removebg-preview_65
+  - first:
+      213: 4407249112677222042
+    second: cave-removebg-preview_66
+  - first:
+      213: 205075231047694248
+    second: cave-removebg-preview_67
+  - first:
+      213: -2610701721408441405
+    second: cave-removebg-preview_68
+  - first:
+      213: -6266803183266355335
+    second: cave-removebg-preview_69
+  - first:
+      213: 2553323228378059244
+    second: cave-removebg-preview_70
+  - first:
+      213: 9091755513195220590
+    second: cave-removebg-preview_71
+  - first:
+      213: -2043697742830637580
+    second: cave-removebg-preview_72
+  - first:
+      213: -6932029004926810440
+    second: cave-removebg-preview_73
+  - first:
+      213: 128140478034601123
+    second: cave-removebg-preview_74
+  - first:
+      213: -7274156496482645482
+    second: cave-removebg-preview_75
+  - first:
+      213: 3364216776665294556
+    second: cave-removebg-preview_76
+  - first:
+      213: 5606839920444246882
+    second: cave-removebg-preview_77
+  - first:
+      213: -4659562025930213250
+    second: cave-removebg-preview_78
+  - first:
+      213: 2754254089785593076
+    second: cave-removebg-preview_79
+  - first:
+      213: 4428721529085746503
+    second: cave-removebg-preview_80
+  - first:
+      213: -380218168469493304
+    second: cave-removebg-preview_81
+  - first:
+      213: -884457603013152022
+    second: cave-removebg-preview_82
+  - first:
+      213: 6563327280951242102
+    second: cave-removebg-preview_83
+  - first:
+      213: 8533982127211710979
+    second: cave-removebg-preview_84
+  - first:
+      213: 8495631455404313113
+    second: cave-removebg-preview_85
+  - first:
+      213: 3775078564969630958
+    second: cave-removebg-preview_86
+  - first:
+      213: -5210847464541178271
+    second: cave-removebg-preview_87
+  - first:
+      213: 2547117042847510273
+    second: cave-removebg-preview_88
+  - first:
+      213: -5105969523261284882
+    second: cave-removebg-preview_89
+  - first:
+      213: -8254518134328819725
+    second: cave-removebg-preview_90
+  - first:
+      213: 2844626681449848607
+    second: cave-removebg-preview_91
+  - first:
+      213: 8210149688924076198
+    second: cave-removebg-preview_92
+  - first:
+      213: -8709813388944412422
+    second: cave-removebg-preview_93
+  - first:
+      213: -2448510458251867782
+    second: cave-removebg-preview_94
+  - first:
+      213: -1333766075882116502
+    second: cave-removebg-preview_95
+  - first:
+      213: 7002534427517506797
+    second: cave-removebg-preview_96
+  - first:
+      213: 408680975039456083
+    second: cave-removebg-preview_97
+  - first:
+      213: -8761325619450297521
+    second: cave-removebg-preview_98
+  - first:
+      213: 8385313199313236058
+    second: cave-removebg-preview_99
+  - first:
+      213: 1103672966351153265
+    second: cave-removebg-preview_100
+  - first:
+      213: -1021116072374622090
+    second: cave-removebg-preview_101
+  - first:
+      213: -1852337216645002399
+    second: cave-removebg-preview_102
+  - first:
+      213: -3941347693944153122
+    second: cave-removebg-preview_103
+  - first:
+      213: 6889162923891159761
+    second: cave-removebg-preview_104
+  - first:
+      213: -4363671589476422824
+    second: cave-removebg-preview_105
+  - first:
+      213: 2245421843759932493
+    second: cave-removebg-preview_106
+  - first:
+      213: -6836952661199743250
+    second: cave-removebg-preview_107
+  - first:
+      213: 5408275639341594492
+    second: cave-removebg-preview_108
+  - first:
+      213: 7262464120105353384
+    second: cave-removebg-preview_109
+  - first:
+      213: 3659385424407514789
+    second: cave-removebg-preview_110
+  - first:
+      213: -9165741160216543639
+    second: cave-removebg-preview_111
+  - first:
+      213: 3800083397465727952
+    second: cave-removebg-preview_112
+  - first:
+      213: 4260060306231383775
+    second: cave-removebg-preview_113
+  - first:
+      213: 6394496493611134789
+    second: cave-removebg-preview_114
+  - first:
+      213: 2662741454247428613
+    second: cave-removebg-preview_115
+  - first:
+      213: -3667403406876589938
+    second: cave-removebg-preview_116
+  - first:
+      213: 8019726152868607356
+    second: cave-removebg-preview_117
+  - first:
+      213: 5805958204245908289
+    second: cave-removebg-preview_118
+  - first:
+      213: 2798109069537698386
+    second: cave-removebg-preview_119
+  - first:
+      213: -7144492981529753715
+    second: cave-removebg-preview_120
+  - first:
+      213: 5815981324742728321
+    second: cave-removebg-preview_121
+  - first:
+      213: 2557347224573121180
+    second: cave-removebg-preview_122
+  - first:
+      213: 3399415194695216525
+    second: cave-removebg-preview_123
+  - first:
+      213: -4873037453814569553
+    second: cave-removebg-preview_124
+  - first:
+      213: -3249580043771289274
+    second: cave-removebg-preview_125
+  - first:
+      213: 7346045003381041930
+    second: cave-removebg-preview_126
+  - first:
+      213: 2494058847275447909
+    second: cave-removebg-preview_127
+  - first:
+      213: -1961464885836755194
+    second: cave-removebg-preview_128
+  - first:
+      213: 3732840575904126007
+    second: cave-removebg-preview_129
+  - first:
+      213: -4097900208696531996
+    second: cave-removebg-preview_130
+  - first:
+      213: -4017439411640743963
+    second: cave-removebg-preview_131
+  - first:
+      213: 8639056002240650309
+    second: cave-removebg-preview_132
+  - first:
+      213: -1264435130291239780
+    second: cave-removebg-preview_133
+  - first:
+      213: 4187304405890465401
+    second: cave-removebg-preview_134
+  - first:
+      213: 1241367336689119586
+    second: cave-removebg-preview_135
+  - first:
+      213: 1157328231136816205
+    second: cave-removebg-preview_136
+  - first:
+      213: -8672657714937217611
+    second: cave-removebg-preview_137
+  - first:
+      213: -2736741209091023990
+    second: cave-removebg-preview_138
+  - first:
+      213: 952977946490140599
+    second: cave-removebg-preview_139
+  - first:
+      213: -4327515356714044798
+    second: cave-removebg-preview_140
+  - first:
+      213: -1852098862092532326
+    second: cave-removebg-preview_141
+  - first:
+      213: -7966767614207053231
+    second: cave-removebg-preview_142
+  - first:
+      213: 4227636926807123354
+    second: cave-removebg-preview_143
+  - first:
+      213: 486944798158795462
+    second: cave-removebg-preview_144
+  - first:
+      213: 332853569929388038
+    second: cave-removebg-preview_145
+  - first:
+      213: -1396536605823950117
+    second: cave-removebg-preview_146
+  - first:
+      213: -460725537643199
+    second: cave-removebg-preview_147
+  - first:
+      213: 1355906522730123340
+    second: cave-removebg-preview_148
+  - first:
+      213: 262795791647209360
+    second: cave-removebg-preview_149
+  - first:
+      213: 708426018586025035
+    second: cave-removebg-preview_150
+  - first:
+      213: 5651775822075510889
+    second: cave-removebg-preview_151
+  - first:
+      213: -8730680183363076291
+    second: cave-removebg-preview_152
+  - first:
+      213: -188536771881629730
+    second: cave-removebg-preview_153
+  - first:
+      213: 4345502796735569325
+    second: cave-removebg-preview_154
+  - first:
+      213: -7237575020216902442
+    second: cave-removebg-preview_155
+  - first:
+      213: 469157150089987471
+    second: cave-removebg-preview_156
+  - first:
+      213: 533958762560651460
+    second: cave-removebg-preview_157
+  - first:
+      213: -3054768441033333025
+    second: cave-removebg-preview_158
+  - first:
+      213: -8223255265881645152
+    second: cave-removebg-preview_159
+  - first:
+      213: -2414491448180993837
+    second: cave-removebg-preview_160
+  - first:
+      213: 7575033688664081000
+    second: cave-removebg-preview_161
+  - first:
+      213: -356788415481094653
+    second: cave-removebg-preview_162
+  - first:
+      213: 1380436301562016021
+    second: cave-removebg-preview_163
+  - first:
+      213: -3435992595813776204
+    second: cave-removebg-preview_164
+  - first:
+      213: 6437834091172577908
+    second: cave-removebg-preview_165
+  - first:
+      213: 5764347809846896522
+    second: cave-removebg-preview_166
+  - first:
+      213: -6348174594080636784
+    second: cave-removebg-preview_167
+  - first:
+      213: 5324321060485193606
+    second: cave-removebg-preview_168
+  - first:
+      213: 8806319400490169574
+    second: cave-removebg-preview_169
+  - first:
+      213: -2922203848262616140
+    second: cave-removebg-preview_170
+  - first:
+      213: -4967453142670757769
+    second: cave-removebg-preview_171
+  - first:
+      213: -6155081345060502027
+    second: cave-removebg-preview_172
+  - first:
+      213: -5452129902121327108
+    second: cave-removebg-preview_173
+  - first:
+      213: 8349342949540959697
+    second: cave-removebg-preview_174
+  - first:
+      213: 1594355425600334788
+    second: cave-removebg-preview_175
+  - first:
+      213: 2571539205704229230
+    second: cave-removebg-preview_176
+  - first:
+      213: -2652936215050951797
+    second: cave-removebg-preview_177
+  - first:
+      213: -3404766542223300639
+    second: cave-removebg-preview_178
+  - first:
+      213: -8369828541275098662
+    second: cave-removebg-preview_179
+  - first:
+      213: -8103036287317532169
+    second: cave-removebg-preview_180
+  - first:
+      213: -2029930567066294761
+    second: cave-removebg-preview_181
+  - first:
+      213: -7747424751095456973
+    second: cave-removebg-preview_182
+  - first:
+      213: 1410605121000180147
+    second: cave-removebg-preview_183
+  - first:
+      213: -4987604842001315278
+    second: cave-removebg-preview_184
+  - first:
+      213: -7870947610766929315
+    second: cave-removebg-preview_185
+  - first:
+      213: 4737391375369358602
+    second: cave-removebg-preview_186
+  - first:
+      213: 3029579493895289005
+    second: cave-removebg-preview_187
+  - first:
+      213: 4393122265159046190
+    second: cave-removebg-preview_188
+  - first:
+      213: 5977027120768299641
+    second: cave-removebg-preview_189
+  - first:
+      213: 7631713700667891588
+    second: cave-removebg-preview_190
+  - first:
+      213: 4045481838439966549
+    second: cave-removebg-preview_191
+  - first:
+      213: 5053212629918679290
+    second: cave-removebg-preview_192
+  - first:
+      213: 644992245937996791
+    second: cave-removebg-preview_193
+  - first:
+      213: -6746126028314089922
+    second: cave-removebg-preview_194
+  - first:
+      213: 4733374443212645587
+    second: cave-removebg-preview_195
+  - first:
+      213: 502732518529666905
+    second: cave-removebg-preview_196
+  - first:
+      213: 5762040890720075351
+    second: cave-removebg-preview_197
+  - first:
+      213: -8296413673632344478
+    second: cave-removebg-preview_198
+  - first:
+      213: 279287802082246855
+    second: cave-removebg-preview_199
+  - first:
+      213: -3246587315400434830
+    second: cave-removebg-preview_200
+  - first:
+      213: 6981013522026213226
+    second: cave-removebg-preview_201
+  - first:
+      213: -6630229328218893662
+    second: cave-removebg-preview_202
+  - first:
+      213: 7142793240039460327
+    second: cave-removebg-preview_203
+  - first:
+      213: -8472826786875525074
+    second: cave-removebg-preview_204
+  - first:
+      213: 3584856496549220213
+    second: cave-removebg-preview_205
+  - first:
+      213: -3653027275889441439
+    second: cave-removebg-preview_206
+  - first:
+      213: 8649256604474713730
+    second: cave-removebg-preview_207
+  - first:
+      213: -3569906261990267948
+    second: cave-removebg-preview_208
+  - first:
+      213: 6424877953610282200
+    second: cave-removebg-preview_209
+  - first:
+      213: -8987390284308429604
+    second: cave-removebg-preview_210
+  - first:
+      213: 7696415996221556693
+    second: cave-removebg-preview_211
+  - first:
+      213: -2127977871359076160
+    second: cave-removebg-preview_212
+  - first:
+      213: -7781057824524005210
+    second: cave-removebg-preview_213
+  - first:
+      213: 1514587284332206680
+    second: cave-removebg-preview_214
+  - first:
+      213: -6456651844088453446
+    second: cave-removebg-preview_215
+  - first:
+      213: -8865016445756812687
+    second: cave-removebg-preview_216
+  - first:
+      213: 3279381364306442632
+    second: cave-removebg-preview_217
+  - first:
+      213: 7690449221923140201
+    second: cave-removebg-preview_218
+  - first:
+      213: 6731590654280710698
+    second: cave-removebg-preview_219
+  - first:
+      213: -8952057966330309575
+    second: cave-removebg-preview_220
+  - first:
+      213: 8963019139490685361
+    second: cave-removebg-preview_221
+  - first:
+      213: 6316342049665244573
+    second: cave-removebg-preview_222
+  - first:
+      213: 1296614346592031968
+    second: cave-removebg-preview_223
+  - first:
+      213: -7279423922374405114
+    second: cave-removebg-preview_224
+  - first:
+      213: -6488007526385227805
+    second: cave-removebg-preview_225
+  - first:
+      213: -5322190966697284019
+    second: cave-removebg-preview_226
+  - first:
+      213: -1862186133647051790
+    second: cave-removebg-preview_227
+  - first:
+      213: 1568446268309293499
+    second: cave-removebg-preview_228
+  - first:
+      213: -7283519311515772178
+    second: cave-removebg-preview_229
+  - first:
+      213: 1975567231893366406
+    second: cave-removebg-preview_230
+  - first:
+      213: 8944869536839513496
+    second: cave-removebg-preview_231
+  - first:
+      213: -3210478864957549130
+    second: cave-removebg-preview_232
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cave-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282f85465cd33380800000000000000
+      internalID: -8992601767836440540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74a9fb1d25befc70800000000000000
+      internalID: 9006835510135071871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474df1c5ceb2b1b70800000000000000
+      internalID: 8870732185194189940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec7a977896261650800000000000000
+      internalID: 6203187973032934635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c48233606c7b6b0800000000000000
+      internalID: -5280534308138234819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe81a1b76aa5740800000000000000
+      internalID: 5141604972245872488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f48284f8c4a9e80800000000000000
+      internalID: -8171134395635708068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a80f80c653a80260800000000000000
+      internalID: 7064075608523737253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14209fd8bb0b7ffc0800000000000000
+      internalID: -3461103469023657407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ae9ef502cc99d20800000000000000
+      internalID: 3285881842563672614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950229db2e3fc9460800000000000000
+      internalID: 7249937655328284761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f9d155d40fbdc50800000000000000
+      internalID: 6691205886320156570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c23ac7044647840800000000000000
+      internalID: 5220908096161000602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3159c84d57a2d6a30800000000000000
+      internalID: 4210067912226805011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42d28f31ec8935e0800000000000000
+      internalID: -1929356066290478514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb3653bedeb45a00800000000000000
+      internalID: 744429702123764732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 300
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a05ae2fdd57c4d0800000000000000
+      internalID: -3114417404161750486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12e9fc1045c32770800000000000000
+      internalID: 8584922193853014554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a748c26339ea200800000000000000
+      internalID: 193253694907906591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390c3e1b1ac235010800000000000000
+      internalID: 1176333000659681427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321d212617023bba0800000000000000
+      internalID: -6074475801043873501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae9b5b0f3bb74a0800000000000000
+      internalID: -6594479382931576083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86aa558d3e39d710800000000000000
+      internalID: 1718473166769792652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fd06d8e28a6fc40800000000000000
+      internalID: 5545804909047242561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c0b1424b79bfc30800000000000000
+      internalID: 4394272661385710603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6f7102894aed0f0800000000000000
+      internalID: -1090253086496655683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a60ce6fe4ade5030800000000000000
+      internalID: 3485463194316310185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb67f1b607203080800000000000000
+      internalID: -9209818328263595078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8222643dbd17e50800000000000000
+      internalID: 6805462212394756292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbbfce510c514230800000000000000
+      internalID: 3621276736337984464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd387837a5fe8ba80800000000000000
+      internalID: -8450741528996379681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66b08d8b344157a0800000000000000
+      internalID: -6390251373694241172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adc56f7355bbb540800000000000000
+      internalID: 5024809179486211490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936ea905b12eeae0800000000000000
+      internalID: -1518238962942057572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b7932ef1a74840800000000000000
+      internalID: 5208309606968178854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37abc9945bce89a0800000000000000
+      internalID: -6228817670388865220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d8b2d892bbce2d0800000000000000
+      internalID: -3248015444104475346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b589acffdddbc9b30800000000000000
+      internalID: 4295516905781499995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886b28483acf24eb0800000000000000
+      internalID: -4736946078807312760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf7661e856b77950800000000000000
+      internalID: 6446821884459122655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4110cf10c351142f0800000000000000
+      internalID: -990487095569284844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7e1c6e42fcf75e0800000000000000
+      internalID: -1909579959584561235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ac5026859b62d20800000000000000
+      internalID: 3253491570074569303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc1342a3267a6b20800000000000000
+      internalID: 3128442786580470996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa36921e001137e90800000000000000
+      internalID: -7029255897919954006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3e1d51f8cb9bbb0800000000000000
+      internalID: -4919693795193134152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44d078882af731a0800000000000000
+      internalID: -6829715257889336243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30745f85503d88980800000000000000
+      internalID: -8536341073760008445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6db33853c402a560800000000000000
+      internalID: 7323421181102767469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de0d4af0631d9490800000000000000
+      internalID: -7738007277515501869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf842fb34c187b50800000000000000
+      internalID: 6591049131951951818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407fe9e8ca80c020800000000000000
+      internalID: 2360038800265015365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e91ad59c3633f70800000000000000
+      internalID: 9165779383139540515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84e2cb9fcd64b750800000000000000
+      internalID: 6319796915546547340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06af36115851114c0800000000000000
+      internalID: -4318646906404996512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a679d51befbd320800000000000000
+      internalID: 2583938848959982181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d91ee2beb7038d0800000000000000
+      internalID: -2868656712600937141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e0249ee391d3550800000000000000
+      internalID: 6142093224795311669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497749ef83bbd5c80800000000000000
+      internalID: -8332297882101844076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900a1d6b7d5e353f0800000000000000
+      internalID: -913133584778158071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f136743d2d4a17880800000000000000
+      internalID: -8614923386788289761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccccf16ecc7b7bc0800000000000000
+      internalID: -3784293836025705275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1259d945326eb090800000000000000
+      internalID: -8016862305661136356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97ada78ce5709040800000000000000
+      internalID: 4652348073822758811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9288f588afaa404c0800000000000000
+      internalID: -4322141749362325463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3bc9cf26e4e8710800000000000000
+      internalID: 1697380296617145254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9608c5a7b1b92d30800000000000000
+      internalID: 4407249112677222042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a734da06d298d200800000000000000
+      internalID: 205075231047694248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3f2f0dd9ce4cbd0800000000000000
+      internalID: -2610701721408441405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9772f1035b7d709a0800000000000000
+      internalID: -6266803183266355335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce15a38b2f93f6320800000000000000
+      internalID: 2553323228378059244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e43b418776c2e70800000000000000
+      internalID: 9091755513195220590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdef4a1bb353a3e0800000000000000
+      internalID: -2043697742830637580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b602a4f85c7ccf90800000000000000
+      internalID: -6932029004926810440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e99af51f37c100800000000000000
+      internalID: 128140478034601123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4d82e4310d0b90800000000000000
+      internalID: -7274156496482645482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66b80855910be20800000000000000
+      internalID: 3364216776665294556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b0f8a833f7fcd40800000000000000
+      internalID: 5606839920444246882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78b78b5609e55fb0800000000000000
+      internalID: -4659562025930213250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc46d28083193620800000000000000
+      internalID: 2754254089785593076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dd74e24caf57d30800000000000000
+      internalID: 4428721529085746503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9e93b179139baf0800000000000000
+      internalID: -380218168469493304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2f1810f76c9b3f0800000000000000
+      internalID: -884457603013152022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67daab5536f951b50800000000000000
+      internalID: 6563327280951242102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a8cfb978bce6670800000000000000
+      internalID: 8533982127211710979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a42020ccb86e570800000000000000
+      internalID: 8495631455404313113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecc43024f5c36430800000000000000
+      internalID: 3775078564969630958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1663749d6d95fa7b0800000000000000
+      internalID: -5210847464541178271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fe44c847d295320800000000000000
+      internalID: 2547117042847510273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed5a0c65c3f329b0800000000000000
+      internalID: -5105969523261284882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff7f4bbd7f027d80800000000000000
+      internalID: -8254518134328819725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9a6235e42a7720800000000000000
+      internalID: 2844626681449848607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a87a1194af40f170800000000000000
+      internalID: 8210149688924076198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0f60c8ed6802780800000000000000
+      internalID: -8709813388944412422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79811306b4250ed0800000000000000
+      internalID: -2448510458251867782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a649112d28d7de0800000000000000
+      internalID: -1333766075882116502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4df97f5fffd2160800000000000000
+      internalID: 7002534427517506797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353efa77e2deba500800000000000000
+      internalID: 408680975039456083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c223c4c4896680800000000000000
+      internalID: -8761325619450297521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50b57f6ded9e5470800000000000000
+      internalID: 8385313199313236058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178ef8327b8015f00800000000000000
+      internalID: 1103672966351153265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782baf975444d1f0800000000000000
+      internalID: -1021116072374622090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b83a59d1d2b46e0800000000000000
+      internalID: -1852337216645002399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb572e87258d49c0800000000000000
+      internalID: -3941347693944153122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2f25ecd293b9f50800000000000000
+      internalID: 6889162923891159761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b2bc02fcf1173c0800000000000000
+      internalID: -4363671589476422824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44a6382547592f10800000000000000
+      internalID: 2245421843759932493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6170347c34e11a0800000000000000
+      internalID: -6836952661199743250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77ba5a2a0e0e0b40800000000000000
+      internalID: 5408275639341594492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a046e893a479c460800000000000000
+      internalID: 7262464120105353384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae4d0eb7afb8c230800000000000000
+      internalID: 3659385424407514789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebd1a1afebcc080800000000000000
+      internalID: -9165741160216543639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3edce57bb9cb430800000000000000
+      internalID: 3800083397465727952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6d9aa1746ce1b30800000000000000
+      internalID: 4260060306231383775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2c237ea0ddb850800000000000000
+      internalID: 6394496493611134789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502002dae35f3f420800000000000000
+      internalID: 2662741454247428613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80401d3804ca1dc0800000000000000
+      internalID: -3667403406876589938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75b4a9127acb4f60800000000000000
+      internalID: 8019726152868607356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b97d8b938e29050800000000000000
+      internalID: 5805958204245908289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252e79caf51e4d620800000000000000
+      internalID: 2798109069537698386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87c5a78c79a9dc90800000000000000
+      internalID: -7144492981529753715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a9891533486b050800000000000000
+      internalID: 5815981324742728321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92130850c58d7320800000000000000
+      internalID: 2557347224573121180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dafd3db162d2f20800000000000000
+      internalID: 3399415194695216525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa56534114e7f5cb0800000000000000
+      internalID: -4873037453814569553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64160ddca2c27e2d0800000000000000
+      internalID: -3249580043771289274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b6f82720562f560800000000000000
+      internalID: 7346045003381041930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566f5c8be4dac9220800000000000000
+      internalID: 2494058847275447909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f4c40241a77c4e0800000000000000
+      internalID: -1961464885836755194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7341ee1f9b6bdc330800000000000000
+      internalID: 3732840575904126007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3e4a7c8755127c0800000000000000
+      internalID: -4097900208696531996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7cf72f3203f38c0800000000000000
+      internalID: -4017439411640743963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c924099a714e770800000000000000
+      internalID: 8639056002240650309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c944771c2f2d37ee0800000000000000
+      internalID: -1264435130291239780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e778ffb2b4c1a30800000000000000
+      internalID: 4187304405890465401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261b02304093a3110800000000000000
+      internalID: 1241367336689119586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ce079f4e7af0010800000000000000
+      internalID: 1157328231136816205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdbd9a02c784a780800000000000000
+      internalID: -8672657714937217611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd4f5ce54250ad0800000000000000
+      internalID: -2736741209091023990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7735ba468a93d00800000000000000
+      internalID: 952977946490140599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f20316b391f3c0800000000000000
+      internalID: -4327515356714044798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c114d5e50c46e0800000000000000
+      internalID: -1852098862092532326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1523a1b801b507190800000000000000
+      internalID: -7966767614207053231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95a9adc2659baa30800000000000000
+      internalID: 4227636926807123354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ba77c6b9f1c600800000000000000
+      internalID: 486944798158795462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600acddee888e9400800000000000000
+      internalID: 332853569929388038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2a80e2b518e9ce0800000000000000
+      internalID: -1396536605823950117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1456df9f8fc5efff0800000000000000
+      internalID: -460725537643199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40d6fb6cc521d210800000000000000
+      internalID: 1355906522730123340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_149
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09779915163a5a300800000000000000
+      internalID: 262795791647209360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd673e5b5d4d900800000000000000
+      internalID: 708426018586025035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_151
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c3f07a242f6e40800000000000000
+      internalID: 5651775822075510889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_152
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ff91f51a466d680800000000000000
+      internalID: -8730680183363076291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_153
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed785ec0ece226df0800000000000000
+      internalID: -188536771881629730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadd3e925c35e4c30800000000000000
+      internalID: 4345502796735569325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_155
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc1bbc8dd7fe8b90800000000000000
+      internalID: -7237575020216902442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_156
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85c2fa31f7c28600800000000000000
+      internalID: 469157150089987471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_157
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0822f5aa0096700800000000000000
+      internalID: 533958762560651460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_158
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd66229a9484b95d0800000000000000
+      internalID: -3054768441033333025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_159
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af93c387e021ed80800000000000000
+      internalID: -8223255265881645152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_160
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d014f502d00e7ed0800000000000000
+      internalID: -2414491448180993837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_161
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862807e610def1960800000000000000
+      internalID: 7575033688664081000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_162
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e564393de6c0bf0800000000000000
+      internalID: -356788415481094653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_163
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51178ad908b482310800000000000000
+      internalID: 1380436301562016021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_164
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c5a350f6e050d0800000000000000
+      internalID: -3435992595813776204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_165
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472cd3f2ff7c75950800000000000000
+      internalID: 6437834091172577908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_166
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87a9bfcac31fff40800000000000000
+      internalID: 5764347809846896522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_167
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900aab37d0c6e7a0800000000000000
+      internalID: -6348174594080636784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_168
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fd9588bc9c3e940800000000000000
+      internalID: 5324321060485193606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4f8dc36d4563a70800000000000000
+      internalID: 8806319400490169574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_170
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf60f151f3277d0800000000000000
+      internalID: -2922203848262616140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_171
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77036b87faf001bb0800000000000000
+      internalID: -4967453142670757769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_172
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f50900b022c49aa0800000000000000
+      internalID: -6155081345060502027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5e5ca9db42654b0800000000000000
+      internalID: -5452129902121327108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_174
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d51d470d23ded370800000000000000
+      internalID: 8349342949540959697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_175
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbef94ffc9402610800000000000000
+      internalID: 1594355425600334788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_176
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61adf17841ffa320800000000000000
+      internalID: 2571539205704229230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_177
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b836e1a7190ee2bd0800000000000000
+      internalID: -2652936215050951797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_178
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e725ab7ed6dfb0d0800000000000000
+      internalID: -3404766542223300639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_179
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad13f56794568db80800000000000000
+      internalID: -8369828541275098662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_180
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a65cad6b3c8f80800000000000000
+      internalID: -8103036287317532169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_181
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7166e4f77ec34d3e0800000000000000
+      internalID: -2029930567066294761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_182
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bd2ea8c3e9b7490800000000000000
+      internalID: -7747424751095456973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9009342e9739310800000000000000
+      internalID: 1410605121000180147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_184
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a4e7852d778cab0800000000000000
+      internalID: -4987604842001315278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_185
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52178e99d6c4c290800000000000000
+      internalID: -7870947610766929315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_186
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dc3ea2b589eb140800000000000000
+      internalID: 4737391375369358602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_187
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8bf609f7a3b0a20800000000000000
+      internalID: 3029579493895289005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_188
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e241aa5ac6187fc30800000000000000
+      internalID: 4393122265159046190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_189
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972354aaf7aa2f250800000000000000
+      internalID: 5977027120768299641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_190
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f9acb1d2b49e960800000000000000
+      internalID: 7631713700667891588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_191
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55722855c40742830800000000000000
+      internalID: 4045481838439966549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_192
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af002d42d1e902640800000000000000
+      internalID: 5053212629918679290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_193
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f30406c70973f800800000000000000
+      internalID: 644992245937996791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_194
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e366258ae12f062a0800000000000000
+      internalID: -6746126028314089922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_195
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d42a944af250b140800000000000000
+      internalID: 4733374443212645587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_196
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8fffdf801af600800000000000000
+      internalID: 502732518529666905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_197
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e35a859a1e6ff40800000000000000
+      internalID: 5762040890720075351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_198
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266537958b73ddc80800000000000000
+      internalID: -8296413673632344478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c04639b6ca30e300800000000000000
+      internalID: 279287802082246855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_200
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b944da90ec1f2d0800000000000000
+      internalID: -3246587315400434830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_201
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f2290bfca81e060800000000000000
+      internalID: 6981013522026213226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_202
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d220fd81bcf3a0800000000000000
+      internalID: -6630229328218893662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_203
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed0d909b9c402360800000000000000
+      internalID: 7142793240039460327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_204
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28bed4ade87a6a80800000000000000
+      internalID: -8472826786875525074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_205
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f419f7df7ffb130800000000000000
+      internalID: 3584856496549220213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_206
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1650cc11c07dd4dc0800000000000000
+      internalID: -3653027275889441439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_207
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286aae85e05580870800000000000000
+      internalID: 8649256604474713730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_208
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3a0ac3b25257ec0800000000000000
+      internalID: -3569906261990267948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_209
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4fd265570c92950800000000000000
+      internalID: 6424877953610282200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_210
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4cff55720664380800000000000000
+      internalID: -8987390284308429604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_211
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d78b6a32992fca60800000000000000
+      internalID: 7696415996221556693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_212
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c810c78667e772e0800000000000000
+      internalID: -2127977871359076160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_213
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a019786221240490800000000000000
+      internalID: -7781057824524005210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_214
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad1f74c15e40510800000000000000
+      internalID: 1514587284332206680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_215
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6acba4b5d5566a0800000000000000
+      internalID: -6456651844088453446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_216
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1725baee28229f480800000000000000
+      internalID: -8865016445756812687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_217
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8897586d9f3b28d20800000000000000
+      internalID: 3279381364306442632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_218
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96278e352d6f9ba60800000000000000
+      internalID: 7690449221923140201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_219
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2abdb9d80a6b6d50800000000000000
+      internalID: 6731590654280710698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9341d2ca5b6e3c380800000000000000
+      internalID: -8952057966330309575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_221
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1ae545b6a036c70800000000000000
+      internalID: 8963019139490685361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_222
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dd826f0a728a750800000000000000
+      internalID: 6316342049665244573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_223
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e41b43e0ef7ef110800000000000000
+      internalID: 1296614346592031968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_224
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6049469b28a4afa90800000000000000
+      internalID: -7279423922374405114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_225
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e76fb99787f5f5a0800000000000000
+      internalID: -6488007526385227805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_226
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e27339387c326b0800000000000000
+      internalID: -5322190966697284019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_227
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f33f46e39f2826e0800000000000000
+      internalID: -1862186133647051790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_228
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9ccdf229d34c510800000000000000
+      internalID: 1568446268309293499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_229
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9762a6cdbbea90800000000000000
+      internalID: -7283519311515772178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_230
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686e7ee2eef9a6b10800000000000000
+      internalID: 1975567231893366406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_231
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8953889a37f822c70800000000000000
+      internalID: 8944869536839513496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cave-removebg-preview_232
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b55e4f6b761273d0800000000000000
+      internalID: -3210478864957549130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8b71f32d4e09176469ccdf23d5c2fcd2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cave-removebg-preview_42: 3253491570074569303
+      cave-removebg-preview_78: -4659562025930213250
+      cave-removebg-preview_129: 3732840575904126007
+      cave-removebg-preview_170: -2922203848262616140
+      cave-removebg-preview_173: -5452129902121327108
+      cave-removebg-preview_45: -4919693795193134152
+      cave-removebg-preview_83: 6563327280951242102
+      cave-removebg-preview_97: 408680975039456083
+      cave-removebg-preview_101: -1021116072374622090
+      cave-removebg-preview_25: -1090253086496655683
+      cave-removebg-preview_71: 9091755513195220590
+      cave-removebg-preview_91: 2844626681449848607
+      cave-removebg-preview_116: -3667403406876589938
+      cave-removebg-preview_68: -2610701721408441405
+      cave-removebg-preview_186: 4737391375369358602
+      cave-removebg-preview_222: 6316342049665244573
+      cave-removebg-preview_136: 1157328231136816205
+      cave-removebg-preview_133: -1264435130291239780
+      cave-removebg-preview_156: 469157150089987471
+      cave-removebg-preview_208: -3569906261990267948
+      cave-removebg-preview_32: 5024809179486211490
+      cave-removebg-preview_228: 1568446268309293499
+      cave-removebg-preview_146: -1396536605823950117
+      cave-removebg-preview_184: -4987604842001315278
+      cave-removebg-preview_138: -2736741209091023990
+      cave-removebg-preview_112: 3800083397465727952
+      cave-removebg-preview_56: -2868656712600937141
+      cave-removebg-preview_145: 332853569929388038
+      cave-removebg-preview_226: -5322190966697284019
+      cave-removebg-preview_128: -1961464885836755194
+      cave-removebg-preview_193: 644992245937996791
+      cave-removebg-preview_22: 1718473166769792652
+      cave-removebg-preview_132: 8639056002240650309
+      cave-removebg-preview_100: 1103672966351153265
+      cave-removebg-preview_199: 279287802082246855
+      cave-removebg-preview_118: 5805958204245908289
+      cave-removebg-preview_221: 8963019139490685361
+      cave-removebg-preview_7: 7064075608523737253
+      cave-removebg-preview_73: -6932029004926810440
+      cave-removebg-preview_164: -3435992595813776204
+      cave-removebg-preview_175: 1594355425600334788
+      cave-removebg-preview_181: -2029930567066294761
+      cave-removebg-preview_117: 8019726152868607356
+      cave-removebg-preview_131: -4017439411640743963
+      cave-removebg-preview_34: 5208309606968178854
+      cave-removebg-preview_49: -7738007277515501869
+      cave-removebg-preview_47: -8536341073760008445
+      cave-removebg-preview_88: 2547117042847510273
+      cave-removebg-preview_213: -7781057824524005210
+      cave-removebg-preview_169: 8806319400490169574
+      cave-removebg-preview_55: 2583938848959982181
+      cave-removebg-preview_72: -2043697742830637580
+      cave-removebg-preview_23: 5545804909047242561
+      cave-removebg-preview_76: 3364216776665294556
+      cave-removebg-preview_163: 1380436301562016021
+      cave-removebg-preview_218: 7690449221923140201
+      cave-removebg-preview_38: -4736946078807312760
+      cave-removebg-preview_176: 2571539205704229230
+      cave-removebg-preview_190: 7631713700667891588
+      cave-removebg-preview_50: 6591049131951951818
+      cave-removebg-preview_19: 1176333000659681427
+      cave-removebg-preview_40: -990487095569284844
+      cave-removebg-preview_224: -7279423922374405114
+      cave-removebg-preview_46: -6829715257889336243
+      cave-removebg-preview_0: -8992601767836440540
+      cave-removebg-preview_41: -1909579959584561235
+      cave-removebg-preview_1: 9006835510135071871
+      cave-removebg-preview_149: 262795791647209360
+      cave-removebg-preview_162: -356788415481094653
+      cave-removebg-preview_106: 2245421843759932493
+      cave-removebg-preview_53: 6319796915546547340
+      cave-removebg-preview_153: -188536771881629730
+      cave-removebg-preview_172: -6155081345060502027
+      cave-removebg-preview_59: -913133584778158071
+      cave-removebg-preview_154: 4345502796735569325
+      cave-removebg-preview_148: 1355906522730123340
+      cave-removebg-preview_29: 3621276736337984464
+      cave-removebg-preview_194: -6746126028314089922
+      cave-removebg-preview_216: -8865016445756812687
+      cave-removebg-preview_87: -5210847464541178271
+      cave-removebg-preview_159: -8223255265881645152
+      cave-removebg-preview_167: -6348174594080636784
+      cave-removebg-preview_229: -7283519311515772178
+      cave-removebg-preview_152: -8730680183363076291
+      cave-removebg-preview_161: 7575033688664081000
+      cave-removebg-preview_123: 3399415194695216525
+      cave-removebg-preview_204: -8472826786875525074
+      cave-removebg-preview_57: 6142093224795311669
+      cave-removebg-preview_225: -6488007526385227805
+      cave-removebg-preview_51: 2360038800265015365
+      cave-removebg-preview_212: -2127977871359076160
+      cave-removebg-preview_196: 502732518529666905
+      cave-removebg-preview_70: 2553323228378059244
+      cave-removebg-preview_151: 5651775822075510889
+      cave-removebg-preview_182: -7747424751095456973
+      cave-removebg-preview_166: 5764347809846896522
+      cave-removebg-preview_77: 5606839920444246882
+      cave-removebg-preview_168: 5324321060485193606
+      cave-removebg-preview_113: 4260060306231383775
+      cave-removebg-preview_147: -460725537643199
+      cave-removebg-preview_26: 3485463194316310185
+      cave-removebg-preview_197: 5762040890720075351
+      cave-removebg-preview_90: -8254518134328819725
+      cave-removebg-preview_220: -8952057966330309575
+      cave-removebg-preview_177: -2652936215050951797
+      cave-removebg-preview_6: -8171134395635708068
+      cave-removebg-preview_120: -7144492981529753715
+      cave-removebg-preview_99: 8385313199313236058
+      cave-removebg-preview_81: -380218168469493304
+      cave-removebg-preview_219: 6731590654280710698
+      cave-removebg-preview_207: 8649256604474713730
+      cave-removebg-preview_125: -3249580043771289274
+      cave-removebg-preview_115: 2662741454247428613
+      cave-removebg-preview_209: 6424877953610282200
+      cave-removebg-preview_110: 3659385424407514789
+      cave-removebg-preview_198: -8296413673632344478
+      cave-removebg-preview_111: -9165741160216543639
+      cave-removebg-preview_185: -7870947610766929315
+      cave-removebg-preview_21: -6594479382931576083
+      cave-removebg-preview_210: -8987390284308429604
+      cave-removebg-preview_11: 6691205886320156570
+      cave-removebg-preview_119: 2798109069537698386
+      cave-removebg-preview_150: 708426018586025035
+      cave-removebg-preview_16: -3114417404161750486
+      cave-removebg-preview_206: -3653027275889441439
+      cave-removebg-preview_230: 1975567231893366406
+      cave-removebg-preview_60: -8614923386788289761
+      cave-removebg-preview_62: -8016862305661136356
+      cave-removebg-preview_2: 8870732185194189940
+      cave-removebg-preview_35: -6228817670388865220
+      cave-removebg-preview_180: -8103036287317532169
+      cave-removebg-preview_126: 7346045003381041930
+      cave-removebg-preview_54: -4318646906404996512
+      cave-removebg-preview_105: -4363671589476422824
+      cave-removebg-preview_9: 3285881842563672614
+      cave-removebg-preview_124: -4873037453814569553
+      cave-removebg-preview_134: 4187304405890465401
+      cave-removebg-preview_142: -7966767614207053231
+      cave-removebg-preview_215: -6456651844088453446
+      cave-removebg-preview_155: -7237575020216902442
+      cave-removebg-preview_94: -2448510458251867782
+      cave-removebg-preview_158: -3054768441033333025
+      cave-removebg-preview_195: 4733374443212645587
+      cave-removebg-preview_214: 1514587284332206680
+      cave-removebg-preview_189: 5977027120768299641
+      cave-removebg-preview_3: 6203187973032934635
+      cave-removebg-preview_79: 2754254089785593076
+      cave-removebg-preview_69: -6266803183266355335
+      cave-removebg-preview_15: 744429702123764732
+      cave-removebg-preview_211: 7696415996221556693
+      cave-removebg-preview_135: 1241367336689119586
+      cave-removebg-preview_80: 4428721529085746503
+      cave-removebg-preview_107: -6836952661199743250
+      cave-removebg-preview_192: 5053212629918679290
+      cave-removebg-preview_43: 3128442786580470996
+      cave-removebg-preview_202: -6630229328218893662
+      cave-removebg-preview_12: 5220908096161000602
+      cave-removebg-preview_103: -3941347693944153122
+      cave-removebg-preview_95: -1333766075882116502
+      cave-removebg-preview_140: -4327515356714044798
+      cave-removebg-preview_65: 1697380296617145254
+      cave-removebg-preview_188: 4393122265159046190
+      cave-removebg-preview_24: 4394272661385710603
+      cave-removebg-preview_48: 7323421181102767469
+      cave-removebg-preview_130: -4097900208696531996
+      cave-removebg-preview_98: -8761325619450297521
+      cave-removebg-preview_64: -4322141749362325463
+      cave-removebg-preview_171: -4967453142670757769
+      cave-removebg-preview_114: 6394496493611134789
+      cave-removebg-preview_127: 2494058847275447909
+      cave-removebg-preview_36: -3248015444104475346
+      cave-removebg-preview_165: 6437834091172577908
+      cave-removebg-preview_191: 4045481838439966549
+      cave-removebg-preview_139: 952977946490140599
+      cave-removebg-preview_201: 6981013522026213226
+      cave-removebg-preview_231: 8944869536839513496
+      cave-removebg-preview_17: 8584922193853014554
+      cave-removebg-preview_179: -8369828541275098662
+      cave-removebg-preview_108: 5408275639341594492
+      cave-removebg-preview_39: 6446821884459122655
+      cave-removebg-preview_160: -2414491448180993837
+      cave-removebg-preview_187: 3029579493895289005
+      cave-removebg-preview_63: 4652348073822758811
+      cave-removebg-preview_121: 5815981324742728321
+      cave-removebg-preview_8: -3461103469023657407
+      cave-removebg-preview_227: -1862186133647051790
+      cave-removebg-preview_174: 8349342949540959697
+      cave-removebg-preview_28: 6805462212394756292
+      cave-removebg-preview_37: 4295516905781499995
+      cave-removebg-preview_144: 486944798158795462
+      cave-removebg-preview_157: 533958762560651460
+      cave-removebg-preview_66: 4407249112677222042
+      cave-removebg-preview_67: 205075231047694248
+      cave-removebg-preview_5: 5141604972245872488
+      cave-removebg-preview_84: 8533982127211710979
+      cave-removebg-preview_82: -884457603013152022
+      cave-removebg-preview_33: -1518238962942057572
+      cave-removebg-preview_141: -1852098862092532326
+      cave-removebg-preview_223: 1296614346592031968
+      cave-removebg-preview_104: 6889162923891159761
+      cave-removebg-preview_14: -1929356066290478514
+      cave-removebg-preview_183: 1410605121000180147
+      cave-removebg-preview_217: 3279381364306442632
+      cave-removebg-preview_4: -5280534308138234819
+      cave-removebg-preview_27: -9209818328263595078
+      cave-removebg-preview_89: -5105969523261284882
+      cave-removebg-preview_96: 7002534427517506797
+      cave-removebg-preview_109: 7262464120105353384
+      cave-removebg-preview_13: 4210067912226805011
+      cave-removebg-preview_30: -8450741528996379681
+      cave-removebg-preview_93: -8709813388944412422
+      cave-removebg-preview_122: 2557347224573121180
+      cave-removebg-preview_92: 8210149688924076198
+      cave-removebg-preview_18: 193253694907906591
+      cave-removebg-preview_200: -3246587315400434830
+      cave-removebg-preview_232: -3210478864957549130
+      cave-removebg-preview_44: -7029255897919954006
+      cave-removebg-preview_178: -3404766542223300639
+      cave-removebg-preview_31: -6390251373694241172
+      cave-removebg-preview_86: 3775078564969630958
+      cave-removebg-preview_52: 9165779383139540515
+      cave-removebg-preview_61: -3784293836025705275
+      cave-removebg-preview_85: 8495631455404313113
+      cave-removebg-preview_58: -8332297882101844076
+      cave-removebg-preview_75: -7274156496482645482
+      cave-removebg-preview_137: -8672657714937217611
+      cave-removebg-preview_203: 7142793240039460327
+      cave-removebg-preview_10: 7249937655328284761
+      cave-removebg-preview_143: 4227636926807123354
+      cave-removebg-preview_102: -1852337216645002399
+      cave-removebg-preview_205: 3584856496549220213
+      cave-removebg-preview_20: -6074475801043873501
+      cave-removebg-preview_74: 128140478034601123
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
