@@ -1,5 +1,6 @@
 using System.Collections;
 using Assets.DM.Script.Utilities;
+using Assets.Scripts;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -36,9 +37,7 @@ public class ChangeLevel : MonoBehaviour
             
             // Unload the current scene
             SceneManager.UnloadSceneAsync(IndexToLoad-1);
-
-            if (gameInfo.isCompleted) return;
-
+            
             // SendMessage to LoadResources.ChangeRenderTexture() SendMessageUpwards("ChangeRenderTexture", countEnterTrigger2D);
             ChangeRenderTexture(gameInfo.sceneMaterialIndex);
 
@@ -55,6 +54,8 @@ public class ChangeLevel : MonoBehaviour
 
         if (other.tag == "Player")
         {
+            Executor.variabili.Clear();
+
             _meshRenderer = transform.Find("Screen").GetComponent<MeshRenderer>();
 
             LoadNextLevel();
@@ -73,6 +74,21 @@ public class ChangeLevel : MonoBehaviour
 
         if (gameInfo.isCompleted) return;
         
+        // Get the game's material
+        renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
+
+        // Player entered, so move level
+        //indexToLoad = gameInfo.firstSceneIndex + gameInfo.sceneMaterialIndex;
+        SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
+    }
+
+    private void RepeatLevel()
+    {
+        // take the game property
+        gameInfo = GameDatabase.games[gameName];
+
+        if (gameInfo.isCompleted) return;
+
         // Get the game's material
         renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
 

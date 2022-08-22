@@ -15,7 +15,7 @@ E:/Documents/workspaceUnity/Educational-Game-Room/Game_Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51720
+62672
 Successfully changed project path to: E:/Documents/workspaceUnity/Educational-Game-Room/Game_Room
 E:/Documents/workspaceUnity/Educational-Game-Room/Game_Room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Documents/workspaceUnity/Educational-Game-Room/Game_Room
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 187.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 192.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -67,85 +67,85 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010561 seconds.
+Registered in 0.008040 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 179.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 191.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  0.902 seconds
 Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (642ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (671ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (126ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (421ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (180ms)
+				RefreshPlugins (192ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021123 seconds.
+Registered in 0.022903 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 182.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 184.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.082 seconds
+- Completed reload, in  2.081 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2083ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (2082ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1782ms)
-			LoadAssemblies (157ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1783ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (408ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (1041ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1037ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (183ms)
-				BeforeProcessingInitializeOnLoad (232ms)
-				ProcessInitializeOnLoadAttributes (485ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (184ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (483ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6613 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (0.8 MB). Loaded Objects now: 7070.
+Unloading 6612 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (0.8 MB). Loaded Objects now: 7069.
 Memory consumption went from 262.7 MB to 261.9 MB.
-Total: 5.798500 ms (FindLiveObjects: 0.712900 ms CreateObjectMapping: 0.225000 ms MarkObjects: 4.437800 ms  DeleteObjects: 0.421500 ms)
+Total: 5.656400 ms (FindLiveObjects: 0.662100 ms CreateObjectMapping: 0.227100 ms MarkObjects: 4.329400 ms  DeleteObjects: 0.436500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,607 +159,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6677.143936 seconds.
-  path: Assets/FutureDystopian
-  artifactKey: Guid(8f26b646fce57d748b9b20e309c32528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureDystopian using Guid(8f26b646fce57d748b9b20e309c32528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8686280971eb3312a13671ffeb2a59ad') in 0.014902 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022161 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.969 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1969ms)
-		BeginReloadAssembly (209ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (1613ms)
-			LoadAssemblies (167ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (836ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (199ms)
-				ProcessInitializeOnLoadAttributes (486ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.7 MB). Loaded Objects now: 7084.
-Memory consumption went from 254.5 MB to 253.8 MB.
-Total: 5.661100 ms (FindLiveObjects: 0.557800 ms CreateObjectMapping: 0.189500 ms MarkObjects: 4.518800 ms  DeleteObjects: 0.393600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 103.305804 seconds.
-  path: Assets/FM
-  artifactKey: Guid(8f26b646fce57d748b9b20e309c32528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM using Guid(8f26b646fce57d748b9b20e309c32528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86b1f52fa14e69e7975af00c29f1264') in 0.020397 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019551 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1779ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1445ms)
-			LoadAssemblies (161ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (724ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (179ms)
-				ProcessInitializeOnLoadAttributes (407ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 7099.
-Memory consumption went from 254.6 MB to 253.8 MB.
-Total: 5.186400 ms (FindLiveObjects: 0.565900 ms CreateObjectMapping: 0.179400 ms MarkObjects: 4.044400 ms  DeleteObjects: 0.395400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43.157644 seconds.
-  path: Assets/FM/Scenes
-  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc551c28631bb03ca9b61942ea6fe31a') in 0.013913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.255704 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b96d9c801eea3810ab9536c7479c2e6') in 0.007543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.675548 seconds.
-  path: Assets/FM/Scenes/Menu.unity
-  artifactKey: Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Menu.unity using Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b72896414c7eeee90bbdf965a06d00') in 0.007402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 118.811432 seconds.
-  path: Assets/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/01 - Full spritesheet (32x48).png
-  artifactKey: Guid(6310f8f664aa760459dbde70128fd01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/01 - Full spritesheet (32x48).png using Guid(6310f8f664aa760459dbde70128fd01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b4e27c928a2d0c4f6090144d71c3d4') in 1.326402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 158.298217 seconds.
-  path: Assets/FM/Scenes/FMBlockly.unity
-  artifactKey: Guid(4d6579de23150e446a627afe08657534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/FMBlockly.unity using Guid(4d6579de23150e446a627afe08657534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc95be0b0032704c4129afb73d551d3a') in 0.003224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.092679 seconds.
-  path: Assets/Blockly/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockly/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b4f2a42e3e4ab6fa5bf1602f7f5fcb') in 0.009809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.777267 seconds.
-  path: Assets/FM/Scenes/Menu.unity
-  artifactKey: Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Menu.unity using Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec592613b09f5c9379994335fa56573') in 0.003299 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019746 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.840 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1841ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1501ms)
-			LoadAssemblies (168ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (761ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (422ms)
-				ProcessInitializeOnLoadMethodAttributes (115ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 7120.
-Memory consumption went from 258.8 MB to 258.0 MB.
-Total: 5.359900 ms (FindLiveObjects: 0.613300 ms CreateObjectMapping: 0.186500 ms MarkObjects: 4.145900 ms  DeleteObjects: 0.412900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 293.189417 seconds.
-  path: Assets/Blockly/Scripts
-  artifactKey: Guid(22399c1be8bde12498ffbc67c35c53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockly/Scripts using Guid(22399c1be8bde12498ffbc67c35c53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02950db5ab8da74f80d57a4cc75ee308') in 0.013857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.518131 seconds.
-  path: Assets/Blockly
-  artifactKey: Guid(09c4894034031784e8b51bef8043af28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blockly using Guid(09c4894034031784e8b51bef8043af28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdeaaa978e6d8b453b554665e0d1a25') in 0.007708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.435443 seconds.
-  path: Assets/DM
-  artifactKey: Guid(94c0b085c93fc26479e20e9b788a0ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM using Guid(94c0b085c93fc26479e20e9b788a0ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5ec466a7644151cb31f2b2c4651573') in 0.008122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.780667 seconds.
-  path: Assets/DM/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.003238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.029154 seconds.
+  Time since last request: 1667.596643 seconds.
   path: Assets/DM/Scenes/Main_Scenario.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Scenes/Main_Scenario.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49882a2628f99ab11d540cc55d75dd23') in 0.008305 seconds 
+Start importing Assets/DM/Scenes/Main_Scenario.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66d19a5e39a44a5fe6c8466d1d78cdc') in 0.028094 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 219.314648 seconds.
-  path: Assets/DM/Script/Utilities
-  artifactKey: Guid(4c8c929beaf39144d8d1e56dc894f912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Script/Utilities using Guid(4c8c929beaf39144d8d1e56dc894f912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9cfb1cbfebfa029fabac4378ed43be') in 0.008565 seconds 
+  Time since last request: 98.637453 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01
+  artifactKey: Guid(c2abf1c17bd421347b11cf8636cbb827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01 using Guid(c2abf1c17bd421347b11cf8636cbb827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2581051cd96dbba3050a2e88d7919632') in 0.007651 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.659078 seconds.
-  path: Assets/DM/Script/Utilities/GameDatabase.cs
-  artifactKey: Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Script/Utilities/GameDatabase.cs using Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145042f78363a594e03a4a822b4d1b1b') in 0.039061 seconds 
+  Time since last request: 4.455020 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs
+  artifactKey: Guid(5583239d6b1fc764e8e9f52214c36150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs using Guid(5583239d6b1fc764e8e9f52214c36150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2894ffb45eb19e565ed0792d86fceb3') in 0.013593 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.927069 seconds.
-  path: Assets/DM/Script/Utilities/GameDatabase.cs
-  artifactKey: Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Script/Utilities/GameDatabase.cs using Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcafc7206a3683d9e5fd840a3e642af') in 0.003133 seconds 
+  Time since last request: 1.868815 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardAlienTon.prefab
+  artifactKey: Guid(a796a082b54ce5649b96793b4a3e96c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardAlienTon.prefab using Guid(a796a082b54ce5649b96793b4a3e96c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9df3ef97f6aa080e991f421313eddf') in 0.313030 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.105700 seconds.
-  path: Assets/DM/Script/Utilities/GameDatabase.cs
-  artifactKey: Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Script/Utilities/GameDatabase.cs using Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bc9a344127eb117a10a82ea28a8e73') in 0.003288 seconds 
+  Time since last request: 2.901314 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardHotLava.prefab
+  artifactKey: Guid(cc662f8dcd858ef46bba34d1e4978627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardHotLava.prefab using Guid(cc662f8dcd858ef46bba34d1e4978627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0edde329fcf2e54915946de8bb4350') in 0.136543 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.671522 seconds.
-  path: Assets/DM/Script/Utilities/GameDatabase.cs
-  artifactKey: Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Script/Utilities/GameDatabase.cs using Guid(5cec9f37fcd4bd846ae30bc4a79c31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0d955dfce2a53f08a00841019e0aa1') in 0.003665 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023795 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.431 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2432ms)
-		BeginReloadAssembly (277ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1983ms)
-			LoadAssemblies (248ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (832ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (768ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (431ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 7135.
-Memory consumption went from 258.8 MB to 258.1 MB.
-Total: 5.529600 ms (FindLiveObjects: 0.595100 ms CreateObjectMapping: 0.190800 ms MarkObjects: 4.313700 ms  DeleteObjects: 0.428700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 6.817110 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardHotLavaScreen.prefab
+  artifactKey: Guid(f5dd4fd195b5d7e4199ebf387a239db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardHotLavaScreen.prefab using Guid(f5dd4fd195b5d7e4199ebf387a239db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f5a6e0c316eaf13e1b2d300539b910') in 0.029103 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.925665 seconds.
-  path: Assets/FM/Scenes/Menu.unity
-  artifactKey: Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Menu.unity using Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f616d723a15b71070cf9ddb2de48466f') in 0.019625 seconds 
+  Time since last request: 5.181328 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardPolice.prefab
+  artifactKey: Guid(88cc9a01ef104764595a70aa18dc6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardPolice.prefab using Guid(88cc9a01ef104764595a70aa18dc6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a51181416ee445fb48ee15211120c21') in 0.111798 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.885997 seconds.
-  path: Assets/FM/RenderTexture
-  artifactKey: Guid(255318f76be26844681dfa2b55d0043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/RenderTexture using Guid(255318f76be26844681dfa2b55d0043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fb50a3e5f048922c996f2f96f0bc90') in 0.007635 seconds 
+  Time since last request: 5.316599 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardSky.prefab
+  artifactKey: Guid(a9ab69732a47b7240a56f2b4ba545634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardSky.prefab using Guid(a9ab69732a47b7240a56f2b4ba545634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d239e5070b8eed695b1b71b81bde18') in 0.025611 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.189657 seconds.
-  path: Assets/FM/RenderTexture/DystopianFuture0.renderTexture
-  artifactKey: Guid(332f42aab5c453b49986982926e773d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/RenderTexture/DystopianFuture0.renderTexture using Guid(332f42aab5c453b49986982926e773d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7782f44f573fed438efca7d1d707b72e') in 0.059889 seconds 
+  Time since last request: 6.036129 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardSkyScreen.prefab
+  artifactKey: Guid(01ef96d836105ae45a250c3d2d0ddc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/ArcadeStandardSkyScreen.prefab using Guid(01ef96d836105ae45a250c3d2d0ddc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a018f73bcc1489ad357f52a0adbf8f') in 0.025646 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 474.008378 seconds.
-  path: Assets/FM/Scenes/Menu.unity
-  artifactKey: Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Menu.unity using Guid(7729a53c35ef25b46a9b0c2647ba1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19f127bd57e3f0670ec61447914bafd') in 0.003509 seconds 
+  Time since last request: 1.141790 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/TableTopBarred.prefab
+  artifactKey: Guid(6defb14dc5ddea44591aae3a5f946ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Full Arcades/TableTopBarred.prefab using Guid(6defb14dc5ddea44591aae3a5f946ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f73e9d3cd23580a6e4be48fcb1b614') in 0.097405 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.777914 seconds.
-  path: Assets/FM/RenderTexture/DystopianFuture1.renderTexture
-  artifactKey: Guid(c702053e43fb41f49afa9f6c51bdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/RenderTexture/DystopianFuture1.renderTexture using Guid(c702053e43fb41f49afa9f6c51bdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841f55c0096844c37b3a9879f3ef3ca3') in 0.018353 seconds 
+  Time since last request: 526.691433 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ControlsPurple.mat
+  artifactKey: Guid(fb43c9ca1e7772c499812fea302dd2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ControlsPurple.mat using Guid(fb43c9ca1e7772c499812fea302dd2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517ded8950c2920fa29d40fca1c8a92e') in 0.346204 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.507301 seconds.
-  path: Assets/FM/RenderTexture/DystopianFuture0.renderTexture
-  artifactKey: Guid(332f42aab5c453b49986982926e773d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/RenderTexture/DystopianFuture0.renderTexture using Guid(332f42aab5c453b49986982926e773d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4d78a416f17d092e7617bf9b0d1488') in 0.015023 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DeepBlue_snaps001.mat
+  artifactKey: Guid(0311cbb0184a51845912c30ec478cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DeepBlue_snaps001.mat using Guid(0311cbb0184a51845912c30ec478cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195ee826af2f2c4534350e4cbeb8f041') in 0.017448 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 198.471420 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fb5a7614a598bfae0a06ce5c0992bc') in 0.008454 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ControlsYellow.mat
+  artifactKey: Guid(58961acea133c1e4a917d67844331c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ControlsYellow.mat using Guid(58961acea133c1e4a917d67844331c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48f35d08d3057c628ef881762df76bc') in 0.021102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.093381 seconds.
-  path: Assets/FM/RenderTexture/DystopianFuture1.renderTexture
-  artifactKey: Guid(c702053e43fb41f49afa9f6c51bdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/RenderTexture/DystopianFuture1.renderTexture using Guid(c702053e43fb41f49afa9f6c51bdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6317aac46a1a8dea317219f62ad75511') in 0.012854 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat
+  artifactKey: Guid(8621dfcb3dbf229428e45425021e0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat using Guid(8621dfcb3dbf229428e45425021e0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67523d0e006fd64fd053f6c40f3f2c5') in 0.018706 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.699548 seconds.
-  path: Assets/FM/RenderTexture/DystopianFuture1.renderTexture
-  artifactKey: Guid(c702053e43fb41f49afa9f6c51bdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/RenderTexture/DystopianFuture1.renderTexture using Guid(c702053e43fb41f49afa9f6c51bdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34713a7ed4d85145be4ca1202b7df04b') in 0.011527 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat
+  artifactKey: Guid(15cb6b096bb78c7479c93c6e26153387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat using Guid(15cb6b096bb78c7479c93c6e26153387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f17c1caca96df9561bf739221cc819b') in 0.018996 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.302472 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e87d7c9dfada1cece98ffb69029833') in 0.003384 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f07acde63e6be3a1625a395443cdb37') in 0.036759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.536208 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaab255c17472450d0904dc0b4147427') in 0.003360 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/DM/Material/EmissiveMaterials/emissive_red.mat
+  artifactKey: Guid(3eccc73f544a80f4fa9333e8d2c29b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DM/Material/EmissiveMaterials/emissive_red.mat using Guid(3eccc73f544a80f4fa9333e8d2c29b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e984ea1b3a5810dc2d7ded831194b57f') in 0.020574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 487.380377 seconds.
-  path: Assets/DM/Scenes/Puzzle
-  artifactKey: Guid(523440000de0afa42879082852e2a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Scenes/Puzzle using Guid(523440000de0afa42879082852e2a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e18c1b3a404c23580ce796f9e17c6d3') in 0.008084 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/DM/Material/EmissiveMaterials/emissive_yellow.mat
+  artifactKey: Guid(62dade75486e3f94e8525dfe9bcf8bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DM/Material/EmissiveMaterials/emissive_yellow.mat using Guid(62dade75486e3f94e8525dfe9bcf8bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5f487c27ca17950dd8aa5788250066') in 0.019590 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.967766 seconds.
-  path: Assets/DM/Scenes/Puzzle/Character_Selection.unity
-  artifactKey: Guid(fce79eea1cc42e948ab0cd31ac4d7c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/Scenes/Puzzle/Character_Selection.unity using Guid(fce79eea1cc42e948ab0cd31ac4d7c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49ff5fc941e0c61d59c977d38cd841a') in 0.007712 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Fonts/RiseOfKingdom-rw3p.ttf
+  artifactKey: Guid(ccb6f4ad7a71503439e60f27c3449bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/RiseOfKingdom-rw3p.ttf using Guid(ccb6f4ad7a71503439e60f27c3449bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10c348096ffd068403090bd4d29ff5b') in 0.065870 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.939858 seconds.
-  path: Assets/DM/3D/RenderTextures
-  artifactKey: Guid(d09642346c77adb4a84e7ec83ac46183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/3D/RenderTextures using Guid(d09642346c77adb4a84e7ec83ac46183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd79003a9dfc02540b1f3ece189792a9') in 0.011326 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/FM/RenderTexture/Materials/DystopianFuture0.mat
+  artifactKey: Guid(99ddcc4b7068df544a8092673325be1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FM/RenderTexture/Materials/DystopianFuture0.mat using Guid(99ddcc4b7068df544a8092673325be1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae350517b8ca32b4dd267186290a993') in 0.019122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.250529 seconds.
-  path: Assets/DM/3D/RenderTextures/PuzzleLevel0.renderTexture
-  artifactKey: Guid(7f43bae5ced8f0e40aca41a0399c3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/3D/RenderTextures/PuzzleLevel0.renderTexture using Guid(7f43bae5ced8f0e40aca41a0399c3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1819b3af047dc4981a639a980ad6ef1d') in 0.018078 seconds 
+  Time since last request: 9.430079 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAlientoxSCREEN.mat
+  artifactKey: Guid(4dd2d8b413c9e2542869672e2ccbf08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAlientoxSCREEN.mat using Guid(4dd2d8b413c9e2542869672e2ccbf08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0462f2490dc40ce082141dab9484f295') in 0.029102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.548695 seconds.
-  path: Assets/DM/3D/RenderTextures/PuzzleLevel1.renderTexture
-  artifactKey: Guid(3a37a43a6e890df4ba93d88c59fad39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DM/3D/RenderTextures/PuzzleLevel1.renderTexture using Guid(3a37a43a6e890df4ba93d88c59fad39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813a952398c16fd3b31bb53abadbbc29') in 0.017618 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquad.mat
+  artifactKey: Guid(e89ca331a70b1eb41a2885926c5b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquad.mat using Guid(e89ca331a70b1eb41a2885926c5b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8791b66ac1c5f44141f20663bf4d6ec5') in 0.032243 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.897182 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd589df669dc33c707a5a627dff6ecd6') in 0.003189 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquadScreen.mat
+  artifactKey: Guid(e536609101f475a4a8107011e34e19fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardPSquadScreen.mat using Guid(e536609101f475a4a8107011e34e19fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481195faa135a63676c60a4123944e4b') in 0.107158 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 290.365493 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee34949cef7a56cfb600abaec83d49') in 0.003527 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskyTexture.mat
+  artifactKey: Guid(c6a0e8101c4f2ee4f92dca4ea7e113df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardAskyTexture.mat using Guid(c6a0e8101c4f2ee4f92dca4ea7e113df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6496db8cf2d7eaec3146c26e761117') in 0.018485 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.487056 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4509607c0048e8a729dec76a8d352958') in 0.003596 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardXOXOXO.mat
+  artifactKey: Guid(1b985ee7f56db4b41bd36c1b689007cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ArcadeStandardXOXOXO.mat using Guid(1b985ee7f56db4b41bd36c1b689007cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7441471091928595e5b806a728946d0d') in 0.050563 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.806535 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3245401aef516c9dcd78236956038f3') in 0.003202 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BrownDark_snaps001.mat
+  artifactKey: Guid(019b68caeea34ac4bb7e667c4f32c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/BrownDark_snaps001.mat using Guid(019b68caeea34ac4bb7e667c4f32c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e309fa9d9770e58920e206e920d52259') in 0.023768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.775182 seconds.
-  path: Assets/FM/Art
-  artifactKey: Guid(663c50aec91ad8d4eb5c9e8adf2408ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Art using Guid(663c50aec91ad8d4eb5c9e8adf2408ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b5af0af4236be8194130a584fa6b8a') in 0.008925 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Black_snaps001.mat
+  artifactKey: Guid(8440f7c46cde87942a79d9125f40ae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Black_snaps001.mat using Guid(8440f7c46cde87942a79d9125f40ae89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ceaebe4eb9af85630317e6ff844965d') in 0.032188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.825180 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44a5250d0b0dd0c68bde1f0337a6c10') in 0.003095 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019680 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.103 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2104ms)
-		BeginReloadAssembly (228ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1729ms)
-			LoadAssemblies (169ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (966ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (386ms)
-				ProcessInitializeOnLoadAttributes (434ms)
-				ProcessInitializeOnLoadMethodAttributes (115ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 7155.
-Memory consumption went from 258.9 MB to 258.2 MB.
-Total: 8.415500 ms (FindLiveObjects: 0.678900 ms CreateObjectMapping: 0.359600 ms MarkObjects: 6.822900 ms  DeleteObjects: 0.552700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019716 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Documents\workspaceUnity\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.807 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1808ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1471ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (759ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (110ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6444 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 7170.
-Memory consumption went from 258.9 MB to 258.2 MB.
-Total: 5.622400 ms (FindLiveObjects: 0.710400 ms CreateObjectMapping: 0.183000 ms MarkObjects: 4.302600 ms  DeleteObjects: 0.424900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.815496 seconds.
+  path: Assets/TextMesh Pro/Fonts/CloisterBlackLight-axjg SDF.asset
+  artifactKey: Guid(885880b1871bc464ca816c31d6186a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/CloisterBlackLight-axjg SDF.asset using Guid(885880b1871bc464ca816c31d6186a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b254e069d1f8c13e23a2550a86ae5974') in 0.103538 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 922.426539 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d6cde652a545a723f229391b28fdb8') in 0.014102 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ControlsOrange.mat
+  artifactKey: Guid(dc5afe932afbaa64d9edcc6095bb6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/ControlsOrange.mat using Guid(dc5afe932afbaa64d9edcc6095bb6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524699a244e9a8d2be8c21cba0887bfe') in 0.024109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.707270 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6606f778bff5b79b909a279f618cbd') in 0.003342 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/RenderTextures/Metroidvania/MetroLevel0.mat
+  artifactKey: Guid(d9a7b2997cada9e4fb39135f4abf0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RenderTextures/Metroidvania/MetroLevel0.mat using Guid(d9a7b2997cada9e4fb39135f4abf0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf243293f34025d194e576b674339f3') in 0.030328 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 264.487961 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39681da9fd22bc7f071decd0781b51b') in 0.003173 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/Material.mat
+  artifactKey: Guid(f11b78a7f662a0245ac51ecf83f481f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/Material.mat using Guid(f11b78a7f662a0245ac51ecf83f481f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f7d48cbeeaf8346109e8128d725520') in 0.031285 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 322.149165 seconds.
-  path: Assets/FM/Scenes/Game.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FM/Scenes/Game.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36caa25494a083101f9ef99de26ecf6c') in 0.003171 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/RenderTextures/Metroidvania/MetroLevel1.mat
+  artifactKey: Guid(c8815932552dc0545ad809860c133b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RenderTextures/Metroidvania/MetroLevel1.mat using Guid(c8815932552dc0545ad809860c133b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bfec2241a149b2344aac3d488fc055') in 0.058399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/RenderTextures/Puzzle/PuzzleLevel0.mat
+  artifactKey: Guid(eaadbf5a401f610408e3faeea957ee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RenderTextures/Puzzle/PuzzleLevel0.mat using Guid(eaadbf5a401f610408e3faeea957ee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7133e0b575b723c2d545c5bfeffbc1ee') in 0.029953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/RenderTextures/Puzzle/PuzzleLevel2.mat
+  artifactKey: Guid(d705f977bb7c6764e87be5bd69b2e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/RenderTextures/Puzzle/PuzzleLevel2.mat using Guid(d705f977bb7c6764e87be5bd69b2e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8c8455d51bb78e4ecbc813426f2e73') in 0.052155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Red_snaps001.mat
+  artifactKey: Guid(329e1b1722fe9c946999242edace2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Red_snaps001.mat using Guid(329e1b1722fe9c946999242edace2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0113f63fc025becd37b2cce2dff2563c') in 0.033987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/TableTopNNeutronus.mat
+  artifactKey: Guid(8089a8f089f969a44942e0a501b6edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/TableTopNNeutronus.mat using Guid(8089a8f089f969a44942e0a501b6edb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e01c82146cef996da1c0dd6bc45f05') in 0.060252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/TableTopBarred.mat
+  artifactKey: Guid(26271933147b1924fbacbc549c5b48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/TableTopBarred.mat using Guid(26271933147b1924fbacbc549c5b48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19709532bc2e88e5bce4b09a9ac3cbb') in 0.018835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/No Name.mat
+  artifactKey: Guid(71bd90a922fb266449190abd218b79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Materials/No Name.mat using Guid(71bd90a922fb266449190abd218b79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a183fb89b0772429ce9c7c7a5cde1b67') in 0.031575 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

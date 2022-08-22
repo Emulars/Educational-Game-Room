@@ -296,90 +296,94 @@ public class FirstPersonController : MonoBehaviour
         #endregion
         #endregion
 
-        #region Sprint
-
-        if (enableSprint)
+        if (playerCanMove)
         {
-            if (isSprinting)
-            {
-                isZoomed = false;
-                playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, sprintFOV, sprintFOVStepTime * Time.deltaTime);
+            #region Sprint
 
-                // Drain sprint remaining while sprinting
-                if (!unlimitedSprint)
+            if (enableSprint)
+            {
+                if (isSprinting)
                 {
-                    sprintRemaining -= 1 * Time.deltaTime;
-                    if (sprintRemaining <= 0)
+                    isZoomed = false;
+                    playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, sprintFOV, sprintFOVStepTime * Time.deltaTime);
+
+                    // Drain sprint remaining while sprinting
+                    if (!unlimitedSprint)
                     {
-                        isSprinting = false;
-                        isSprintCooldown = true;
+                        sprintRemaining -= 1 * Time.deltaTime;
+                        if (sprintRemaining <= 0)
+                        {
+                            isSprinting = false;
+                            isSprintCooldown = true;
+                        }
                     }
                 }
-            }
-            else
-            {
-                // Regain sprint while not sprinting
-                sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
-            }
-
-            // Handles sprint cooldown 
-            // When sprint remaining == 0 stops sprint ability until hitting cooldown
-            if (isSprintCooldown)
-            {
-                sprintCooldown -= 1 * Time.deltaTime;
-                if (sprintCooldown <= 0)
+                else
                 {
-                    isSprintCooldown = false;
+                    // Regain sprint while not sprinting
+                    sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
+                }
+
+                // Handles sprint cooldown 
+                // When sprint remaining == 0 stops sprint ability until hitting cooldown
+                if (isSprintCooldown)
+                {
+                    sprintCooldown -= 1 * Time.deltaTime;
+                    if (sprintCooldown <= 0)
+                    {
+                        isSprintCooldown = false;
+                    }
+                }
+                else
+                {
+                    sprintCooldown = sprintCooldownReset;
+                }
+
+                // Handles sprintBar 
+                if (useSprintBar && !unlimitedSprint)
+                {
+                    float sprintRemainingPercent = sprintRemaining / sprintDuration;
+                    sprintBar.transform.localScale = new Vector3(sprintRemainingPercent, 1f, 1f);
                 }
             }
-            else
+
+            #endregion
+
+            #region Jump
+
+            // Gets input and calls jump method
+            if (enableJump && Input.GetKeyDown(jumpKey) && isGrounded)
             {
-                sprintCooldown = sprintCooldownReset;
+                Jump();
             }
 
-            // Handles sprintBar 
-            if (useSprintBar && !unlimitedSprint)
+            #endregion
+
+            #region Crouch
+
+            if (enableCrouch)
             {
-                float sprintRemainingPercent = sprintRemaining / sprintDuration;
-                sprintBar.transform.localScale = new Vector3(sprintRemainingPercent, 1f, 1f);
+                if (Input.GetKeyDown(crouchKey) && !holdToCrouch)
+                {
+                    Crouch();
+                }
+
+                if (Input.GetKeyDown(crouchKey) && holdToCrouch)
+                {
+                    isCrouched = false;
+                    Crouch();
+                }
+                else if (Input.GetKeyUp(crouchKey) && holdToCrouch)
+                {
+                    isCrouched = true;
+                    Crouch();
+                }
             }
+
+            #endregion
+
         }
-
-        #endregion
-
-        #region Jump
-
-        // Gets input and calls jump method
-        if (enableJump && Input.GetKeyDown(jumpKey) && isGrounded)
-        {
-            Jump();
-        }
-
-        #endregion
-
-        #region Crouch
-
-        if (enableCrouch)
-        {
-            if (Input.GetKeyDown(crouchKey) && !holdToCrouch)
-            {
-                Crouch();
-            }
-
-            if (Input.GetKeyDown(crouchKey) && holdToCrouch)
-            {
-                isCrouched = false;
-                Crouch();
-            }
-            else if (Input.GetKeyUp(crouchKey) && holdToCrouch)
-            {
-                isCrouched = true;
-                Crouch();
-            }
-        }
-
-        #endregion
-
+        
         CheckGround();
 
         if (enableHeadBob)
