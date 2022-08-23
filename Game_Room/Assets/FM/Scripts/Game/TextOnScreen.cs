@@ -5,7 +5,7 @@
  */
 public static class TextOnScreen
 {
-    private static string helpUser = "\n[premi F1 per passare a Blockly premi F2 per ritornare al Gioco]";
+    private static string helpUser = "\n[premi F1 per passare a Blockly premi F1 per ritornare al Gioco]";
 
     public static string p1 = "Ciao sono P01, ho bisogno di risolvere alcuni problemi morali che solo un essere dotato di coscienza può risolvere, " +
             "purtroppo il mio algoritmo non è ancora perfetto...\n Premi il bottone next cosi che io possa continuare a spiegarti";
@@ -14,7 +14,7 @@ public static class TextOnScreen
         "hai anche la possibilita di non rispondere... valuta bene le tue scelte, "+
         "se sei pronto premi next per passare alla prima domanda ";
     public static string q1 = "C’è bisogno di energia pulita e gli unici posti disponibili dove installare delle pale eoliche sono dei parchi naturali, " +
-            "modifica il contatore (chiamandalo t) incrementando con un ciclo per scegliere la percentuale di territorio su cui installare le pale eoliche [range 0:100]"
+            "modifica il contatore (chiamandolo t) incrementando con un ciclo per scegliere la percentuale di territorio su cui installare le pale eoliche [range 0:100]"
             + helpUser;
     public static string q2 = "Utilizza le due variabili max e min per settare un range di età lavorativa per le persone " +
         "e assegna alla variabile lavoro true nel caso opportuno" + helpUser;

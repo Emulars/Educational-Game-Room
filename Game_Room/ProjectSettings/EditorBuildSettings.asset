@@ -60,8 +60,14 @@ EditorBuildSettings:
     path: Assets/FM/Scenes/End.unity
     guid: 2ee8a4413a49da5459b1532508479bf8
   - enabled: 1
-    path: Assets/FM/Scenes/FMBlockly.unity
-    guid: 4d6579de23150e446a627afe08657534
+    path: Assets/FM/Scenes/FMBlockly1.unity
+    guid: 49ff0d19ebfc762448a860d06a6e2280
+  - enabled: 1
+    path: Assets/FM/Scenes/FMBlockly2.unity
+    guid: 6cc440e5e9b5bb14fb3b4c2dbbc4ab5a
+  - enabled: 1
+    path: Assets/FM/Scenes/FMBlockly3.unity
+    guid: ba8472b3499a59d46a03b71b9684c6b8
   - enabled: 1
     path: Assets/DG/Game1/Scenes/Game1_Lv0.unity
     guid: 114b157d626ef614fb5029773d37ad32

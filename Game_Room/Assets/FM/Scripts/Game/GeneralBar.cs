@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//felicità della popolazione
+//barra generale
 public class GeneralBar : MonoBehaviour
 {
     public Slider slider;

@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI textButton;
     private bool respond = false; //verifico se ho gia risposto
     private bool isGuiOpen = false;
+    private string nameScene = String.Empty; //nome della scena 
 
     [SerializeField] private GameObject nextButton;
     [SerializeField] private Player player;
@@ -44,29 +45,47 @@ public class GameManager : MonoBehaviour
 
         //prendo il campo di testo del bottone
         textButton = nextButton.GetComponentInChildren<TextMeshProUGUI>();
-        //setto l'audio di questa parte del gioco con valore preimpostato nel menu iniziale
-        //audioSource.volume = PlayerPrefs.GetFloat("VolumeStart");
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1) && !isGuiOpen)
+        if (Input.GetButtonDown("Blockly") && !isGuiOpen)
         {
-            Debug.Log("Blockly");
             isGuiOpen = true;
 
             eventSystem.enabled = false;
-            SceneManager.LoadScene("FMBlockly", LoadSceneMode.Additive);
+
+            SetScene();
+            if (nameScene != String.Empty) { 
+                SceneManager.LoadScene(nameScene, LoadSceneMode.Additive); 
+            }
+
+            void SetScene()
+            {
+                if (currentTextOnScreen.Equals(TextOnScreen.q1))
+                {
+                    nameScene = "FMBlockly1";
+                }
+                else if (currentTextOnScreen.Equals(TextOnScreen.q2))
+                {
+                    nameScene = "FMBlockly2";
+                }
+                else if (currentTextOnScreen.Equals(TextOnScreen.q3))
+                {
+                    nameScene = "FMBlockly3";
+                }
+                else
+                {
+                    nameScene = String.Empty;
+                }
+            }
         }
 
-        else if (Input.GetKeyDown(KeyCode.F1) && isGuiOpen)
+        else if (Input.GetButtonDown("Blockly") && isGuiOpen)
         {
-            Debug.Log("Return game");
             isGuiOpen = false;
-
-            //SceneManager.UnloadSceneAsync("FMBlockly");
             
-            try { SceneManager.UnloadSceneAsync("FMBlockly"); }
+            try { SceneManager.UnloadSceneAsync(nameScene); }
             catch(ArgumentException e) { 
                 Debug.Log($"{e.Message}");
                 return;
@@ -76,9 +95,7 @@ public class GameManager : MonoBehaviour
 
             if (!respond)
             {
-                //SendMessageUpwards("BlockGameUpdate", currentTextOnScreen);
                 player.BlockGameUpdate(currentTextOnScreen);
-                //SendMessageUpwards("SetValueInTitleBar");
                 player.SetValueInTitleBar();
 
                 respond = true; //ho risposto
@@ -134,7 +151,6 @@ public class GameManager : MonoBehaviour
             if (currentTextOnScreen == TextOnScreen.q1 || currentTextOnScreen == TextOnScreen.q2 || currentTextOnScreen == TextOnScreen.q3)
             {
                 factText.fontStyle = FontStyles.Bold;
-                //factText.color = Color.cyan;
                 nextButton.SetActive(false); //se e' una domanda disattivo il bottone
             }
             else

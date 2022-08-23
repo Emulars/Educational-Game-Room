@@ -213,13 +213,13 @@ public class FirstPersonController : MonoBehaviour
     {
         #region LockPlayer
         // if "E" is pressed and the player is in the arcade trigger, lock the player
-        if (Input.GetKeyDown(KeyCode.F2) && inArcadeTrigger && playerCanMove)
+        if (Input.GetButtonDown("PlayArcade") && inArcadeTrigger && playerCanMove)
         {
             Debug.Log("E-lock pressed");
             playerCanMove = false;
         }
         // if "E" is pressed, the player is in the arcade trigger and already locked, unlock the player
-        else if (Input.GetKeyDown(KeyCode.F2) && inArcadeTrigger && !playerCanMove)
+        else if (Input.GetButtonDown("PlayArcade") && inArcadeTrigger && !playerCanMove)
         {
             Debug.Log("E-unlock pressed");
             playerCanMove = true;

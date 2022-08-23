@@ -12,7 +12,6 @@ public class MusicPlayer: MonoBehaviour
         audioSource.Play();
         //se esiste lo setto al valore precedente altrimenti a quello di default su unity
         musicVolume = PlayerPrefs.GetFloat("VolumeStart"); 
-        //musicVolume = audioSource.volume;
     }
 
     void Update()
