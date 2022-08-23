@@ -18,4 +18,13 @@ public class MainMenu : MonoBehaviour
         var collider = transform.GetComponent<Collider2D>();
         changeLevel.OnTriggerEnter2D(collider);
     }
+
+    public void RestartGame()
+    {
+        var changeLevel = gameObject.GetComponent<ChangeLevel>();
+        var x = transform.Find("retry");
+        var button = x.GetComponent<Collider2D>();
+        Debug.Log("button ha il collider:  " + button.tag +"  menu ha il collider:  "+ gameObject.tag);
+        changeLevel.OnTriggerEnter2D(button);
+    }
 }

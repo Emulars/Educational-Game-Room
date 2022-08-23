@@ -33,6 +33,14 @@ namespace Assets.DM.Script.Utilities
                 sceneMaterialPath = "DystopianFuture"
             });
 
+            //Legend of Carl
+            games.Add("LegendOfCarl", new GameInfos
+            {
+                firstSceneIndex = 21,
+                numLevels = 4,
+                sceneMaterialPath = "LegendOfCarl"
+            });
+
         }
     }
 }

@@ -10,6 +10,7 @@ public class StartBossFight : MonoBehaviour
 {
     [SerializeField] private GameObject HUD, debugMessage;
     [SerializeField] private Button initialButton;
+    [SerializeField] private OpenBlockly blockly;
     [SerializeField] private OpenWorldPlayerController player;
 
     private bool uscitaLastValue = false, stopExecuteBlocks = false;
@@ -25,6 +26,7 @@ public class StartBossFight : MonoBehaviour
         HUD.SetActive(true);
         initialButton.Select();
         stopExecuteBlocks=true;
+        blockly.UnloadThisScene();
     }
     //quando il giocatore si allontana dall'uscita
     private void OnTriggerExit2D(Collider2D other)
@@ -45,6 +47,7 @@ public class StartBossFight : MonoBehaviour
         bool collisioni = bool.Parse(Executor.variabili["collisioni"]);
         if (!sullUscita && uscita)
         {
+            
             Debug.Log("ha modificato uscita");
             ShowDebugMessage("hai provato a saltare il livello? non è una cosa bella sai?");
             stopExecuteBlocks = true;
@@ -61,5 +64,6 @@ public class StartBossFight : MonoBehaviour
         player.LockMovement();
         debugMessage.transform.Find("DebugText").GetComponent<TMP_Text>().SetText(message);
         debugMessage.SetActive(true);
+        debugMessage.GetComponentInChildren<Button>().Select();
     }
 }

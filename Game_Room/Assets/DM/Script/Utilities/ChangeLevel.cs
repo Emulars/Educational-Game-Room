@@ -30,23 +30,22 @@ public class ChangeLevel : MonoBehaviour
     {
         // Could use other.GetComponent<Player>() to see if the game object has a player component
         // Tags work too, maybe some players have different script components?
-
+        Debug.Log("restart level: collison tag: "+ collision.tag);
         if (collision.tag == "Player")
         {
-            if(CompareTag("Restart"))
+            // take the game property
+            gameInfo = GameDatabase.games[gameName];
+            SceneManager.UnloadSceneAsync(IndexToLoad -1);
+            Debug.Log("restart level: this tag: " + gameObject.tag);
+            if (CompareTag("Restart"))
             {
+                Debug.Log("restart level");
                 LoadNextLevel(true);
-
-                // Unload the current scene
-                SceneManager.UnloadSceneAsync(IndexToLoad - 1);
             }
             else
             {
                 LoadNextLevel(false);
-
-                // Unload the current scene
-                SceneManager.UnloadSceneAsync(IndexToLoad - 1);
-                // SendMessage to LoadResources.ChangeRenderTexture() SendMessageUpwards("ChangeRenderTexture", countEnterTrigger2D);
+                
                 ChangeRenderTexture(gameInfo.sceneMaterialIndex);
                 // Increse the counter for the next level
                 UpdateCounter();
@@ -65,7 +64,8 @@ public class ChangeLevel : MonoBehaviour
             Executor.variabili.Clear();
 
             _meshRenderer = transform.Find("Screen").GetComponent<MeshRenderer>();
-
+            // take the game property
+            gameInfo = GameDatabase.games[gameName];
             LoadNextLevel(false);
 
             StartCoroutine(ActiveMessage());
@@ -78,7 +78,7 @@ public class ChangeLevel : MonoBehaviour
     private void LoadNextLevel(bool restart)
     {
         // take the game property
-        gameInfo = GameDatabase.games[gameName];
+        //gameInfo = GameDatabase.games[gameName];
         
         // Get the game's material
         renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
@@ -89,7 +89,6 @@ public class ChangeLevel : MonoBehaviour
             SceneManager.LoadScene(IndexToLoad-1, LoadSceneMode.Additive);
         else
             SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
-
     }
 
     private void OnTriggerExit(Collider other)

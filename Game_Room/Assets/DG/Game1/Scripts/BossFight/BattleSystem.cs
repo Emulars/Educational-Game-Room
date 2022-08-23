@@ -126,6 +126,7 @@ public class BattleSystem : MonoBehaviour
         if (state == BattleState.LOST && Executor.variabili["battleState"] != "LOST")
         {
             Destroy(gameObject);
+            StartCoroutine(EndGame());
             return;
         }
         state = BattleState.LOST;
@@ -133,6 +134,14 @@ public class BattleSystem : MonoBehaviour
         lostTab.SetActive(true);
         lostTab.transform.Find("retry").GetComponent<Button>().Select();
         Destroy(gameObject);
+    }
+
+    IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(4);
+        var changeLevel = gameObject.GetComponent<ChangeLevel>();
+        var collider = transform.GetComponent<Collider2D>();
+        changeLevel.OnTriggerEnter2D(collider);
     }
 
     private void Victory()

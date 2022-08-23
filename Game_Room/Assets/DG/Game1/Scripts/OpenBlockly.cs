@@ -31,14 +31,23 @@ public class OpenBlockly : MonoBehaviour
 
             //caso BossFight delegato a BattleSystem
         }
+        
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1))
+        if(Input.GetButtonDown("Blockly"))
             SceneManager.LoadScene(BlocklySceneName, LoadSceneMode.Additive);
+    }
 
-        if (Input.GetKeyDown(KeyCode.F2))
-            SceneManager.UnloadSceneAsync(BlocklySceneName);
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag != "Player")return;
+        UnloadThisScene();
+    }
+
+    public void UnloadThisScene()
+    {
+        SceneManager.UnloadSceneAsync(BlocklySceneName);
     }
 }

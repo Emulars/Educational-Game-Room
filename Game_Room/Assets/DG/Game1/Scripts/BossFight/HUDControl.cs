@@ -15,11 +15,10 @@ public class HUDControl : MonoBehaviour
     [SerializeField] private Button selectAttackButton;
     [SerializeField] private Button enemyButton;
 
-    private void Update()
+    private void Start()
     {
-        OpenBlockGUI();
+        SelectAction();
     }
-
 
     public void ShowPlayerStatus()
     {
@@ -57,15 +56,5 @@ public class HUDControl : MonoBehaviour
     public void SelectEnemy()
     {
         enemyButton.Select();
-    }
-
-    public void OpenBlockGUI()
-    {
-        if (Input.GetKeyDown(KeyCode.F1))
-                SceneManager.LoadScene("UBGame1_Lv3", LoadSceneMode.Additive);
-
-        if (Input.GetKeyDown(KeyCode.F2))
-            SceneManager.UnloadSceneAsync("UBGame1_Lv3");
-        
     }
 }
