@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeLevel : MonoBehaviour
 {
-    //[Header("Scene indexes")]
+    private GameObject screen;
     public int IndexToLoad
     {
         get => gameInfo.firstSceneIndex + gameInfo.sceneMaterialIndex;
@@ -24,6 +24,7 @@ public class ChangeLevel : MonoBehaviour
     private Object[] renderTextures;    // List of all the arcade's render textures
     public string gameName;
     private GameInfos gameInfo;          // GameInfo script
+    
 
     // 2D Trigger
     public void OnTriggerEnter2D(Collider2D collision)
@@ -72,19 +73,19 @@ public class ChangeLevel : MonoBehaviour
 
             // Increse the counter for the next level
             UpdateCounter();
+
+            screen = transform.Find("Screen").gameObject;
+            screen.SetActive(true);
         }
     }
 
     private void LoadNextLevel(bool restart)
     {
-        // take the game property
-        //gameInfo = GameDatabase.games[gameName];
         
         // Get the game's material
         renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
 
         // Player entered, so move level
-        //indexToLoad = gameInfo.firstSceneIndex + gameInfo.sceneMaterialIndex;
         if (restart)
             SceneManager.LoadScene(IndexToLoad-1, LoadSceneMode.Additive);
         else
@@ -95,14 +96,13 @@ public class ChangeLevel : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-
-            //indexToLoad = gameInfo.firstSceneIndex + gameInfo.sceneMaterialIndex;
             SceneManager.UnloadSceneAsync(IndexToLoad - 1);
             gameInfo.sceneMaterialIndex--;
-            // reset the counter for the next level
             
             if (gameInfo.isCompleted)
                 gameInfo.isCompleted = false;
+
+            screen.SetActive(false);
         }
     }
 

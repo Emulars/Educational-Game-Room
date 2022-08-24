@@ -20,7 +20,7 @@ public class BattleSystem : MonoBehaviour
     
     private bool HPareModified = false;
 
-    void Start()
+    private void Start()
     {
         state = BattleState.START;
         SetUpBattle();
@@ -28,7 +28,7 @@ public class BattleSystem : MonoBehaviour
         PlayerTurn();
     }
 
-    void Update()
+    private void Update()
     {
         if (playerBehaviour == null || playerBehaviour.currentHP<=0 ) {
             state = BattleState.LOST;
@@ -59,8 +59,11 @@ public class BattleSystem : MonoBehaviour
         }
 
         //i blocchi modificano la vita?
-        HPareModified = (Executor.variabili["playerHP"] != playerBehaviour.currentHP.ToString());
-        playerBehaviour.currentHP = int.Parse(Executor.variabili["playerHP"]);
+        if(!HPareModified)
+        {
+            HPareModified = (Executor.variabili["playerHP"] != playerBehaviour.currentHP.ToString());
+            playerBehaviour.currentHP = int.Parse(Executor.variabili["playerHP"]);
+        }
 
         //i blocchi modificano lo stato?
         if (Executor.variabili["battleState"] == "WON") FalseVictory();
@@ -136,7 +139,7 @@ public class BattleSystem : MonoBehaviour
         Destroy(gameObject);
     }
 
-    IEnumerator EndGame()
+    private IEnumerator EndGame()
     {
         yield return new WaitForSeconds(4);
         var changeLevel = gameObject.GetComponent<ChangeLevel>();

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class OpenBlockly : MonoBehaviour
 {
     public string BlocklySceneName = "UBGame1_Lv1";
-    // Update is called once per frame
+    private bool BlocklyIsActive = false;
 
 
     private void Start()
@@ -22,22 +22,28 @@ public class OpenBlockly : MonoBehaviour
             case "UBGame1_Lv1":
                 Executor.variabili.Add("collisioni", "false");
                 break;
-
             case "UBGame1_Lv2":
                 Executor.variabili.Add("collisioni", "true");
                 Executor.variabili.Add("sullUscita", "false");
                 Executor.variabili.Add("uscita", "false");
                 break;
-
-            //caso BossFight delegato a BattleSystem
+            case "UBGame1_Lv3":
+                Executor.variabili.Add("playerHP", "true");
+                Executor.variabili.Add("battleState", "false");
+                break;
+                
         }
         
     }
 
     private void Update()
     {
-        if(Input.GetButtonDown("Blockly"))
+        if (!Input.GetButtonDown("Blockly")) return;
+        if(BlocklyIsActive)
+            SceneManager.UnloadSceneAsync(BlocklySceneName);
+        else 
             SceneManager.LoadScene(BlocklySceneName, LoadSceneMode.Additive);
+        BlocklyIsActive = !BlocklyIsActive;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -48,6 +54,7 @@ public class OpenBlockly : MonoBehaviour
 
     public void UnloadThisScene()
     {
-        SceneManager.UnloadSceneAsync(BlocklySceneName);
+        if(BlocklyIsActive)
+            SceneManager.UnloadSceneAsync(BlocklySceneName);
     }
 }
