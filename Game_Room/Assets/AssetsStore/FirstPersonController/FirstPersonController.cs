@@ -140,6 +140,12 @@ public class FirstPersonController : MonoBehaviour
 
     #endregion
 
+    #region Pause
+    [Header("Pause Menu")]
+    private bool isPaused = false;
+    [SerializeField] private GameObject pauseMenu;
+    #endregion
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -212,6 +218,8 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
+        Pause();
+
         #region LockPlayer
         // if "E" is pressed and the player is in the arcade trigger, lock the player
         if (Input.GetButtonDown("PlayArcade") && inArcadeTrigger && playerCanMove)
@@ -556,7 +564,6 @@ public class FirstPersonController : MonoBehaviour
         }
     }
 
-    #region Trigger
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Arcade")
@@ -572,12 +579,22 @@ public class FirstPersonController : MonoBehaviour
         }
     }
 
-    #endregion
+    private void Pause()
+    {
+        if (Input.GetButtonDown("Cancel"))
+        {
+            isPaused = !isPaused;
+            cameraCanMove = !isPaused;
+            playerCanMove = !isPaused;
+            
+            pauseMenu.SetActive(isPaused);
+        }
+    }
 
 }
 
 
-
+/*
 // Custom Editor
 #if UNITY_EDITOR
     [CustomEditor(typeof(FirstPersonController)), InitializeOnLoadAttribute]
@@ -776,6 +793,8 @@ public class FirstPersonController : MonoBehaviour
 
         #endregion
 
+        
+        
         //Sets any changes from the prefab
         if(GUI.changed)
         {
@@ -788,3 +807,4 @@ public class FirstPersonController : MonoBehaviour
 }
 
 #endif
+*/

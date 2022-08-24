@@ -35614,7 +35614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bindedObject: {fileID: 791426071}
-  guiLevelIndex: 14
+  guiLevelIndex: 15
   questGiver2: {fileID: 0}
 --- !u!1 &814809491
 GameObject:
@@ -44210,5 +44210,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bindedObject: {fileID: 4158962811759616303}
-  guiLevelIndex: 13
+  guiLevelIndex: 14
   questGiver2: {fileID: 791426071}

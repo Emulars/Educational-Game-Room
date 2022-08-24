@@ -7,23 +7,23 @@ using UnityEngine.SceneManagement;
 
 /* Build index
     
-DM/Scenes/Main_Scenario                         0
-DM/Scenes/Metroidvania/Metroidvania_Menu        1
-DM/Scenes/Metroidvania/Level_1-1                2
-DM/Scenes/Metroidvania/Level_1-2                3
-DM/Scenes/Metroidvania/Level_1-3                4
-DM/Scenes/Metroidvania/End                      5
-DM/Scenes/Puzzle/Puzzle_Menu                    6
-DM/Scenes/Puzzle/Puzzle_Character_Selection     7
-DM/Scenes/Puzzle/Level_2-1                      8
-DM/Scenes/Puzzle/Puzzle_End                     9
+DM/Scenes/Main_Scenario                         1
+DM/Scenes/Metroidvania/Metroidvania_Menu        2
+DM/Scenes/Metroidvania/Level_1-1                3
+DM/Scenes/Metroidvania/Level_1-2                4
+DM/Scenes/Metroidvania/Level_1-3                5
+DM/Scenes/Metroidvania/End                      6
+DM/Scenes/Puzzle/Puzzle_Menu                    7
+DM/Scenes/Puzzle/Puzzle_Character_Selection     8
+DM/Scenes/Puzzle/Level_2-1                      9
+DM/Scenes/Puzzle/Puzzle_End                     10
 
-Blockly/Scenese/Metroidvania-1                  10
-Blockly/Scenese/Metroidvania-2                  11
-Blockly/Scenese/Metroidvania-3                  12
+Blockly/Scenese/Metroidvania-1                  11
+Blockly/Scenese/Metroidvania-2                  12
+Blockly/Scenese/Metroidvania-3                  13
 
-Blockly/Scenese/Puzzle-1                        13
-Blockly/Scenese/Puzzle-2                        14
+Blockly/Scenese/Puzzle-1                        14
+Blockly/Scenese/Puzzle-2                        15
 */
 
 
@@ -88,27 +88,27 @@ public class BlocklyHandler : MonoBehaviour
             switch (guiLevelIndex)
             {
                 // First Metroidvania level
-                case 10:
+                case 11:
                     MetroidvaniaLevel1();
                     break;
 
                 // Second Metroidvania level
-                case 11:
+                case 12:
                     MetroidvaniaLevel2();
                     break;
 
                 // Third Metroidvania level
-                case 12:
+                case 13:
                     MetroidvaniaLevel3();
                     break;
 
                 // First Puzzle interaction
-                case 13:
+                case 14:
                     PuzzleQuest1();
                     break;
 
                 // Second Puzzle interaction
-                case 14:
+                case 15:
                     PuzzleQuest2();
                     break;
 

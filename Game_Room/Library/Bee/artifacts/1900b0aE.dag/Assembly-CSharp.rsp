@@ -451,14 +451,17 @@
 "Assets/DM/Script/Utilities/ChangeLevel.cs"
 "Assets/DM/Script/Utilities/CloseAllScenes.cs"
 "Assets/DM/Script/Utilities/DontChangeLevelAudio.cs"
-"Assets/DM/Script/Utilities/GameDatabase.cs"
-"Assets/DM/Script/Utilities/GameInfos.cs"
-"Assets/DM/Script/Utilities/TurnOffScreen.cs"
 "Assets/FM/Scripts/Game/GameManager.cs"
 "Assets/FM/Scripts/Game/GeneralBar.cs"
 "Assets/FM/Scripts/Game/Player.cs"
 "Assets/FM/Scripts/Game/TextOnScreen.cs"
 "Assets/FM/Scripts/Menu/MusicPlayer.cs"
+"Assets/MainGame/Scripts/GameDatabase.cs"
+"Assets/MainGame/Scripts/GameInfos.cs"
+"Assets/MainGame/Scripts/SettingsScript/GenericLoadPrefs.cs"
+"Assets/MainGame/Scripts/SettingsScript/LoadPrefs.cs"
+"Assets/MainGame/Scripts/SettingsScript/MenuController.cs"
+"Assets/MainGame/Scripts/TurnOffScreen.cs"
 -langversion:9.0
 
 /deterministic

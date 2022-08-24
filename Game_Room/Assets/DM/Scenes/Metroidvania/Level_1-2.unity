@@ -1081,7 +1081,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1591038607
+--- !u!43 &1639687494
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3615,5 +3615,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bindedObject: {fileID: 1319957104997883325}
-  guiLevelIndex: 11
+  guiLevelIndex: 12
   questGiver2: {fileID: 0}
