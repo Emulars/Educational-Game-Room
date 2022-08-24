@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-24T12:14:36.7572254Z"
+      "LastWriteTime": "2022-08-24T22:40:55.119976Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -19,19 +19,15 @@
     },
     {
       "FullName": "Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-24T12:14:36.7967741Z"
-    },
-    {
-      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-19T14:31:24Z"
+      "LastWriteTime": "2022-08-24T22:40:55.3789753Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-24T12:14:36.8542631Z"
+      "LastWriteTime": "2022-08-24T22:40:54.8009753Z"
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-24T12:14:36.8361803Z"
+      "LastWriteTime": "2022-08-24T22:40:55.2369758Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -39,11 +35,15 @@
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-24T12:14:36.8100143Z"
+      "LastWriteTime": "2022-08-24T22:40:55.0009737Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-07-19T14:31:24Z"
     },
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-08-24T12:14:36.8088732Z"
+      "LastWriteTime": "2022-08-24T22:40:55.0509743Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -81,10 +81,9 @@
       "AssemblyDependencyIndices": [
         3,
         4,
-        5,
         2,
         1,
-        6
+        5
       ]
     },
     {
@@ -97,7 +96,7 @@
         4,
         2,
         1,
-        6
+        5
       ]
     },
     {
@@ -107,12 +106,12 @@
       "LinkName": "104599FDEEB36FAE",
       "AssemblyDependencyIndices": [
         3,
-        7,
-        8,
-        9,
+        6,
         2,
+        7,
         1,
-        6
+        5,
+        8
       ]
     },
     {
@@ -123,8 +122,8 @@
       "AssemblyDependencyIndices": [
         3,
         4,
+        5,
         2,
-        6,
         1
       ]
     },
@@ -136,8 +135,9 @@
       "AssemblyDependencyIndices": [
         3,
         4,
-        6,
+        9,
         2,
+        5,
         1
       ]
     },
@@ -162,7 +162,7 @@
         3,
         4,
         2,
-        6,
+        5,
         1
       ]
     },
@@ -175,7 +175,7 @@
         3,
         4,
         2,
-        6,
+        5,
         1
       ]
     },
@@ -189,7 +189,7 @@
         4,
         2,
         1,
-        6
+        5
       ]
     },
     {
@@ -201,7 +201,7 @@
         10,
         11,
         2,
-        6,
+        5,
         0,
         1,
         3
@@ -214,12 +214,12 @@
       "LinkName": "7D2E04AB7759F565",
       "AssemblyDependencyIndices": [
         10,
+        8,
         2,
         3,
-        6,
+        5,
         1,
         0,
-        9,
         11
       ]
     },
@@ -232,10 +232,10 @@
         10,
         2,
         3,
-        6,
+        5,
         0,
         1,
-        9,
+        8,
         11
       ]
     },

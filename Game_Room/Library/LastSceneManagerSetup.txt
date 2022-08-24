@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MainGame/Scene/MainMenu.unity
+- path: Assets/DM/Scenes/Metroidvania/Level_1-1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
