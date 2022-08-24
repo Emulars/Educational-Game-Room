@@ -873,14 +873,14 @@ MonoBehaviour:
     To make this possible we could modify the value
     of the variable speed ...
 
-    
 
-    
 
-    Available variables: (variable name:
-    type)
 
-    - speed: number (float)'
+
+    Available variables: (variable name: type)
+
+    -
+    speed: number (float)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1517,7 +1517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1279, y: 389}
+  m_AnchoredPosition: {x: 1075.9, y: 693.33}
   m_SizeDelta: {x: 203.052, y: 191.602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1265081680

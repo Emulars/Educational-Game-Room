@@ -8,7 +8,9 @@ public class DragDrop : MonoBehaviour  ,  IBeginDragHandler, IEndDragHandler , I
     private RectTransform rectTransform;
     public CanvasGroup canvasGroup;
     // Duplication
+    [Header("Canvas")]
     [SerializeField] private Canvas canvas;
+    [SerializeField] private float scaleMultiplayer = 1f;
 
     private void Start()
     {
@@ -46,7 +48,7 @@ public class DragDrop : MonoBehaviour  ,  IBeginDragHandler, IEndDragHandler , I
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta /canvas.scaleFactor;
+        rectTransform.anchoredPosition += eventData.delta / (canvas.scaleFactor * scaleMultiplayer);
     }
 
     public void OnEndDrag(PointerEventData eventData)

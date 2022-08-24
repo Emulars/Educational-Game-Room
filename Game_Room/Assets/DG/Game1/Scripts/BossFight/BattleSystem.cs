@@ -120,15 +120,12 @@ public class BattleSystem : MonoBehaviour
         if (Executor.variabili["battleState"] != "LOST" && state != BattleState.LOST)
         {
             SetDebug("hai finito gli HP ma non è finito il combattimento...",true);
-            
             state = BattleState.LOST;
-            Destroy(gameObject);
             return;
         }
 
         if (state == BattleState.LOST && Executor.variabili["battleState"] != "LOST")
         {
-            Destroy(gameObject);
             StartCoroutine(EndGame());
             return;
         }
@@ -136,12 +133,11 @@ public class BattleSystem : MonoBehaviour
         playerBehaviour.TakeDamage(200);
         lostTab.SetActive(true);
         lostTab.transform.Find("retry").GetComponent<Button>().Select();
-        Destroy(gameObject);
     }
 
     private IEnumerator EndGame()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(2f);
         var changeLevel = gameObject.GetComponent<ChangeLevel>();
         var collider = transform.GetComponent<Collider2D>();
         changeLevel.OnTriggerEnter2D(collider);

@@ -74,13 +74,13 @@ public class BlocklyHandler : MonoBehaviour
     void Update()
     {
         // if the gui is not already open
-        if (Input.GetKeyDown(KeyCode.F1) && !isGuiOpen)
+        if (Input.GetButtonDown("Blockly") && !isGuiOpen)
         {
             isGuiOpen = true;
             SceneManager.LoadScene(guiLevelIndex, LoadSceneMode.Additive);
         }
         // On GUI closed
-        else if (Input.GetKeyDown(KeyCode.F1) && isGuiOpen)
+        else if (Input.GetButtonDown("Blockly") && isGuiOpen)
         {
             isGuiOpen = false;
 

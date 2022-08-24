@@ -171,7 +171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.4, y: -2105.3062}
+  m_AnchoredPosition: {x: 586.4, y: -821.15}
   m_SizeDelta: {x: 1172.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44288098
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1102612146
 Canvas:
   m_ObjectHideFlags: 0
@@ -1746,7 +1746,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1366650819}
   m_HandleRect: {fileID: 1366650818}
   m_Direction: 2
-  m_Value: 0.99999964
+  m_Value: 0.4999999
   m_Size: 0.3900381
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2509,6 +2509,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 2411905869087466375, guid: e2b5ff87b0614104d94112e84de2ed74, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b5ff87b0614104d94112e84de2ed74, type: 3}
 --- !u!1001 &2508321001637737415
@@ -2534,6 +2538,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 2508321000657178737, guid: 6c30627e3bd31bb48862292ffc810a02, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 2508321000657178740, guid: 6c30627e3bd31bb48862292ffc810a02, type: 3}
       propertyPath: m_Pivot.x
       value: 0.29113725
@@ -2743,6 +2751,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 2537615932163416103, guid: f80bd06bded62384a8cca2c8d835acd7, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f80bd06bded62384a8cca2c8d835acd7, type: 3}
 --- !u!1001 &3956047248113889475
@@ -2848,6 +2860,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 3956047248663678163, guid: 0d7c6139ba5a61546b9fec68f0801f7f, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 3956047248697563172, guid: 0d7c6139ba5a61546b9fec68f0801f7f, type: 3}
       propertyPath: acceptOnlyValueBlocks
       value: 1
@@ -2865,6 +2881,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 4572203396171013969, guid: 3e620c51b1445b947a16e3de007a4e90, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 4572203396171013972, guid: 3e620c51b1445b947a16e3de007a4e90, type: 3}
       propertyPath: m_Name
       value: FloatOpBlock
@@ -2986,6 +3006,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 5104332012876982033, guid: c1d8164e731c0a94d82ad1e516eff598, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5104332012876982122, guid: c1d8164e731c0a94d82ad1e516eff598, type: 3}
       propertyPath: m_Name
       value: While
@@ -3087,6 +3111,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 6631156136556662048, guid: 45cdef309758d5b44b8efc1599a11b94, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 6631156136556662050, guid: 45cdef309758d5b44b8efc1599a11b94, type: 3}
       propertyPath: m_Pivot.x
       value: 0.30177575
@@ -3300,5 +3328,9 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1102612146}
+    - target: {fileID: 6705776386875322151, guid: d7de3ba87494aa84392a3ddce93a1040, type: 3}
+      propertyPath: scaleMultiplayer
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7de3ba87494aa84392a3ddce93a1040, type: 3}

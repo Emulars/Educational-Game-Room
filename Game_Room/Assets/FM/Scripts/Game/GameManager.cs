@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.F3))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             if(nextButton.activeSelf)
                 NextQuestion();
