@@ -20,8 +20,7 @@ public static class TextOnScreen
         "e assegna alla variabile lavoro true nel caso opportuno" + helpUser;
     public static string p3 = "1. Un robot non può recar danno a un essere umano né può permettere che, a causa del suo mancato intervento, un essere umano riceva danno.\n " +
         "2. Un robot deve obbedire agli ordini impartiti dagli esseri umani, purché tali ordini non vadano in contrasto alla Prima Legge.\n" +
-        "3. Un robot deve proteggere la propria esistenza, purché la salvaguardia di essa non contrasti con la Prima o con la Seconda Legge.\n" +
-        "[Isaac Asimov]";
+        "3. Un robot deve proteggere la propria esistenza, purché la salvaguardia di essa non contrasti con la Prima o con la Seconda Legge. [Isaac Asimov]";
     public static string p4 = "Queste sono le Tre leggi della robotica tienile presenti per l'ultimo quesito. \n" +
         "P.S È molto triste che ancora non ci considerate come voi io mi impegno sempre molto...";
     public static string q3 = "Davanti ad un'auto dotata di pilota automatico appare all'improvviso un pedone, " +
