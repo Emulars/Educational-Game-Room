@@ -402,6 +402,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs"
 "Assets/AssetsStore/FirstPersonController/FirstPersonController.cs"
+"Assets/AssetsStore/Low Poly Flat Sci Fi Assets/Demo/Scripts/DoubleSlidingDoorController.cs"
+"Assets/AssetsStore/Low Poly Flat Sci Fi Assets/Demo/Scripts/FlickeringLight.cs"
 "Assets/Blockly/Scripts/Block/BlockCreateVar.cs"
 "Assets/Blockly/Scripts/Block/BlockEndIf.cs"
 "Assets/Blockly/Scripts/Block/BlockEndWhile.cs"

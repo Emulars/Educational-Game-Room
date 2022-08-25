@@ -47,12 +47,15 @@ public class OpenWorldEnemyBehaviourScript : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, player.transform.position) < triggerDistance)
         {
+            animator.SetBool("walk", true);
             spriteRenderer.flipX = player.transform.position.x > transform.position.x;
             transform.position += (player.transform.position - transform.position).normalized * movementSpeed *
                                   Time.deltaTime;
         }
-
-        animator.SetTrigger("walk");
+        else
+        {
+            animator.SetBool("walk", false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
