@@ -36,8 +36,6 @@ public class GenericLoadPrefs : MonoBehaviour
                 LoadMenuPref();
             else
                 LoadLevelPref();
-                
-            
         }
     }
 

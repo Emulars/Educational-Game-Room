@@ -494,7 +494,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: GraphicsApply
         m_Mode: 1
@@ -1633,6 +1633,7 @@ GameObject:
   - component: {fileID: 73532352}
   - component: {fileID: 73532354}
   - component: {fileID: 73532353}
+  - component: {fileID: 73532355}
   m_Layer: 0
   m_Name: DystopianFutureTrigger
   m_TagString: Arcade
@@ -1683,6 +1684,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &73532355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73532351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857cea71577968541b42e4db8fd84995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &74096310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5551,7 +5564,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: GraphicsApply
         m_Mode: 1
@@ -13080,6 +13093,7 @@ GameObject:
   - component: {fileID: 479460934}
   - component: {fileID: 479460936}
   - component: {fileID: 479460935}
+  - component: {fileID: 479460937}
   m_Layer: 0
   m_Name: MetroidvaniaTrigger
   m_TagString: Arcade
@@ -13130,6 +13144,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &479460937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479460933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857cea71577968541b42e4db8fd84995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &496281989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15096,8 +15122,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gameplay
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17842,6 +17868,7 @@ GameObject:
   - component: {fileID: 686767674}
   - component: {fileID: 686767673}
   - component: {fileID: 686767672}
+  - component: {fileID: 686767676}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -17932,6 +17959,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &686767676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686767671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb19929c6b5d8d547b7127eb66c1bccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canUse: 1
+  isMenu: 0
+  menuController: {fileID: 0}
+  invertYToggle: {fileID: 0}
 --- !u!1001 &688550064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19013,7 +19056,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: VolumeApply
         m_Mode: 1
@@ -23040,7 +23083,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: ResetButton
         m_Mode: 5
@@ -28627,7 +28670,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetResolution
         m_Mode: 0
@@ -31969,7 +32012,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: ResetButton
         m_Mode: 5
@@ -33913,7 +33956,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
@@ -35910,6 +35953,7 @@ GameObject:
   - component: {fileID: 1289864756}
   - component: {fileID: 1289864758}
   - component: {fileID: 1289864757}
+  - component: {fileID: 1289864759}
   m_Layer: 0
   m_Name: PuzzleTrigger
   m_TagString: Arcade
@@ -35960,6 +36004,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1289864759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289864755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857cea71577968541b42e4db8fd84995, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1290100386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37821,8 +37877,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: <<
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -39752,7 +39808,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetFullScreen
         m_Mode: 0
@@ -45673,7 +45729,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetBrightness
         m_Mode: 0
@@ -48698,8 +48754,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Graphics
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -49961,7 +50017,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetControllerSensibility
         m_Mode: 0
@@ -50270,18 +50326,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: GetVolume
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &1780056255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50304,8 +50348,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sound
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -54772,7 +54816,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SetQuality
         m_Mode: 0
@@ -56339,7 +56383,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: ResetButton
         m_Mode: 5
@@ -56778,7 +56822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2047421365
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58482,7 +58526,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 376012911}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: GameplayApply
         m_Mode: 1
