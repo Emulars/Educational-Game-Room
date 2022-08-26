@@ -34,4 +34,7 @@ public static class TextOnScreen
     public static string endHealth = "Le persone sono contente ma la sopravvivenza è critica, il futuro è incerto ma per lo " +
         "meno gli ultimi istanti potrebbero essere piacevoli";
     public static string endSurvival = "Le persone non sono contente ma la sopravvivenza non è poi così un problema, forse esiste un futuro ma a che prezzo?";
+
+    public static string answerNotGiven = "Beh non rispondere è comunque una risposta, ma questo non mi aiuta molto :-| " +
+        "sarebbe stato meglio creare una mia copia e chiedere a lei, anzi forse dovrei fare proprio così…";
 }

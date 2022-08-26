@@ -98,6 +98,14 @@ public class GameManager : MonoBehaviour
                 player.BlockGameUpdate(currentTextOnScreen);
                 player.SetValueInTitleBar();
 
+                if (player.IsAnswerNotGiven)
+                {
+                    factText.text = TextOnScreen.answerNotGiven;
+                    textOnScreen.Insert(indexTextOnScreen+1, TextOnScreen.answerNotGiven); //inserisco dopo alla posizione corrente
+                    indexTextOnScreen++; //mi sposto nella nuova posizione corrente
+                    StartCoroutine(Typing());
+                }
+                
                 respond = true; //ho risposto
                 nextButton.SetActive(true); //quando ho risposto riattivo il bottone
             }
@@ -109,8 +117,16 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            if(nextButton.activeSelf)
+            if (nextButton.activeSelf) 
+            {
                 NextQuestion();
+                //if (player.AnswerCheat) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                /*var changeLevel = gameObject.GetComponent<ChangeLevel>();
+                //changeLevel.gameName = "Game";
+                changeLevel.CompareTag("Restart");
+                var collider = transform.GetComponent<Collider2D>();
+                changeLevel.OnTriggerEnter2D(collider);*/
+            }
         }
     }
 

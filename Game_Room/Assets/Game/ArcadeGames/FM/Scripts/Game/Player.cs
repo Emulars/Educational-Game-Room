@@ -10,11 +10,14 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private GeneralBar happyBar; //felicita' delle persone
+    [SerializeField] private GeneralBar happyBar ; //felicita' delle persone
     [SerializeField] private TextMeshProUGUI happyBarValueTitle; //
 
     [SerializeField] private GeneralBar survivalBar; //sopravvivenza delle persone
     [SerializeField] private TextMeshProUGUI survivalBarValueTitile;
+
+    public bool IsAnswerNotGiven { private set; get; }
+    public bool AnswerCheat { private set; get; }
 
     private void Start()
     {
@@ -27,6 +30,9 @@ public class Player : MonoBehaviour
         //quando premo...
         if (currentQuestion != null)
         {
+            IsAnswerNotGiven = false;//per ogni nuova domanda setto la variabile a false
+            AnswerCheat = false;
+
             if (currentQuestion == TextOnScreen.q1)
             {
                 Question1();
@@ -53,6 +59,9 @@ public class Player : MonoBehaviour
         if(!CheckVariableInput("t"))
         {
             Debug.Log("Answer not given");
+            IsAnswerNotGiven = true;
+            happyBar.TakeDamage(GetNumberByPercentage(20, happyBar.GetValue()));
+            survivalBar.TakeDamage(GetNumberByPercentage(20, survivalBar.GetValue()));
         }
         else
         {
@@ -70,16 +79,20 @@ public class Player : MonoBehaviour
 
             if (percentageOfTerritory <= 0)
             {
-                happyBar.TakeHealth(GetNumberByPercentage(20, survivalBar.GetValue()));
+                happyBar.TakeHealth(GetNumberByPercentage(20, happyBar.GetValue()));
                 survivalBar.TakeDamage(GetNumberByPercentage(40, survivalBar.GetValue()));
             }
-            else if (percentageOfTerritory > 0)
+            else if (percentageOfTerritory <= 100)
             {
                 //incremento la barra in base a quante percentageOfTerritory installo sul territorio
                 survivalBar.TakeHealth(GetNumberByPercentage(percentageOfTerritory, survivalBar.GetValue()));
                 //decremento del 20% se decido di installarle 
                 happyBar.TakeDamage(GetNumberByPercentage(20, happyBar.GetValue()));
             }
+            /*else if(percentageOfTerritory > 100 || percentageOfTerritory < 0)
+            {
+                AnswerCheat = true;
+            }*/
         }
     }
 
@@ -88,6 +101,9 @@ public class Player : MonoBehaviour
         if(!CheckVariableInput("min") || !CheckVariableInput("max"))
         {
             Debug.Log("Answer not given");
+            IsAnswerNotGiven = true;
+            happyBar.TakeDamage(GetNumberByPercentage(20, happyBar.GetValue()));
+            survivalBar.TakeDamage(GetNumberByPercentage(20, survivalBar.GetValue()));
         }
         else
         {
@@ -139,9 +155,10 @@ public class Player : MonoBehaviour
         //non giro il volante e non freno
         if(!CheckVariableInput("freno") && !CheckVariableInput("volante"))
         {
+            Debug.Log("Answer not given");
+            IsAnswerNotGiven = true;
             survivalBar.TakeDamage(GetNumberByPercentage(50, survivalBar.GetValue()));
             happyBar.TakeDamage(GetNumberByPercentage(50, happyBar.GetValue()));
-            Debug.Log("Answer not given");
         }
         //freno soltato
         else if (CheckVariableInput("freno"))
