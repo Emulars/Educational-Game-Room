@@ -17,10 +17,12 @@ namespace Assets.DM.Script.Puzzle
         public GameObject contButton;
         private bool dialogueInProgress = false;
 
+        private KeyCode DIALOG_KEY = KeyCode.Return;
+
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.F3) && playerIsClose && !dialogueInProgress)
+            if (Input.GetKeyDown(DIALOG_KEY) && playerIsClose && !dialogueInProgress)
             {
                 if (dialoguePanel.activeInHierarchy)
                 {
@@ -39,7 +41,7 @@ namespace Assets.DM.Script.Puzzle
             }
 
             // NextLine with key press
-            if (Input.GetKeyDown(KeyCode.F3) && playerIsClose && dialogueInProgress)
+            if (Input.GetKeyDown(DIALOG_KEY) && playerIsClose && dialogueInProgress)
             {
                 NextLine();
             }
