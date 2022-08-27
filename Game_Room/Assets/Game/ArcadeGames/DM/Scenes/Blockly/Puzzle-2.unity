@@ -171,7 +171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.4, y: -821.15}
+  m_AnchoredPosition: {x: 586.4, y: -2105.3}
   m_SizeDelta: {x: 1172.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44288098
@@ -876,8 +876,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -75.165, y: -9.856}
-  m_SizeDelta: {x: 1281.739, y: 779.309}
+  m_AnchoredPosition: {x: -56.866917, y: -44.164837}
+  m_SizeDelta: {x: 1318.3352, y: 847.9267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854582890
 MonoBehaviour:
@@ -899,12 +899,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objective:\nA hero is on his way to the castle to complete his mission.
-    However, he's been told that the castle is surrounded with a couple of powerful
-    dragons!\r\n\rEach dragon takes 2 bullets to be defeated, our hero has no idea
-    how many bullets he should carry..\r\n\nAssuming he's gonna grab a specific given
-    number of bullets and move forward to fight another specific given number of
-    dragons, will he survive?\r\n\rReturn result= true if yes, return=false otherwise"
+  m_text: "Objective:\n\rEach dragon takes 2 bullets to be defeated, our hero has
+    no idea how many bullets he should carry..\r\nAssuming he's gonna grab a specific
+    given number of bullets and move forward to fight another specific given number
+    of dragons, will he survive?\r\n\rReturn result= true if yes, return=false otherwise\n\nAvailable
+    Variables :\n- result : bool\n- numBullets : integer\n- numDragons : integer"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1753,7 +1752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 631.19, y: 358.3}
+  m_AnchoredPosition: {x: 680.56, y: 416.62}
   m_SizeDelta: {x: 130.923, y: 132.893}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762106606
@@ -2288,7 +2287,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 876740047}
   m_HandleRect: {fileID: 876740046}
   m_Direction: 2
-  m_Value: 0.5
+  m_Value: 0.9999973
   m_Size: 0.39003816
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2369,8 +2368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 473.403, y: 19}
-  m_SizeDelta: {x: 1492.046, y: 849.487}
+  m_AnchoredPosition: {x: 473.403, y: -39.325035}
+  m_SizeDelta: {x: 1492.046, y: 966.137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063988105
 MonoBehaviour:

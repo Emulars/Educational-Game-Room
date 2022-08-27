@@ -35421,6 +35421,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1395947265864250708, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
+      propertyPath: guiLevelIndex
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4880835285246434678, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -35572,21 +35576,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5461866831448904386, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
   m_PrefabInstance: {fileID: 791426070}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &791426074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791426071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abe0cec3dc9711041bcdd31e5a444c85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bindedObject: {fileID: 791426071}
-  guiLevelIndex: 15
-  questGiver2: {fileID: 0}
 --- !u!1 &814809491
 GameObject:
   m_ObjectHideFlags: 0
