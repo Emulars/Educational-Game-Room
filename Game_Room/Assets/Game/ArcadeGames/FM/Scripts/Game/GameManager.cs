@@ -13,9 +13,10 @@ public class GameManager : MonoBehaviour
     private List<string> textOnScreen; 
     private int indexTextOnScreen = 0;
     private string currentTextOnScreen;
-    private TextMeshProUGUI textButton;
     private bool respond = false; //verifico se ho gia risposto
     private bool isGuiOpen = false;
+
+    private TextMeshProUGUI textButton;
     private string nameScene = String.Empty; //nome della scena 
 
     [SerializeField] private GameObject nextButton;
@@ -100,14 +101,20 @@ public class GameManager : MonoBehaviour
 
                 if (player.IsAnswerNotGiven)
                 {
-                    factText.text = TextOnScreen.answerNotGiven;
-                    textOnScreen.Insert(indexTextOnScreen+1, TextOnScreen.answerNotGiven); //inserisco dopo alla posizione corrente
-                    indexTextOnScreen++; //mi sposto nella nuova posizione corrente
-                    StartCoroutine(Typing());
+                    IncorrectAnswer(TextOnScreen.answerNotGiven);
+                    respond = true; //ho risposto
+                    nextButton.SetActive(true); //quando ho risposto riattivo il bottone
                 }
-                
-                respond = true; //ho risposto
-                nextButton.SetActive(true); //quando ho risposto riattivo il bottone
+                else if (player.AnswerCheat) //se l'utente non bara posso andare avanti 
+                {
+                    IncorrectAnswer(TextOnScreen.answerCheat);
+                }
+                else
+                {
+                    factText.text = currentTextOnScreen;
+                    respond = true; //ho risposto
+                    nextButton.SetActive(true); //quando ho risposto riattivo il bottone
+                }
             }
             else
             {
@@ -127,6 +134,14 @@ public class GameManager : MonoBehaviour
                 var collider = transform.GetComponent<Collider2D>();
                 changeLevel.OnTriggerEnter2D(collider);*/
             }
+        }
+
+        void IncorrectAnswer(string alternativeText)
+        {
+            factText.text = alternativeText;
+            textOnScreen.Insert(indexTextOnScreen + 1, alternativeText); //inserisco dopo alla posizione corrente
+            indexTextOnScreen++; //mi sposto nella nuova posizione corrente
+            StartCoroutine(Typing());
         }
     }
 

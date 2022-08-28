@@ -59,7 +59,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -144,10 +143,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -5801,4 +5798,4 @@ ScriptsOnlyBuild:
   - Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv1.unity
   - Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv2.unity
   - Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv3.unity
-  playerPath: D:/Progetti/Educational-Game-Room/Build/Game_Room.exe
+  playerPath: E:/Documents/UnityElement/buildTestGame/FutureDystopian/Game_Room.exe

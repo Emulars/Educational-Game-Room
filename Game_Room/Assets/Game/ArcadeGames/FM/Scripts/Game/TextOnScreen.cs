@@ -37,4 +37,6 @@ public static class TextOnScreen
 
     public static string answerNotGiven = "Beh non rispondere è comunque una risposta, ma questo non mi aiuta molto :-| " +
         "sarebbe stato meglio creare una mia copia e chiedere a lei, anzi forse dovrei fare proprio così…";
+
+    public static string answerCheat = "Stai cercando di fregarmi? non credere sia così facile forse è il caso che riprovi >:(";
 }

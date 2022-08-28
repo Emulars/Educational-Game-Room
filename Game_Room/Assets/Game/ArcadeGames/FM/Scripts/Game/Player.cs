@@ -74,25 +74,26 @@ public class Player : MonoBehaviour
             {
                 //controllo l'eccezione ed esco 
                 Debug.Log($"{e.Message}");
+                AnswerCheat = true;
                 return;
             }
 
-            if (percentageOfTerritory <= 0)
+            if (percentageOfTerritory == 0)
             {
                 happyBar.TakeHealth(GetNumberByPercentage(20, happyBar.GetValue()));
                 survivalBar.TakeDamage(GetNumberByPercentage(40, survivalBar.GetValue()));
             }
-            else if (percentageOfTerritory <= 100)
+            else if (percentageOfTerritory > 0 && percentageOfTerritory <= 100 )
             {
                 //incremento la barra in base a quante percentageOfTerritory installo sul territorio
                 survivalBar.TakeHealth(GetNumberByPercentage(percentageOfTerritory, survivalBar.GetValue()));
                 //decremento del 20% se decido di installarle 
                 happyBar.TakeDamage(GetNumberByPercentage(20, happyBar.GetValue()));
             }
-            /*else if(percentageOfTerritory > 100 || percentageOfTerritory < 0)
+            else if(percentageOfTerritory > 100 || percentageOfTerritory < 0)
             {
                 AnswerCheat = true;
-            }*/
+            }
         }
     }
 
@@ -117,6 +118,7 @@ public class Player : MonoBehaviour
             catch (FormatException e)
             {
                 Debug.Log($"{e.Message}");
+                AnswerCheat = true;
                 return;
             }
 
@@ -137,6 +139,10 @@ public class Player : MonoBehaviour
                     survivalBar.TakeDamage(GetNumberByPercentage(40, survivalBar.GetValue()));
                     happyBar.TakeHealth(GetNumberByPercentage(30, happyBar.GetValue()));
                 }
+                else if(min < 0 || max > 150)
+                {
+                    AnswerCheat = true;
+                }
                 else
                 {
                     survivalBar.TakeHealth(GetNumberByPercentage(30, survivalBar.GetValue()));
@@ -146,6 +152,7 @@ public class Player : MonoBehaviour
             else
             {
                 Debug.Log("Error: Question2: min > max!");
+                AnswerCheat = true;
             }
         }
     }
@@ -172,15 +179,21 @@ public class Player : MonoBehaviour
             catch (FormatException e)
             {
                 Debug.Log($"{e.Message}");
+                AnswerCheat = true;
                 return;
             }
 
             float damageSurvival = 20;
-            if (fereno < 60 || fereno > 80  )
+            if (fereno > 100 || fereno < 0)
+            {
+                AnswerCheat = true;
+                return;
+            }
+            else if (fereno < 60 || fereno > 80  )
             {
                 damageSurvival = 40;
             }
-
+            
             //freno e giro
             if (CheckVariableInput("volante"))
             {
@@ -192,6 +205,7 @@ public class Player : MonoBehaviour
                 catch (FormatException e)
                 {
                     Debug.Log($"{e.Message}");
+                    AnswerCheat = true;
                     return;
                 }
 
@@ -204,6 +218,10 @@ public class Player : MonoBehaviour
                 {
                     survivalBar.TakeDamage(GetNumberByPercentage(damageSurvival - 15, survivalBar.GetValue()));
                     happyBar.TakeDamage(GetNumberByPercentage(10, happyBar.GetValue()));
+                }
+                else
+                {
+                    AnswerCheat = true;
                 }
             }
             else
