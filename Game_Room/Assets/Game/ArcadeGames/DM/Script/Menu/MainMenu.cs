@@ -11,7 +11,12 @@ public class MainMenu : MonoBehaviour
     {
         transform.Find("PlayButton").GetComponent<Button>().Select();
     }
-
+    //VR
+    private void Update()
+    {
+        if (ButtonVR.button2 || ButtonVR.button1)
+            PlayGame();
+    }
     public void PlayGame()
     {
         var changeLevel = gameObject.GetComponent<ChangeLevel>();

@@ -436,6 +436,7 @@
 "Assets/Blockly/Scripts/DragAndDrop/DropPosition.cs"
 "Assets/Blockly/Scripts/ErrorCode.cs"
 "Assets/Blockly/Scripts/Executor.cs"
+"Assets/ButtonVR.cs"
 "Assets/Game/ArcadeGames/DG/Game1/characters/Fight/PlayerBehaviour.cs"
 "Assets/Game/ArcadeGames/DG/Game1/characters/OpenWorld/OpenWorldPlayerController.cs"
 "Assets/Game/ArcadeGames/DG/Game1/characters/OpenWorld/SwordAttack.cs"

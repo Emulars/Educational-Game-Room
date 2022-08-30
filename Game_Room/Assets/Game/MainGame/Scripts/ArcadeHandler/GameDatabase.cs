@@ -6,7 +6,6 @@ namespace Assets.DM.Script.Utilities
     public class GameDatabase : MonoBehaviour
     {
         public static Dictionary<string, GameInfos> games = new Dictionary<string, GameInfos>();
-
         void Start()
         {
             // Metroidvania
