@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.game_room.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\tesi Triennali Magistrali\\VR-CSEducation\\Educational-Game-Room\\Game_Room\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Game_Room [Testing]"
+        }
+      }
+    }
+  ]
+}
