@@ -36,7 +36,7 @@ namespace Assets.DM.Script.Puzzle
             {
                 BackOption();
             }
-            else if (Input.GetKeyDown(KeyCode.Return))
+            else if (ButtonVR.button1) //Input.GetKeyDown(KeyCode.Return)
             {
                 ChangeScene(SceneManager.GetActiveScene().buildIndex + 1);
             }

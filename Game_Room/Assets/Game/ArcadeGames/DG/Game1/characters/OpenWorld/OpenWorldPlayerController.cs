@@ -33,6 +33,13 @@ public class OpenWorldPlayerController : MonoBehaviour
         collider = GetComponent<BoxCollider2D>();
     }
 
+    private void Update()
+    {
+        // Arcade ButtonVR1 pressed for attack
+        if (ButtonVR.button1)
+            OnFire();
+    }
+
     private void FixedUpdate()
     {
         void Move()

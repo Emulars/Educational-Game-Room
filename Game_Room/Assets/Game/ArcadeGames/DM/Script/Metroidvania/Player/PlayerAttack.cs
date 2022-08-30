@@ -21,7 +21,8 @@ namespace Assets.DM.Script.Metroidvania.Player
 
         private void Update()
         {
-            if(Input.GetKey(KeyCode.F) && !isAttacking && playerMovement.CanAttack())
+            //if(Input.GetKey(KeyCode.F) && !isAttacking && playerMovement.CanAttack())
+            if (ButtonVR.button1 && !isAttacking && playerMovement.CanAttack())
             {
                 isAttacking = true;
                 attackTimer = attackCooldown;

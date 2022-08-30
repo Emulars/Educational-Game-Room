@@ -41,7 +41,8 @@ namespace Assets.DM.Script.Metroidvania.Player
                 transform.localScale = new Vector3(-1, 1, 1);
 
             // Jump
-            if (Input.GetKey(KeyCode.Space) && isOnGround() && (enableJump && speed==1f))
+            //if (Input.GetKey(KeyCode.Space) && isOnGround() && (enableJump && speed==1f))
+            if (ButtonVR.button2 && isOnGround() && (enableJump && speed == 1f))
                 Jump();
 
             // Set animation

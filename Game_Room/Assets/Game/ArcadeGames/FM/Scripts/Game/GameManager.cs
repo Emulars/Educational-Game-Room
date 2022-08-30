@@ -122,17 +122,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        //if (Input.GetKeyDown(KeyCode.Return))
+        if(ButtonVR.button2 || ButtonVR.button1)
         {
             if (nextButton.activeSelf) 
             {
                 NextQuestion();
-                //if (player.AnswerCheat) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                /*var changeLevel = gameObject.GetComponent<ChangeLevel>();
-                //changeLevel.gameName = "Game";
-                changeLevel.CompareTag("Restart");
-                var collider = transform.GetComponent<Collider2D>();
-                changeLevel.OnTriggerEnter2D(collider);*/
             }
         }
 
