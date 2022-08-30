@@ -28,8 +28,10 @@ public class OpenBlockly : MonoBehaviour
                 Executor.variabili.Add("uscita", "false");
                 break;
             case "UBGame1_Lv3":
-                Executor.variabili.Add("playerHP", "true");
+                Executor.variabili.Add("playerHP", "");
                 Executor.variabili.Add("battleState", "false");
+                SceneManager.LoadScene(BlocklySceneName, LoadSceneMode.Additive);
+                BlocklyIsActive = true;
                 break;
                 
         }

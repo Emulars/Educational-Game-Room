@@ -32,17 +32,14 @@ public class BattleSystem : MonoBehaviour
     {
         if (playerBehaviour == null || playerBehaviour.currentHP<=0 ) {
             state = BattleState.LOST;
-            Lost();
+            StartCoroutine(Lost());
         }
     }
 
     private void SetUpBattle()
     {
         playerBehaviour = player.GetComponent<PlayerBehaviour>();
-        //inizializzo il dictionary
-        Executor.variabili.Clear();
-        Executor.variabili.Add("playerHP", playerBehaviour.maxHP.ToString());
-        Executor.variabili.Add("battleState", "PLAYERTURN");
+        Executor.variabili["playerHP"] = playerBehaviour.maxHP.ToString();
     }
 
     private void PlayerTurn()
@@ -51,7 +48,7 @@ public class BattleSystem : MonoBehaviour
         Executor.variabili["playerHP"] = playerBehaviour.currentHP.ToString();
     }
 
-    IEnumerator waitExecutor()
+    private IEnumerator WaitExecutor()
     {
         while (LaunchBlocks.launch)
         {
@@ -67,7 +64,7 @@ public class BattleSystem : MonoBehaviour
 
         //i blocchi modificano lo stato?
         if (Executor.variabili["battleState"] == "WON") FalseVictory();
-        if (Executor.variabili["battleState"] == "LOST") Lost();
+        if (Executor.variabili["battleState"] == "LOST") FakeLost();
     }
 
     private void EnemiesTurn()
@@ -97,7 +94,7 @@ public class BattleSystem : MonoBehaviour
                 //eseguo blocchi
                 LaunchBlocks.launch = true;
                 //aspetto la fine dell'esecuzione per leggere
-                StartCoroutine("waitExecutor");
+                StartCoroutine(WaitExecutor());
                 PlayerTurn();
             }
         }
@@ -105,34 +102,49 @@ public class BattleSystem : MonoBehaviour
         
     }
 
-    private void Lost()
+    private IEnumerator Lost()
     {
-        Debug.Log("lost");
-        if(float.Parse(Executor.variabili["playerHP"]) != 0 && playerBehaviour.currentHP != 0)
-        {
-            SetDebug("hai perso prima che i tuoi hp arrivassero a zero...\n" +
-                     "sicuro di aver modificato battle state al momento giusto?",false);
-
-            lostTab.SetActive(true);
-        }
-        //hai perso prima che i tuoi hp arrivassero a zero...
-        //sicuro di aver modificato battle state al momento giusto?
-        if (Executor.variabili["battleState"] != "LOST" && state != BattleState.LOST)
-        {
+        Executor.variabili["playerHP"] = playerBehaviour.currentHP.ToString();
+       Debug.Log("HP = " + Executor.variabili["playerHP"]);
+        LaunchBlocks.launch = true;
+        yield return WaitExecutor();
+        while (LaunchBlocks.launch){ }
+        if (Executor.variabili["battleState"] != "LOST")
+        { 
+            Debug.Log("il giocatore non ha cambiato la variabile");
+            if (state == BattleState.LOST)
+            {
+                Debug.Log("ma il gioco è finito (non ha blocchi)");
+                playerBehaviour.TakeDamage(200);
+                lostTab.SetActive(true);
+                lostTab.transform.Find("retry").GetComponent<Button>().Select();
+                yield break;
+            }
+            Debug.Log("e il gioco non è finito");
             SetDebug("hai finito gli HP ma non è finito il combattimento...",true);
             state = BattleState.LOST;
-            return;
+            yield break;
         }
-
-        if (state == BattleState.LOST && Executor.variabili["battleState"] != "LOST")
+        if (HPareModified)
         {
-            StartCoroutine(EndGame());
-            return;
+            Debug.Log("hp modificati, sconfitta");
+            SetDebug("hai modificato gli hp ma hai perso lo stesso", false);
+            lostTab.SetActive(true);
         }
-        state = BattleState.LOST;
+        Debug.Log("fine");
+        StartCoroutine(EndGame());
+        
         playerBehaviour.TakeDamage(200);
         lostTab.SetActive(true);
-        lostTab.transform.Find("retry").GetComponent<Button>().Select();
+        lostTab.transform.Find("retry").gameObject.SetActive(false);
+    }
+
+    private void FakeLost()
+    {
+        SetDebug("hai perso prima che i tuoi hp arrivassero a zero...\n" +
+                 "sicuro di aver modificato battle state al momento giusto?", false);
+
+        lostTab.SetActive(true);
     }
 
     private IEnumerator EndGame()
@@ -166,9 +178,8 @@ public class BattleSystem : MonoBehaviour
         debugTab.SetActive(true);
         debugTab.transform.Find("DebugText").GetComponent<TMP_Text>().SetText(message);
         if (retryBtt)
-        {
             debugTab.transform.Find("retry").gameObject.SetActive(true);
-        }
+        
     }
 
     public void OnAttackButton(GameObject enemy)
