@@ -7,6 +7,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using System;
+using Valve.VR;
 
 public class GameManager : MonoBehaviour
 {
@@ -50,7 +51,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Blockly") && !isGuiOpen)
+        if (SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand) && !isGuiOpen)
         {
             isGuiOpen = true;
 
@@ -82,7 +83,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        else if (Input.GetButtonDown("Blockly") && isGuiOpen)
+        else if (SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand) && isGuiOpen)
         {
             isGuiOpen = false;
             

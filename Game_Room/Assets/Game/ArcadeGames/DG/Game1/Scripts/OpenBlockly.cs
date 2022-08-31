@@ -1,6 +1,7 @@
 using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Valve.VR;
 
 public class OpenBlockly : MonoBehaviour
 {
@@ -40,7 +41,8 @@ public class OpenBlockly : MonoBehaviour
 
     private void Update()
     {
-        if (!Input.GetButtonDown("Blockly")) return;
+        //if (!Input.GetButtonDown("Blockly")) return;
+        if (!SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand)) return;
         if(BlocklyIsActive)
             SceneManager.UnloadSceneAsync(BlocklySceneName);
         else 
