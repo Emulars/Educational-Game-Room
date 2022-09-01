@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts;
 using TMPro;
 using Unity.VisualScripting;
@@ -79,7 +77,6 @@ public class Calculator : MonoBehaviour
 
             var field1 = updateValue.Value.transform.Find("var1").Find("Text").GetComponent<Text>().text;
             var field2 = updateValue.Value.transform.Find("var2").Find("Text").GetComponent<Text>().text;
-            // var op = updateValue.Value.transform.Find("Dropdown").Find("Text").GetComponent<Text>().text;
             var opDropdown = updateValue.Value.transform.Find("Dropdown").GetComponent<TMP_Dropdown>();
             var op = opDropdown.options[opDropdown.value].text;
 

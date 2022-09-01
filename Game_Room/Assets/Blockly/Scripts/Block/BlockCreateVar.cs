@@ -27,7 +27,10 @@ public class BlockCreateVar : MonoBehaviour, IBlock
         var next = GetComponentInChildren<DropPosition>().droppedGameObject;
         if(next != null)
         {
-            next.GetComponent<IBlock>().Execute();
+            if (next.GetComponent<IBlock>() != null)
+                next.GetComponent<IBlock>().Execute();
+            else
+                next.GetComponent<IEndStatement>().Execute();
         }
         else
         {

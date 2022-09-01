@@ -27,7 +27,7 @@ public class DropPosition : MonoBehaviour , IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         if(!isActive || eventData.pointerDrag.GetComponent<IBlock>() == null)return;
-        var valueBlock = eventData.pointerDrag.GetComponent<GenericBlock>();
+        var valueBlock = eventData.pointerDrag.GetComponent<ValueBlock>();
         if(acceptOnlyValueBlocks && valueBlock == null)return;
         if(!acceptOnlyValueBlocks && valueBlock != null)return;
 

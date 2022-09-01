@@ -376,8 +376,8 @@ GameObject:
   - component: {fileID: 6705776386875322075}
   - component: {fileID: 6705776386875322076}
   - component: {fileID: 6705776386875322151}
-  - component: {fileID: 6705776386875322150}
   - component: {fileID: 6705776386875322149}
+  - component: {fileID: 2377167658812244639}
   m_Layer: 5
   m_Name: GetVar
   m_TagString: getValue
@@ -495,19 +495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f199a8e3e70870144babfeb2a2927646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 0}
   canvas: {fileID: 0}
---- !u!114 &6705776386875322150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6705776386875322078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6415e14c97fd3fb41ac548c28118e627, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scaleMultiplayer: 1
 --- !u!50 &6705776386875322149
 Rigidbody2D:
   serializedVersion: 4
@@ -529,6 +519,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &2377167658812244639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6705776386875322078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c65537165c2aa4c93a5f655f33486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6705776387288611984
 GameObject:
   m_ObjectHideFlags: 0

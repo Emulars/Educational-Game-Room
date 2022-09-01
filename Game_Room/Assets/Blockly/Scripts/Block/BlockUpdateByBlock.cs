@@ -38,7 +38,10 @@ public class BlockUpdateByBlock : MonoBehaviour , IBlock
         var nextBlock = next.droppedGameObject;
         if (nextBlock != null)
         {
-            nextBlock.GetComponent<IBlock>().Execute();
+             if (nextBlock.GetComponent<IBlock>() != null)
+                nextBlock.GetComponent<IBlock>().Execute();
+            else
+                nextBlock.GetComponent<IEndStatement>().Execute();
         }
         else
         {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GenericBlock : MonoBehaviour , IBlock
+public class ValueBlock : MonoBehaviour , IBlock
 {
     public bool isDragged { get; set; }
     public bool isInMain { get; set; }

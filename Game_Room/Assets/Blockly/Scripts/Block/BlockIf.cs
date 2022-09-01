@@ -49,13 +49,16 @@ public class BlockIf : MonoBehaviour, IBlock
         SendMessageUpwards("CheckCondition", MessageInfo);
        
     }
-
+    //recive the condition result from calculator
     public void GetConditionResult(string value)
     {
         var nextBlock = IBlock.IsTrue(value) ? nextIfTrue.droppedGameObject : nextIfFalse.droppedGameObject;
         if (nextBlock != null) 
-        { 
-            nextBlock.GetComponent<IBlock>().Execute();
+        {
+            if (nextBlock.GetComponent<IBlock>() != null)
+                nextBlock.GetComponent<IBlock>().Execute();
+            else
+                nextBlock.GetComponent<IEndStatement>().Execute();
         }
         else
         {

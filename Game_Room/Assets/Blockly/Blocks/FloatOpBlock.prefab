@@ -287,8 +287,8 @@ GameObject:
   - component: {fileID: 4572203396171013971}
   - component: {fileID: 4572203396171013968}
   - component: {fileID: 4572203396171013969}
-  - component: {fileID: 4572203396171013974}
   - component: {fileID: 7245772134272625705}
+  - component: {fileID: 6093385398186527767}
   m_Layer: 5
   m_Name: FloatOpBlock
   m_TagString: floatOpBlock
@@ -409,18 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 0}
   canvas: {fileID: 0}
---- !u!114 &4572203396171013974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4572203396171013972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6415e14c97fd3fb41ac548c28118e627, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  scaleMultiplayer: 1
 --- !u!50 &7245772134272625705
 Rigidbody2D:
   serializedVersion: 4
@@ -442,6 +431,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6093385398186527767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4572203396171013972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c65537165c2aa4c93a5f655f33486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4572203396416587553
 GameObject:
   m_ObjectHideFlags: 0

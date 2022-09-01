@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BlockWhile : MonoBehaviour, IBlock
@@ -43,7 +41,6 @@ public class BlockWhile : MonoBehaviour, IBlock
 
     public void Execute()
     {
-
         if (value.droppedGameObject == null)
         {
             ErrorMessage(ErrorCode.NotDroppedValue);
@@ -53,13 +50,16 @@ public class BlockWhile : MonoBehaviour, IBlock
         SendMessageUpwards("CheckCondition", MessageInfo);
 
     }
-
+    //recive the condition result from calculator
     public void GetConditionResult(string value)
     {
         var nextBlock = IBlock.IsTrue(value) ? nextIfTrue.droppedGameObject : nextIfFalse.droppedGameObject;
         if (nextBlock != null)
         {
-            nextBlock.GetComponent<IBlock>().Execute();
+            if (nextBlock.GetComponent<IBlock>() != null)
+                nextBlock.GetComponent<IBlock>().Execute();
+            else
+                nextBlock.GetComponent<IEndStatement>().Execute();
         }
         else if(!sentIsFinish && nextBlock == null)
         {
