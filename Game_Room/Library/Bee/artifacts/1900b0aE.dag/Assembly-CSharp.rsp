@@ -473,7 +473,6 @@
 "Assets/Game/MainGame/Scripts/ArcadeHandler/CloseAllScenes.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/GameDatabase.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/GameInfos.cs"
-"Assets/Game/MainGame/Scripts/ArcadeHandler/TurnOffScreen.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/Utilities/ChangeLevel.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/Utilities/LevelAudioManager.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/VR/ButtonVR.cs"

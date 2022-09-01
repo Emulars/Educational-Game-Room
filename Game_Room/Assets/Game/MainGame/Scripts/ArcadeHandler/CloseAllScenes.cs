@@ -1,13 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CloseAllScenes : TurnOffScreen
-{
-    private void OnTriggerExit()
+public class CloseAllScenes : MonoBehaviour
+{   private void OnTriggerExit()
     {
         int nScenes = SceneManager.sceneCount;
         for (int i = 0; i< nScenes; i++)

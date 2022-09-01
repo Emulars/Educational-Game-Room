@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class enemyBehaviour : MonoBehaviour
 {
-    public string name;
+    public string playerName;
     public int damage;
     public int healing_power;
     public int maxHP;
@@ -23,7 +23,7 @@ public class enemyBehaviour : MonoBehaviour
     void Start()
     {
         currentHP = maxHP;
-        menuName.SetText(name);
+        menuName.SetText(playerName);
         PrintCurrentHP();
         HPBar.maxValue = maxHP;
         HPBar.value = maxHP;
@@ -66,24 +66,15 @@ public class enemyBehaviour : MonoBehaviour
 
     public void Act(GameObject hero)
     {
+        //NOT implemented yet
+        /*
         IEnumerator HealAnimation()
         {
             animator.SetBool("healing", true);
             yield return new WaitForSeconds(0.9f);
             animator.SetBool("healing", false);
-        }
-      /*  if (Boss != null && Boss.currentHP < 50)
-        {
-            StartCoroutine(HealAnimation());
-            Boss.Heal(healing_power);
-        }
-        else if (currentHP <= 10 && currentHP>0)
-        {
-            StartCoroutine(HealAnimation());
-            Heal(healing_power);
-        }
-        else*/
-            Attack(hero);
+        }*/
+        Attack(hero);
         
     }
 

@@ -16,10 +16,10 @@ public class OpenWorldPlayerController : MonoBehaviour
     private Vector2 movementInput;
     private SpriteRenderer spriteRenderer;
     //for collisions
-    private Rigidbody2D rigidbody2D;
+    private new Rigidbody2D rigidbody;
     [SerializeField] private ContactFilter2D movementFilter;
     private readonly List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
-    private BoxCollider2D collider;
+    private new BoxCollider2D collider;
     //for attacks
     [SerializeField]private SwordAttack swordAttack;
     //for animations
@@ -27,7 +27,7 @@ public class OpenWorldPlayerController : MonoBehaviour
     
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         collider = GetComponent<BoxCollider2D>();
@@ -80,12 +80,11 @@ public class OpenWorldPlayerController : MonoBehaviour
     private bool TryMove(Vector2 direction)
     {
         if (direction == Vector2.zero) return false;
-
-        int count = rigidbody2D.Cast(direction, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime + collisionOffset);
+        int count = rigidbody.Cast(direction, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime + collisionOffset);
 
         if (count == 0)
         {
-            rigidbody2D.MovePosition(rigidbody2D.position + direction * moveSpeed * Time.fixedDeltaTime);
+            rigidbody.MovePosition(rigidbody.position + direction * moveSpeed * Time.fixedDeltaTime);
             return true;
         }
         return false;

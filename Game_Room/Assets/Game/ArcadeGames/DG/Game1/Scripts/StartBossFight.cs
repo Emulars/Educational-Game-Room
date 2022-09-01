@@ -13,14 +13,13 @@ public class StartBossFight : MonoBehaviour
     [SerializeField] private OpenBlockly blockly;
     [SerializeField] private OpenWorldPlayerController player;
 
-    private bool uscitaLastValue = false, stopExecuteBlocks = false;
+    private bool stopExecuteBlocks = false;
 
     //quando il giocatore si avvicina all'uscita
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag != "Player") return;
         Executor.variabili["sullUscita"] = "true";
-        uscitaLastValue = true;
         if(!bool.Parse(Executor.variabili["uscita"]))return;
         other.GetComponent<OpenWorldPlayerController>().LockMovement();
         HUD.SetActive(true);
@@ -33,7 +32,6 @@ public class StartBossFight : MonoBehaviour
     {
         if (other.tag != "Player") return;
         Executor.variabili["sullUscita"] = "false";
-        uscitaLastValue = false;
     }
 
     void Update()
