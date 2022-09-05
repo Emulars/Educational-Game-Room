@@ -118,8 +118,9 @@ public class JoystickController : MonoBehaviour
             }
         }
 
-       // leverVector = new Vector2(xInput, yInput);
-       // OnJoystickChange(leverVector);
+        leverVector = new Vector2(xInput, yInput);
+        Debug.Log("lever vector = " + leverVector);
+        // OnJoystickChange(leverVector);
     }
     private void OnDetachedFromHand(Hand hand)
     {
