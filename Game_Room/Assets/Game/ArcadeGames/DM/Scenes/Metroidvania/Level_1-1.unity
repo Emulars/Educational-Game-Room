@@ -1059,7 +1059,7 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 8640601647921575449, guid: f31c687f77a0d264fb48d8a8d3d49980, type: 3}
   m_PrefabInstance: {fileID: 1319957104997883324}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &1567098900
+--- !u!43 &1620279943
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1223,7 +1223,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &1620279943
+--- !u!43 &1735963643
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2816,7 +2816,7 @@ PrefabInstance:
       objectReference: {fileID: 1519765797}
     - target: {fileID: 4072224895004826976, guid: f31c687f77a0d264fb48d8a8d3d49980, type: 3}
       propertyPath: attackCooldown
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4739484314474886854, guid: f31c687f77a0d264fb48d8a8d3d49980, type: 3}
       propertyPath: m_Sprite
