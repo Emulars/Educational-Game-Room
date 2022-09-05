@@ -28,13 +28,10 @@ namespace Assets.DM.Script.Puzzle
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+            // Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)
+            if (ButtonVR.button1)
             {
                 NextOption();
-            }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
-            {
-                BackOption();
             }
             else if (ButtonVR.button2) //Input.GetKeyDown(KeyCode.Return)
             {

@@ -17,12 +17,12 @@ namespace Assets.DM.Script.Puzzle
         public GameObject contButton;
         private bool dialogueInProgress = false;
 
-        private KeyCode DIALOG_KEY = KeyCode.Return;
-
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyDown(DIALOG_KEY) && playerIsClose && !dialogueInProgress)
+            // Button2 to init the dialog
+            // Button1 for next line
+            if (ButtonVR.button2 && playerIsClose && !dialogueInProgress)
             {
                 if (dialoguePanel.activeInHierarchy)
                 {
@@ -31,6 +31,7 @@ namespace Assets.DM.Script.Puzzle
                 else
                 {
                     dialoguePanel.SetActive(true);
+                    dialogueInProgress = true;
                     StartCoroutine(TypeText());
                 }
             }
@@ -41,7 +42,7 @@ namespace Assets.DM.Script.Puzzle
             }
 
             // NextLine with key press
-            if (Input.GetKeyDown(DIALOG_KEY) && playerIsClose && dialogueInProgress)
+            if (ButtonVR.button1 && playerIsClose && dialogueInProgress)
             {
                 NextLine();
             }
@@ -62,7 +63,6 @@ namespace Assets.DM.Script.Puzzle
                 dialogueText.text += letter;
                 yield return new WaitForSeconds(wordSpeed);
             }
-            dialogueInProgress = true;
         }
 
         public void NextLine()

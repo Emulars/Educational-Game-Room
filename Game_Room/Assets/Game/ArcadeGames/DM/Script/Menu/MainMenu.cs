@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
     //VR
     private void Update()
     {
-        if (ButtonVR.button2 || ButtonVR.button1)
+        if (ButtonVR.button1)
             PlayGame();
     }
     public void PlayGame()
