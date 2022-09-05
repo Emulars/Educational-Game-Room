@@ -42,6 +42,7 @@ public class OpenWorldPlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        movementInput = JoystickController.leverVector;
         void Move()
         {
             if (!canMove) return;
@@ -88,11 +89,6 @@ public class OpenWorldPlayerController : MonoBehaviour
             return true;
         }
         return false;
-    }
-
-    private void OnMove(InputValue movementValue)
-    {
-        movementInput = movementValue.Get<Vector2>();
     }
 
     private void OnFire()

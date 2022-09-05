@@ -18,6 +18,9 @@ TagManager:
   - SideBar
   - Main
   - Restart
+  - projectile
+  - FxTemporaire
+  - Hand
   layers:
   - Default
   - TransparentFX

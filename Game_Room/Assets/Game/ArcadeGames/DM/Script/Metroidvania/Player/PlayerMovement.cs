@@ -28,7 +28,8 @@ namespace Assets.DM.Script.Metroidvania.Player
             // Equals to 0 if no X direction
             // Equals to 1 if direction right
             // Quals to -1 if direction left
-            horizontalInput = Input.GetAxis(PlayerAnimationParam.AxisXinput);
+            //horizontalInput = Input.GetAxis(PlayerAnimationParam.AxisXinput);
+            horizontalInput = JoystickController.leverVector.x;
 
             // Walk 
             if(speed >= 1f && speed <= 10f)

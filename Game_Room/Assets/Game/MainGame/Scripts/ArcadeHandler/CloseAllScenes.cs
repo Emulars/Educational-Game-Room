@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CloseAllScenes : MonoBehaviour
-{   private void OnTriggerExit()
+{   private void OnTriggerExit(Collider other)
     {
+        if (other.tag != "Player") return;
         int nScenes = SceneManager.sceneCount;
         for (int i = 0; i< nScenes; i++)
         {

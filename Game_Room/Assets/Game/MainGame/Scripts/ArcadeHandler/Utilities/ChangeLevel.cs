@@ -59,7 +59,7 @@ public class ChangeLevel : MonoBehaviour
     {
         // Could use other.GetComponent<Player>() to see if the game object has a player component
         // Tags work too, maybe some players have different script components?
-
+        if (other.tag == "Hand") return;
         if (other.tag == "Player")
         {
             Executor.variabili.Clear();
@@ -94,8 +94,11 @@ public class ChangeLevel : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+       
+        if (other.tag == "Hand") return;
         if (other.tag == "Player")
         {
+            print("tag uscito = " + other.tag + "   nome = " + other.name);
             SceneManager.UnloadSceneAsync(IndexToLoad - 1);
             gameInfo.sceneMaterialIndex--;
             

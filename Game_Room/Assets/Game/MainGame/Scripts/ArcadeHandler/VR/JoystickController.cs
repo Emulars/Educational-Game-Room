@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
@@ -11,7 +9,7 @@ public class JoystickController : MonoBehaviour
     [SerializeField] private float angleX, angleY;
     [SerializeField] private float LeverPercentageX = 0, LeverPercentageY = 0;
     [SerializeField] private float deadZone = 0.001f;
-    [SerializeField] private Vector2 leverVector;
+    public static Vector2 leverVector;
     private Interactable interactable;
     private Rigidbody rb;
     Quaternion initialRotation;
@@ -118,13 +116,12 @@ public class JoystickController : MonoBehaviour
             }
         }
 
-        leverVector = new Vector2(xInput, yInput);
-        Debug.Log("lever vector = " + leverVector);
-        // OnJoystickChange(leverVector);
+        leverVector = new Vector2(-xInput, -yInput);
     }
     private void OnDetachedFromHand(Hand hand)
     {
-        print("mollo");
+        print("detached");
+        leverVector = new Vector2(0, 0);
         if (rb) rb.isKinematic = true;
         //rimetto tutto a porto
         transform.localRotation = 
@@ -132,12 +129,4 @@ public class JoystickController : MonoBehaviour
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
     }
-/*
-    public virtual void OnJoystickChange(float leverX, float leverY)
-    {
-        if (onJoystickChange != null)
-        {
-            onJoystickChange.Invoke(leverX, leverY);
-        }
-    }*/
 }
