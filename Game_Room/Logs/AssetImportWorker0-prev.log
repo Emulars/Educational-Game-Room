@@ -1,0 +1,352 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'it' Physical Memory: 32670 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61879
+Successfully changed project path to: D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
+D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 223.32 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014537 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 212.75 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (719ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (213ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015B447FDE80 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B44804890 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B448A6430 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B446B2840 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B44A83C60 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B43DF7D60 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B45569A40 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B43E12970 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B46B92AE0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B470E92D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 219.87 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.283 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2284ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1976ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (1145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (220ms)
+				BeforeProcessingInitializeOnLoad (216ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6956 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.8 MB). Loaded Objects now: 7421.
+Memory consumption went from 278.9 MB to 278.1 MB.
+Total: 8.604500 ms (FindLiveObjects: 0.652300 ms CreateObjectMapping: 0.791100 ms MarkObjects: 6.703100 ms  DeleteObjects: 0.456600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 508114.245605 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/PaperTray_02_snaps001.asset
+  artifactKey: Guid(f8e00893c42ebe74b993fc250b15491e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/PaperTray_02_snaps001.asset using Guid(f8e00893c42ebe74b993fc250b15491e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c686fcf4591c5d6bc7e22e5155569d') in 0.216505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_8.asset
+  artifactKey: Guid(22c114901f56cb847addeb382254abe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_8.asset using Guid(22c114901f56cb847addeb382254abe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce390ebac61fe75db3934c28d069c11a') in 0.021391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_3.asset
+  artifactKey: Guid(6dcfdbd66c576ab4d87abb7a3320d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_3.asset using Guid(6dcfdbd66c576ab4d87abb7a3320d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053d33d5b59fdde61527625d29ad6b4f') in 0.010561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/PaperTray_01_snaps001.asset
+  artifactKey: Guid(93749a3e31e4f7048bd85daca3e2a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/PaperTray_01_snaps001.asset using Guid(93749a3e31e4f7048bd85daca3e2a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08d971e231e29c4ecd06e870b427a14') in 0.040395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_01_snaps001.prefab
+  artifactKey: Guid(e8d3a72b8c8548f469a0a533f1fbe295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_01_snaps001.prefab using Guid(e8d3a72b8c8548f469a0a533f1fbe295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af01c6d86c4a7487373539a7fab7c01') in 0.249858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_10.asset
+  artifactKey: Guid(d4a553613f9079b4898f5dc824ff1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_10.asset using Guid(d4a553613f9079b4898f5dc824ff1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c147ca8409958a4287c7369722ff1397') in 0.010667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_12.asset
+  artifactKey: Guid(9e19e1c53f759474ba95ba1162e420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_12.asset using Guid(9e19e1c53f759474ba95ba1162e420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbefe274f5304a5d26b1f5522defb0c') in 0.009049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_02_snaps001.prefab
+  artifactKey: Guid(106e0f600ce0361469ff2428db6b7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/PaperTray_02_snaps001.prefab using Guid(106e0f600ce0361469ff2428db6b7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ea81150df5dbe37b44d5a57c731377') in 0.015781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_0.asset
+  artifactKey: Guid(09e5a7582b7278144b0cbf9c00e1eca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_0.asset using Guid(09e5a7582b7278144b0cbf9c00e1eca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0675822b7567d42a684902b6257232') in 0.010645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_5.asset
+  artifactKey: Guid(135e7fa8f2574a942b3169de54df5eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_5.asset using Guid(135e7fa8f2574a942b3169de54df5eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc5bbf1ba7df1506f1546b2ecebd66c') in 0.009006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_13.asset
+  artifactKey: Guid(2628af60b3b7d5842a790ccf8c7502dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_13.asset using Guid(2628af60b3b7d5842a790ccf8c7502dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c801a82de872aef79bb44760fc0940e') in 0.010700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_6.asset
+  artifactKey: Guid(c65493653e40ef340ad5041231396716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_6.asset using Guid(c65493653e40ef340ad5041231396716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c1ec2d0cf108a4c7c5a137feeb24d7') in 0.009856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_2.asset
+  artifactKey: Guid(4c5b6e7481fafcf459c043596f5ba937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_2.asset using Guid(4c5b6e7481fafcf459c043596f5ba937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c8765ab96fcd81540538d368358f6') in 0.009569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_14.asset
+  artifactKey: Guid(d2ea16af1fb76814799795f8c6a63c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_14.asset using Guid(d2ea16af1fb76814799795f8c6a63c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9254ed61490cb910890be8c2a19b5f80') in 0.010208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_1.asset
+  artifactKey: Guid(a171a483953178749bbf02061b4aa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Tiles/Ruins/Atlas-Props_1.asset using Guid(a171a483953178749bbf02061b4aa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72afc9763ef8145159f2cdc3dfb58d5f') in 0.010559 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010757 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015B45E65010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B49C280C0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B45F3A010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B44657010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B4530B500 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B447E1020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\SteamVR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B4C1E3630 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B92639010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B4B556020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015B4428B460 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2231ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1802ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (878ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (536ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.41 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6781 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7499.
+Memory consumption went from 284.4 MB to 283.7 MB.
+Total: 5.704700 ms (FindLiveObjects: 0.605600 ms CreateObjectMapping: 0.592200 ms MarkObjects: 4.011400 ms  DeleteObjects: 0.494200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

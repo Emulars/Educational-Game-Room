@@ -395,6 +395,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonVR2
       objectReference: {fileID: 0}
+    - target: {fileID: 4146524932990877218, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: engageAtPercent
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524932990877218, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: disengageAtPercent
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Height
+      value: 0.10718161
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0000000027607245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Center.y
+      value: -0.091207676
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Center.z
+      value: 0.00023174114
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
 --- !u!4 &2582304493634973286 stripped
@@ -468,6 +492,30 @@ PrefabInstance:
     - target: {fileID: 4146524932990877217, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
       propertyPath: m_Name
       value: ButtonVR1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524932990877218, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: engageAtPercent
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524932990877218, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: disengageAtPercent
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Height
+      value: 0.10497164
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Center.x
+      value: 6.654465e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Center.y
+      value: -0.0911047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146524934453453346, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}
+      propertyPath: m_Center.z
+      value: 0.00023172886
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5fb118ce0b3fae4f8c575e929292ba3, type: 3}

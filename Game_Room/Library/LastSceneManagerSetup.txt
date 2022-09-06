@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game/MainGame/Scene/Main_Scenario.unity
+- path: Assets/SceneToBeDeleted/LaserPointer_Trial.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
