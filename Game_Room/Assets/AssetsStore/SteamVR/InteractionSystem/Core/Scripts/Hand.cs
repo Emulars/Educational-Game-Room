@@ -500,7 +500,7 @@ namespace Valve.VR.InteractionSystem
                 //Parent the object to the hand
                 //objectToAttach.transform.parent = this.transform;
                 attachedObject.isParentedToHand = true;
-
+                print("roba del canvas mano");
                 // Set Parent to hand's canvas 
                 var handCanvas = gameObject.transform.Find("HandCanvas");
                 // Check if objectToAttach is a canvas element

@@ -41543,22 +41543,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 86603557350369865, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Height
-      value: 0.09570364
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603557350369865, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Center.x
-      value: -2.6875505e-10
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603557350369865, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Center.y
-      value: 0.011329593
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603557350369865, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Center.z
-      value: 0.00023172922
-      objectReference: {fileID: 0}
     - target: {fileID: 86603559385839177, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
       propertyPath: onButtonUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -41586,26 +41570,6 @@ PrefabInstance:
     - target: {fileID: 86603559385839179, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603559385839183, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Size.y
-      value: 0.035290543
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603559385839183, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Size.z
-      value: 0.1207548
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603559385839183, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Center.x
-      value: 0.00000071251355
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603559385839183, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Center.y
-      value: 0.032357268
-      objectReference: {fileID: 0}
-    - target: {fileID: 86603559385839183, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
-      propertyPath: m_Center.z
-      value: -0.00055318826
       objectReference: {fileID: 0}
     - target: {fileID: 461376815630440373, guid: a9ab69732a47b7240a56f2b4ba545634, type: 3}
       propertyPath: deadZone

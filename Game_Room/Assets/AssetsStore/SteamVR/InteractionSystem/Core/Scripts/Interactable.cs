@@ -255,8 +255,8 @@ namespace Valve.VR.InteractionSystem
 
             if (highlightOnHover == true && wasHovering == false)
             {
-                CreateHighlightRenderers();
-                UpdateHighlightRenderers();
+               CreateHighlightRenderers();
+               UpdateHighlightRenderers();
             }
         }
 
