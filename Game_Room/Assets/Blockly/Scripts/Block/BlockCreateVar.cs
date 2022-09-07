@@ -24,7 +24,7 @@ public class BlockCreateVar : MonoBehaviour, IBlock
 
         SendMessageUpwards("CreateVariable", variableName);
 
-        var next = GetComponentInChildren<DropPosition>().droppedGameObject;
+        var next = GetComponentInChildren<DropPositionVR>().droppedGameObject;
         if(next != null)
         {
             if (next.GetComponent<IBlock>() != null)
@@ -45,7 +45,7 @@ public class BlockCreateVar : MonoBehaviour, IBlock
 
     public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
     {
-        var next = GetComponentInChildren<DropPosition>();
+        var next = GetComponentInChildren<DropPositionVR>();
 
         var sizeY = gameObject.GetComponent<RectTransform>().sizeDelta.y;
 

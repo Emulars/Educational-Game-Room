@@ -26,9 +26,10 @@ public class LaserGrabber : MonoBehaviour
     {
         if (isInside && SteamVR_Input.GetState("default", "InteractUI", SteamVR_Input_Sources.Any))
         {
-            grabbedObject.SendMessage("HandHoverUpdate", GetComponent<Hand>());
+            grabbedObject.SendMessage("HandHoverUpdate", GetComponent<Hand>(),SendMessageOptions.DontRequireReceiver);
         }
     }
+
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
@@ -36,7 +37,7 @@ public class LaserGrabber : MonoBehaviour
         {
             Debug.Log("Cube was clicked");
         }
-        else if (e.target.name == "Button")
+        else if (e.target.GetComponent<Button>() != null)
         {
             Debug.Log("Button was clicked");
             var btt = e.target.GetComponent<Button>();

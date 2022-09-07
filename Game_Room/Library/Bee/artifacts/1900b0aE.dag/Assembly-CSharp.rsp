@@ -478,6 +478,7 @@
 "Assets/Game/MainGame/Scripts/ArcadeHandler/Utilities/LevelAudioManager.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/VR/AwayFromCanvas.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/VR/ButtonVR.cs"
+"Assets/Game/MainGame/Scripts/ArcadeHandler/VR/DropPositionVR.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/VR/JoystickController.cs"
 "Assets/Game/MainGame/Scripts/ArcadeHandler/VR/LaserGrabber.cs"
 "Assets/Game/MainGame/Scripts/SetTargetFrameRate.cs"

@@ -4,14 +4,17 @@ public class StartBlock : MonoBehaviour
 {
     private void Start()
     {
-        GetComponentInChildren<DropPosition>().SetActive();
+        //GetComponentInChildren<DropPosition>().SetActive();
     }
     public void Execute()
     {
-        var next = GetComponentInChildren<DropPosition>().droppedGameObject;
+        print("start");
+        // var next = GetComponentInChildren<DropPosition>().droppedGameObject;
+        var next = GetComponentInChildren<DropPositionVR>().droppedGameObject;
         if (next != null)
         {
             next.GetComponent<IBlock>().Execute();
+            
         }
     }
 }

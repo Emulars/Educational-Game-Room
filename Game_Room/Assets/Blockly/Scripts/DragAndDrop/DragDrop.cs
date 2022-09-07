@@ -46,6 +46,33 @@ public class DragDrop : MonoBehaviour  ,  IBeginDragHandler, IEndDragHandler , I
         }
     }
 
+    public void MyOnBeginDrag(GameObject itemBeingDragged)
+    {
+        itemBeingDragged.GetComponent<IBlock>().isDragged = true;
+        canvasGroup.alpha = 0.6f;
+        canvasGroup.blocksRaycasts = false;
+
+
+        if (transform.parent == canvas.transform)
+            return;
+
+        var draggedTransform = itemBeingDragged.GetComponent<RectTransform>();
+
+        // Duplicate block if in the SideBar
+        if (!itemBeingDragged.GetComponent<IBlock>().isInMain)
+        {
+            GameObject duplicate = Instantiate(itemBeingDragged, itemBeingDragged.transform.parent, false);
+            duplicate.name = itemBeingDragged.name;
+            OnEndDrag(duplicate);
+        }
+        itemBeingDragged.transform.SetParent(canvas.transform);
+        var dropPositions = itemBeingDragged.GetComponentsInChildren<DropPosition>();
+        foreach (var drop in dropPositions)
+        {
+            drop.SetActive();
+        }
+    }
+
     public void OnDrag(PointerEventData eventData)
     {
         rectTransform.anchoredPosition += eventData.delta / (canvas.scaleFactor * scaleMultiplayer);

@@ -5,15 +5,15 @@ public class BlockUpdateByBlock : MonoBehaviour , IBlock
 {
 
     private string variableName;
-    private DropPosition next, value;
+    private DropPositionVR next, value;
     public bool isDragged { get; set; }
     public bool isInMain { get; set; }
 
     private void Start()
     {
         isDragged = false;
-        next = transform.Find("DropNextBlock").GetComponent<DropPosition>();
-        value = transform.Find("DropValueBlock").GetComponent<DropPosition>();
+        next = transform.Find("DropNextBlock").GetComponent<DropPositionVR>();
+        value = transform.Find("DropValueBlock").GetComponent<DropPositionVR>();
     }
 
     public void Execute()
