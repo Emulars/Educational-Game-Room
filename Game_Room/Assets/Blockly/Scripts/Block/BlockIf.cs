@@ -1,100 +1,95 @@
 using UnityEngine;
 
-public class BlockIf : MonoBehaviour, IBlock
+namespace UEBlockly
 {
-    private float defaultSize, size;
-    public bool isDragged { get; set; }
-    public bool isInMain { get; set; }
-    private GameObject endIfBlock;
-    private DropPosition nextIfTrue, nextIfFalse, value;
-
-    private void Start()
+    public class BlockIf : MonoBehaviour, IBlock
     {
-        isDragged = false;
-        defaultSize = size = transform.Find("DropNextBlock").GetComponent<RectTransform>().sizeDelta.y;
+        private float defaultSize, size;
+        public bool isDragged { get; set; }
+        private GameObject endIfBlock;
+        private DropPositionVR nextIfTrue, nextIfFalse, value;
 
-        endIfBlock = transform.Find("container").Find("endif").gameObject;
-        
-        nextIfTrue = transform.Find("DropNextBlock").GetComponentInChildren<DropPosition>();
-        nextIfFalse = endIfBlock.transform.Find("DropNextNotContainedBlock").GetComponentInChildren<DropPosition>();
-        value = transform.Find("DropConditionBlock").GetComponentInChildren<DropPosition>();
-    }
-
-    private void Update()
-    {
-        var nextBlock = nextIfTrue.droppedGameObject;
-        
-        // Check if the block has a DropNextBlock
-        if (nextBlock != null)
+        private void Start()
         {
-            size = 2f* defaultSize + nextBlock.GetComponent<IBlock>().RecoursiveGetSize(gameObject,endIfBlock);
+            isDragged = false;
+            defaultSize = size = transform.Find("DropNextBlock").GetComponent<RectTransform>().sizeDelta.y;
+
+            endIfBlock = transform.Find("container").Find("endif").gameObject;
+
+            nextIfTrue = transform.Find("DropNextBlock").GetComponentInChildren<DropPositionVR>();
+            nextIfFalse = endIfBlock.transform.Find("DropNextNotContainedBlock").GetComponentInChildren<DropPositionVR>();
+            value = transform.Find("DropConditionBlock").GetComponentInChildren<DropPositionVR>();
         }
-        else
-        {
-            size = defaultSize;
-        }
-        //UpdateSize
-        var containerRectTransform = transform.Find("container").GetComponent<RectTransform>();
-        containerRectTransform.offsetMin = new Vector2(containerRectTransform.offsetMin.x, -size);
-    }
 
-    public void Execute()
-    {
-        if (value.droppedGameObject == null)
+        private void Update()
         {
-            ErrorMessage(ErrorCode.NotDroppedValue);
-            return;
-        }
-        var MessageInfo = (gameObject,value.droppedGameObject.tag, value.droppedGameObject);
-        SendMessageUpwards("CheckCondition", MessageInfo);
-       
-    }
-    //recive the condition result from calculator
-    public void GetConditionResult(string value)
-    {
-        var nextBlock = IBlock.IsTrue(value) ? nextIfTrue.droppedGameObject : nextIfFalse.droppedGameObject;
-        if (nextBlock != null) 
-        {
-            if (nextBlock.GetComponent<IBlock>() != null)
-                nextBlock.GetComponent<IBlock>().Execute();
+            var nextBlock = nextIfTrue.droppedGameObject;
+
+            // Check if the block has a DropNextBlock
+            if (nextBlock != null)
+            {
+                size = 2f * defaultSize + nextBlock.GetComponent<IBlock>().RecoursiveGetSize(gameObject, endIfBlock);
+            }
             else
-                nextBlock.GetComponent<IEndStatement>().Execute();
+            {
+                size = defaultSize;
+            }
+            //UpdateSize
+            var containerRectTransform = transform.Find("container").GetComponent<RectTransform>();
+            containerRectTransform.offsetMin = new Vector2(containerRectTransform.offsetMin.x, -size);
         }
-        else
+
+        public void Execute()
         {
-            SendMessageUpwards("IsFinish", gameObject.name);
+            if (value.droppedGameObject == null)
+            {
+                ErrorMessage(ErrorCode.NotDroppedValue);
+                return;
+            }
+            var MessageInfo = (gameObject, value.droppedGameObject.tag, value.droppedGameObject);
+            SendMessageUpwards("CheckCondition", MessageInfo);
+
         }
-    }
-
-    public void EndIf()
-    {
-        GetConditionResult("false");
-    }
-
-    public void ErrorMessage(ErrorCode errorCode)
-    {
-        SendMessageUpwards("CatchError", errorCode);
-    }
-
-    public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
-    {
-        var sizeYcontainer = transform.Find("container").GetComponent<RectTransform>().sizeDelta.y;
-
-        // If there are not other objects after this one
-        if (nextIfFalse.droppedGameObject == null || nextIfFalse.droppedGameObject.GetComponent<IEndStatement>() != null )
+        //recive the condition result from calculator
+        public void GetConditionResult(string value)
         {
-            nextIfFalse.droppedGameObject = endStatement;
-            return sizeYcontainer;
+            var nextBlock = IBlock.IsTrue(value) ? nextIfTrue.droppedGameObject : nextIfFalse.droppedGameObject;
+            if (nextBlock != null)
+            {
+                if (nextBlock.GetComponent<IBlock>() != null)
+                    nextBlock.GetComponent<IBlock>().Execute();
+                else
+                    nextBlock.GetComponent<IEndStatement>().Execute();
+            }
+            else
+            {
+                SendMessageUpwards("IsFinish", gameObject.name);
+            }
         }
 
-        return sizeYcontainer + nextIfFalse.droppedGameObject.GetComponent<IBlock>()
-            .RecoursiveGetSize(toResizeBlock, endStatement);
-    }
+        public void EndIf()
+        {
+            GetConditionResult("false");
+        }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.isTrigger)
-            isInMain = collision.CompareTag("Main");
-    }
+        public void ErrorMessage(ErrorCode errorCode)
+        {
+            SendMessageUpwards("CatchError", errorCode);
+        }
 
+        public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
+        {
+            var sizeYcontainer = transform.Find("container").GetComponent<RectTransform>().sizeDelta.y;
+
+            // If there are not other objects after this one
+            if (nextIfFalse.droppedGameObject == null || nextIfFalse.droppedGameObject.GetComponent<IEndStatement>() != null)
+            {
+                nextIfFalse.droppedGameObject = endStatement;
+                return sizeYcontainer;
+            }
+
+            return sizeYcontainer + nextIfFalse.droppedGameObject.GetComponent<IBlock>()
+                .RecoursiveGetSize(toResizeBlock, endStatement);
+        }
+    }
 }

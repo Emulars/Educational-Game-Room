@@ -1,68 +1,64 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BlockCreateVar : MonoBehaviour, IBlock
+namespace UEBlockly
 {
-    public bool isDragged { get; set; }
-    public bool isInMain { get; set; }
-
-    private void Start()
+    public class BlockCreateVar : MonoBehaviour, IBlock
     {
-        isDragged = false;
-    }
+        public bool isDragged { get; set; }
 
-    public void Execute()
-    {
-        string variableName = transform.Find("InputField").Find("Text").GetComponent<Text>().text;
-
-        ErrorCode err = IBlock.IsValidName(variableName);
-        if (err != ErrorCode.NoError)
+        private void Start()
         {
-            ErrorMessage(err);
-            return;
+            isDragged = false;
         }
 
-        SendMessageUpwards("CreateVariable", variableName);
-
-        var next = GetComponentInChildren<DropPositionVR>().droppedGameObject;
-        if(next != null)
+        public void Execute()
         {
-            if (next.GetComponent<IBlock>() != null)
-                next.GetComponent<IBlock>().Execute();
+            string variableName = transform.Find("InputField").Find("Text").GetComponent<Text>().text;
+
+            ErrorCode err = IBlock.IsValidName(variableName);
+            if (err != ErrorCode.NoError)
+            {
+                ErrorMessage(err);
+                return;
+            }
+
+            SendMessageUpwards("CreateVariable", variableName);
+
+            var next = GetComponentInChildren<DropPositionVR>().droppedGameObject;
+            if (next != null)
+            {
+                if (next.GetComponent<IBlock>() != null)
+                    next.GetComponent<IBlock>().Execute();
+                else
+                    next.GetComponent<IEndStatement>().Execute();
+            }
             else
-                next.GetComponent<IEndStatement>().Execute();
+            {
+                SendMessageUpwards("IsFinish", gameObject.name);
+            }
         }
-        else
+
+        public void ErrorMessage(ErrorCode errorCode)
         {
-            SendMessageUpwards("IsFinish", gameObject.name);
+            SendMessageUpwards("CatchError", errorCode);
         }
-    }
 
-    public void ErrorMessage(ErrorCode errorCode)
-    {
-        SendMessageUpwards("CatchError", errorCode);
-    }
-
-    public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
-    {
-        var next = GetComponentInChildren<DropPositionVR>();
-
-        var sizeY = gameObject.GetComponent<RectTransform>().sizeDelta.y;
-
-        // If there are not other objects after this one
-        if (next.droppedGameObject == null || next.droppedGameObject.GetComponent<IEndStatement>() != null)
+        public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
         {
-            next.droppedGameObject = endStatement;
-            return sizeY;
+            var next = GetComponentInChildren<DropPositionVR>();
+
+            var sizeY = gameObject.GetComponent<RectTransform>().sizeDelta.y;
+
+            // If there are not other objects after this one
+            if (next.droppedGameObject == null || next.droppedGameObject.GetComponent<IEndStatement>() != null)
+            {
+                next.droppedGameObject = endStatement;
+                return sizeY;
+            }
+
+            return sizeY + next.droppedGameObject.GetComponent<IBlock>().RecoursiveGetSize(toResizeBlock, endStatement);
         }
-
-        return sizeY + next.droppedGameObject.GetComponent<IBlock>().RecoursiveGetSize(toResizeBlock, endStatement);
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.isTrigger)
-            isInMain = collision.CompareTag("Main");
-    }
-
 }
+

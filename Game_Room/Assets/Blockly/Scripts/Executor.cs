@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
-namespace Assets.Scripts
+namespace UEBlockly
 {
     public class Executor : MonoBehaviour
     {

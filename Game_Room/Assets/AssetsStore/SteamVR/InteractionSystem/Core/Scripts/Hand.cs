@@ -10,7 +10,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using UnityEngine.Events;
-using System.Threading;
 
 namespace Valve.VR.InteractionSystem
 {
@@ -505,6 +504,15 @@ namespace Valve.VR.InteractionSystem
                 // Check if objectToAttach is a canvas element
                 if(objectToAttach.GetComponent<CanvasRenderer>() != null)
                 {
+                    //if (objectToAttach.GetComponent<UEBlockly.IBlock>().isInMain)
+                    Transform canvasTransform = objectToAttach.transform.parent;
+                    while(canvasTransform.name != "Canvas")
+                    {
+                        canvasTransform = canvasTransform.parent;
+                    }
+                    attachedObject.originalParent = canvasTransform.gameObject;
+                                
+
                     objectToAttach.transform.parent = handCanvas;
                 }
                 else

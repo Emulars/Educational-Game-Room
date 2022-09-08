@@ -1,35 +1,30 @@
 using UnityEngine;
 
-public class ValueBlock : MonoBehaviour , IBlock
+namespace UEBlockly
 {
-    public bool isDragged { get; set; }
-    public bool isInMain { get; set; }
-    // Start is called before the first frame update
-    private void Start()
+    public class ValueBlock : MonoBehaviour, IBlock
     {
-        isDragged = false;
-        isInMain = false;
-    }
+        public bool isDragged { get; set; }
+        // Start is called before the first frame update
+        private void Start()
+        {
+            isDragged = false;
+        }
 
-    public void Execute()
-    {
-        throw new System.NotImplementedException();
-    }
+        public void Execute()
+        {
+            throw new System.NotImplementedException();
+        }
 
-    public void ErrorMessage(ErrorCode errorCode)
-    {
-        throw new System.NotImplementedException();
-    }
+        public void ErrorMessage(ErrorCode errorCode)
+        {
+            throw new System.NotImplementedException();
+        }
 
-    public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
-    {
-        throw new System.NotImplementedException();
-    }
+        public float RecoursiveGetSize(GameObject toResizeBlock, GameObject endStatement)
+        {
+            throw new System.NotImplementedException();
+        }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.isTrigger)
-            isInMain = collision.CompareTag("Main");
     }
-
 }

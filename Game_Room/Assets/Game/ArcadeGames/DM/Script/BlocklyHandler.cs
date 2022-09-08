@@ -1,7 +1,7 @@
 using System;
 using Assets.DM.Script.Metroidvania.Player;
 using Assets.DM.Script.Puzzle;
-using Assets.Scripts;
+using UEBlockly;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Valve.VR;

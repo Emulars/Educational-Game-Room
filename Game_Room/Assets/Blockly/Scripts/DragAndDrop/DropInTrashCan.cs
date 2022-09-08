@@ -1,12 +1,14 @@
-using System.Security.Cryptography;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using Valve.VR.InteractionSystem;
 
-public class DropInTrashCan : MonoBehaviour, IDropHandler
+namespace UEBlockly
 {
-    public void OnDrop(PointerEventData eventData)
+    public class DropInTrashCan : MonoBehaviour
     {
-        if (eventData.pointerDrag.GetComponent<IBlock>() == null) return; //cannot drop not IBlock obj
-        Destroy(eventData.pointerDrag);
+        public void OnTriggerStay(Collider other)
+        {
+            if (other.GetComponent<IBlock>() == null || other.GetComponent<Throwable>().attached) return;
+            Destroy(other.gameObject);
+        }
     }
 }

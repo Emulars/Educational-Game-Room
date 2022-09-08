@@ -1,20 +1,22 @@
 using UnityEngine;
 
-public class StartBlock : MonoBehaviour
+namespace UEBlockly
 {
-    private void Start()
+    public class StartBlock : MonoBehaviour
     {
-        //GetComponentInChildren<DropPosition>().SetActive();
-    }
-    public void Execute()
-    {
-        print("start");
-        // var next = GetComponentInChildren<DropPosition>().droppedGameObject;
-        var next = GetComponentInChildren<DropPositionVR>().droppedGameObject;
-        if (next != null)
+        private void Start()
         {
-            next.GetComponent<IBlock>().Execute();
-            
+            GetComponentInChildren<DropPositionVR>().SetActive(true);
+        }
+        public void Execute()
+        {
+            print("start");
+            var next = GetComponentInChildren<DropPositionVR>().droppedGameObject;
+            if (next != null)
+            {
+                next.GetComponent<IBlock>().Execute();
+
+            }
         }
     }
 }
