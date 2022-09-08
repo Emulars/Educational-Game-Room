@@ -15,7 +15,7 @@ D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62896
+56939
 Successfully changed project path to: D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
 D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/tesi Triennali Magistrali/VR-CSEducation/Educational-Game-Room/Game_Room
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 196.07 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 213.40 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,1169 +63,104 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010705 seconds.
+Registered in 0.011196 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 173.66 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 196.10 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
+- Completed reload, in  0.896 seconds
 Domain Reload Profiling:
-	ReloadAssembly (851ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (432ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (174ms)
+				RefreshPlugins (196ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008671 seconds.
+Registered in 0.009459 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000010AD4E70420 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000276BD612570 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD50D6C40 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000276B7DC7020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ACF99BC30 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-00000276BB9D15F0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD3949EB0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000276B7969C90 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD3949EB0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000276B7C7BA40 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD64CB9F0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000276BE2DF140 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD6A20A30 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-00000276BE80BCF0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 237.62 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 206.71 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.320 seconds
+- Completed reload, in  2.074 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2324ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1996ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (474ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1234ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (238ms)
-				BeforeProcessingInitializeOnLoad (221ms)
-				ProcessInitializeOnLoadAttributes (600ms)
-				ProcessInitializeOnLoadMethodAttributes (152ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.74 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6959 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.8 MB). Loaded Objects now: 7424.
-Memory consumption went from 278.9 MB to 278.2 MB.
-Total: 7.683000 ms (FindLiveObjects: 1.175700 ms CreateObjectMapping: 1.002100 ms MarkObjects: 4.985800 ms  DeleteObjects: 0.507100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014744 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010AD36203F0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD5252010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD355C010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD4187650 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADB1A2B50 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADAAB2030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D0574EE30 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.51 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.391 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2391ms)
-		BeginReloadAssembly (216ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (2027ms)
-			LoadAssemblies (143ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (511ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (291ms)
-			SetupLoadedEditorAssemblies (985ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (248ms)
-				ProcessInitializeOnLoadAttributes (568ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.13 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7440.
-Memory consumption went from 277.1 MB to 276.3 MB.
-Total: 5.857200 ms (FindLiveObjects: 0.484400 ms CreateObjectMapping: 0.571300 ms MarkObjects: 4.304800 ms  DeleteObjects: 0.495600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011224 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC2EB12E0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2034C60 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2DF9D70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2C5BCA0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC26F5660 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC236D580 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.10 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.126 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2127ms)
-		BeginReloadAssembly (184ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (1804ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (462ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (1016ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (201ms)
-				ProcessInitializeOnLoadAttributes (647ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.84 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 7456.
-Memory consumption went from 277.1 MB to 276.4 MB.
-Total: 6.093800 ms (FindLiveObjects: 0.573000 ms CreateObjectMapping: 0.469600 ms MarkObjects: 4.577600 ms  DeleteObjects: 0.471900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010008 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010D069514C0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD375D880 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD8653010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD56C8020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2C29CA0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC233E070 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD6B9E020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.000 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2001ms)
-		BeginReloadAssembly (212ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1642ms)
-			LoadAssemblies (162ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (580ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (750ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (450ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.72 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7472.
-Memory consumption went from 277.2 MB to 276.4 MB.
-Total: 5.501800 ms (FindLiveObjects: 0.754600 ms CreateObjectMapping: 0.631100 ms MarkObjects: 3.738900 ms  DeleteObjects: 0.376000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011086 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010AD5861040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD375D880 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC21D39D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2B4F870 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D07C53020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ACF49A750 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.15 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.322 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2322ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1943ms)
-			LoadAssemblies (151ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (579ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (977ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (621ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.31 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7488.
-Memory consumption went from 277.2 MB to 276.4 MB.
-Total: 6.198400 ms (FindLiveObjects: 0.617800 ms CreateObjectMapping: 0.497000 ms MarkObjects: 4.705600 ms  DeleteObjects: 0.376900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011158 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC40F7010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D07F11080 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD3512F50 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC21D39D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADBB58020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E57D50 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC215FD10 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.04 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.990 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1991ms)
-		BeginReloadAssembly (209ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1626ms)
-			LoadAssemblies (146ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (524ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (792ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.23 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7504.
-Memory consumption went from 277.2 MB to 276.4 MB.
-Total: 8.866900 ms (FindLiveObjects: 1.392300 ms CreateObjectMapping: 0.995800 ms MarkObjects: 5.968600 ms  DeleteObjects: 0.508800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010199 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC40F7010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D07F11080 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC21D39D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADB08D380 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D0834F310 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2769370 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.20 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.859 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1860ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1534ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (792ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (468ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.95 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7520.
-Memory consumption went from 277.2 MB to 276.5 MB.
-Total: 6.464500 ms (FindLiveObjects: 0.534200 ms CreateObjectMapping: 0.667500 ms MarkObjects: 4.696100 ms  DeleteObjects: 0.565500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009525 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010ADB9AF1E0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD56C8020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC370B720 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADBB58020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05942010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC21040A0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.955 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1956ms)
-		BeginReloadAssembly (226ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1588ms)
-			LoadAssemblies (138ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (496ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (785ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (479ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.30 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7536.
-Memory consumption went from 277.3 MB to 276.5 MB.
-Total: 5.278700 ms (FindLiveObjects: 0.593800 ms CreateObjectMapping: 0.579500 ms MarkObjects: 3.573000 ms  DeleteObjects: 0.531700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009401 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010ADB9AF1E0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADBB3B6B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D089D8640 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05942010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC23B1100 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.27 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.903 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1903ms)
-		BeginReloadAssembly (194ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1570ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (478ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (789ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.82 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7552.
-Memory consumption went from 277.3 MB to 276.5 MB.
-Total: 6.072800 ms (FindLiveObjects: 0.592700 ms CreateObjectMapping: 0.643700 ms MarkObjects: 4.225000 ms  DeleteObjects: 0.610200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008933 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010AD8B24060 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC370B720 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADBB58020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D068CA020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E9A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.791 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1792ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (1469ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (476ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (708ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (425ms)
-				ProcessInitializeOnLoadMethodAttributes (105ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.78 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7568.
-Memory consumption went from 277.3 MB to 276.5 MB.
-Total: 4.741000 ms (FindLiveObjects: 0.561600 ms CreateObjectMapping: 0.597600 ms MarkObjects: 3.170300 ms  DeleteObjects: 0.410700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009475 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC38C9430 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC370B720 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D07AF60A0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D068CA020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E9A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.789 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1789ms)
-		BeginReloadAssembly (188ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1467ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (703ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (424ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.98 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7584.
-Memory consumption went from 277.3 MB to 276.6 MB.
-Total: 5.772400 ms (FindLiveObjects: 0.536500 ms CreateObjectMapping: 0.449400 ms MarkObjects: 4.390700 ms  DeleteObjects: 0.395000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010638 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010D07192010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC370B720 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2443D20 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E9A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.56 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.774 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1775ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1463ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (470ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (713ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.23 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7600.
-Memory consumption went from 277.4 MB to 276.6 MB.
-Total: 4.293300 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.473700 ms MarkObjects: 2.907200 ms  DeleteObjects: 0.428300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009231 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E92B70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D06798030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D1B010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05F0C030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.748 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1749ms)
-		BeginReloadAssembly (179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1432ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (468ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (689ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (413ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.57 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7617.
-Memory consumption went from 277.4 MB to 276.6 MB.
-Total: 6.157800 ms (FindLiveObjects: 0.492300 ms CreateObjectMapping: 0.455800 ms MarkObjects: 4.806800 ms  DeleteObjects: 0.401700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009455 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D06798030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADBB58020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D1B010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05F0C030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.26 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.792 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1792ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1485ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (468ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (717ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (433ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.22 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7633.
-Memory consumption went from 277.4 MB to 276.7 MB.
-Total: 6.820200 ms (FindLiveObjects: 0.744500 ms CreateObjectMapping: 1.022200 ms MarkObjects: 4.549800 ms  DeleteObjects: 0.502000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009978 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD56C8020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010ADBB58020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D08E9B020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05F0C030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.777 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1778ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (2075ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1460ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1785ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (731ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (1053ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.45 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 7649.
-Memory consumption went from 277.4 MB to 276.7 MB.
-Total: 5.825900 ms (FindLiveObjects: 0.776100 ms CreateObjectMapping: 0.603700 ms MarkObjects: 4.005900 ms  DeleteObjects: 0.439000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010105 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010D07192010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD56C8020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D07866270 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC231E510 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.786 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1787ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1469ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (464ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (713ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (433ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
+				RefreshPlugins (207ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
 				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.89 ms, found 7 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7665.
-Memory consumption went from 277.5 MB to 276.8 MB.
-Total: 5.067400 ms (FindLiveObjects: 0.571100 ms CreateObjectMapping: 0.496500 ms MarkObjects: 3.611400 ms  DeleteObjects: 0.387400 ms)
+Unloading 6960 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.8 MB). Loaded Objects now: 7425.
+Memory consumption went from 279.1 MB to 278.3 MB.
+Total: 5.295700 ms (FindLiveObjects: 0.576100 ms CreateObjectMapping: 0.590000 ms MarkObjects: 3.757500 ms  DeleteObjects: 0.371000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1240,667 +175,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 684706.506251 seconds.
-  path: Assets/Game/MainGame/Scripts/ArcadeHandler/VR/BlocklyVR/DropPositionVR.cs
-  artifactKey: Guid(a433870ad47a2064285cf3702f27f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/MainGame/Scripts/ArcadeHandler/VR/BlocklyVR/DropPositionVR.cs using Guid(a433870ad47a2064285cf3702f27f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459bbd42cdec529dd03f0725a885b18c') in 0.037432 seconds 
+  Time since last request: 701515.786643 seconds.
+  path: Assets/Blockly/Scripts/Block/BlockCreateVar.cs
+  artifactKey: Guid(1f0e7fd4489aa5b4c90d54b646ed7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockly/Scripts/Block/BlockCreateVar.cs using Guid(1f0e7fd4489aa5b4c90d54b646ed7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b64997e22cf37979021d396b83eed2c') in 0.039125 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009254 seconds.
+Registered in 0.010855 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000010D07192010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000276C35D5F70 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000276BBDF2660 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-00000276C1050020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD56C8020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000276C9BA5E30 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05FB2020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000276C30CEBA0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D1B010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000276C1132020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC231E510 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.759 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1759ms)
-		BeginReloadAssembly (172ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1453ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (454ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (732ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (438ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.81 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7681.
-Memory consumption went from 277.6 MB to 276.8 MB.
-Total: 6.504900 ms (FindLiveObjects: 0.503000 ms CreateObjectMapping: 0.568900 ms MarkObjects: 4.978200 ms  DeleteObjects: 0.453900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008828 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC36522A0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D073E1040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD39824F0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E9A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.16 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.975 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1976ms)
-		BeginReloadAssembly (186ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1646ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (484ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (854ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (166ms)
-				ProcessInitializeOnLoadAttributes (521ms)
-				ProcessInitializeOnLoadMethodAttributes (131ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.37 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7697.
-Memory consumption went from 277.6 MB to 276.8 MB.
-Total: 8.873700 ms (FindLiveObjects: 1.048500 ms CreateObjectMapping: 1.702200 ms MarkObjects: 5.630800 ms  DeleteObjects: 0.490900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009760 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D06824020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D073E1040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD39824F0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E9A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.782 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1783ms)
-		BeginReloadAssembly (196ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1457ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (731ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (439ms)
-				ProcessInitializeOnLoadMethodAttributes (110ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.23 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7713.
-Memory consumption went from 277.6 MB to 276.8 MB.
-Total: 6.105500 ms (FindLiveObjects: 0.620700 ms CreateObjectMapping: 1.233900 ms MarkObjects: 3.842300 ms  DeleteObjects: 0.407600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009449 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD5AA9D20 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D073E1040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC3FCDF00 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2E9A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.95 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.083 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2083ms)
-		BeginReloadAssembly (220ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (1717ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (540ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (856ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (171ms)
-				ProcessInitializeOnLoadAttributes (507ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7729.
-Memory consumption went from 277.6 MB to 276.9 MB.
-Total: 5.390500 ms (FindLiveObjects: 0.528900 ms CreateObjectMapping: 0.430200 ms MarkObjects: 3.975200 ms  DeleteObjects: 0.455100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009894 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD5AA9D20 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D073E1040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC3FCDF00 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2A97C60 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.59 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1957ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1609ms)
-			LoadAssemblies (138ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (508ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (792ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (477ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.41 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7745.
-Memory consumption went from 277.6 MB to 276.9 MB.
-Total: 4.997300 ms (FindLiveObjects: 0.570000 ms CreateObjectMapping: 0.610900 ms MarkObjects: 3.381800 ms  DeleteObjects: 0.433300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010727 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD34F2420 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D0B7D7010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05F5E660 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.42 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2056ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1689ms)
-			LoadAssemblies (152ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (511ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (844ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (499ms)
-				ProcessInitializeOnLoadMethodAttributes (130ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.67 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7761.
-Memory consumption went from 277.7 MB to 276.9 MB.
-Total: 8.446700 ms (FindLiveObjects: 0.845300 ms CreateObjectMapping: 0.851900 ms MarkObjects: 6.338100 ms  DeleteObjects: 0.410200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014198 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD5AA9D20 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D0B7D7010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D08832060 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.83 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.554 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2555ms)
-		BeginReloadAssembly (236ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2127ms)
-			LoadAssemblies (201ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (530ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1196ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (823ms)
-				ProcessInitializeOnLoadMethodAttributes (164ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.30 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7777.
-Memory consumption went from 277.7 MB to 276.9 MB.
-Total: 6.100800 ms (FindLiveObjects: 0.636200 ms CreateObjectMapping: 0.880500 ms MarkObjects: 3.964400 ms  DeleteObjects: 0.618500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009797 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010AD5AA9D20 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D1B010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D08F1E020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.55 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.149 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2150ms)
-		BeginReloadAssembly (200ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1782ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (539ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (906ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (522ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.13 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 7793.
-Memory consumption went from 277.7 MB to 277.0 MB.
-Total: 4.779900 ms (FindLiveObjects: 0.552700 ms CreateObjectMapping: 0.526400 ms MarkObjects: 3.292600 ms  DeleteObjects: 0.407300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009843 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D06AD7040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D096AF030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D1B010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D08F1E020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.13 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.979 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1980ms)
-		BeginReloadAssembly (205ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1628ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (505ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (819ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (503ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.80 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7809.
-Memory consumption went from 277.7 MB to 277.0 MB.
-Total: 4.935300 ms (FindLiveObjects: 0.569800 ms CreateObjectMapping: 0.565200 ms MarkObjects: 3.380700 ms  DeleteObjects: 0.418500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009952 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000010CC21BB9D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D09F326B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC2D939D0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05D0FC20 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC381B070 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010CC3FCDF00 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000010D05F0C030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-00000276C0B04430 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -1908,40 +204,40 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 2.12 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.766 seconds
+- Completed reload, in  2.439 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1766ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (2440ms)
+		BeginReloadAssembly (820ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1458ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (689ms)
+		EndReloadAssembly (1483ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
+			SetupTypeCache (456ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (725ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (746ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (430ms)
-				ProcessInitializeOnLoadMethodAttributes (105ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.81 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.85 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7825.
-Memory consumption went from 277.8 MB to 277.0 MB.
-Total: 6.406200 ms (FindLiveObjects: 0.580700 ms CreateObjectMapping: 0.483900 ms MarkObjects: 4.942700 ms  DeleteObjects: 0.398000 ms)
+Unloading 6775 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 7439.
+Memory consumption went from 277.2 MB to 276.4 MB.
+Total: 4.676900 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.410700 ms MarkObjects: 3.466900 ms  DeleteObjects: 0.336700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1955,60 +251,215 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 8316.377597 seconds.
-  path: Assets/AssetsStore/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Analog_Icon.png
-  artifactKey: Guid(aa701b1f3ae438e469d0ad4f122a0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Analog_Icon.png using Guid(aa701b1f3ae438e469d0ad4f122a0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305b1b49c901de1422d3668e8e3f3a37') in 0.262369 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009748 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000276C0600020 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276B7986010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BE3D6010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C07C46C0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276B7B22B40 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C2A44030 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BBB4A010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1881ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1552ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (775ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.96 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6775 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7455.
+Memory consumption went from 277.2 MB to 276.5 MB.
+Total: 5.893600 ms (FindLiveObjects: 0.654000 ms CreateObjectMapping: 0.803600 ms MarkObjects: 4.065800 ms  DeleteObjects: 0.369200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/chair_1.png
-  artifactKey: Guid(77e9e702bf1116140ae46de7d1a0931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/chair_1.png using Guid(77e9e702bf1116140ae46de7d1a0931b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a8628008f0b8e6edd0bf3a4db44b85') in 0.089140 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017584 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000276C43BD6E0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BB916010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C4342CF0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C420A4B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C43AAA40 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BE459C80 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BDAE6010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2318ms)
+		BeginReloadAssembly (443ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (325ms)
+		EndReloadAssembly (1745ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (984ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (328ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.99 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6775 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7471.
+Memory consumption went from 277.3 MB to 276.5 MB.
+Total: 24.751600 ms (FindLiveObjects: 1.722700 ms CreateObjectMapping: 2.073200 ms MarkObjects: 19.445800 ms  DeleteObjects: 1.508500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/chair_2.png
-  artifactKey: Guid(35712ea50ffec004e897dc5355ae0ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/chair_2.png using Guid(35712ea50ffec004e897dc5355ae0ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadb18baaf13bc7a41cc0266baf64005') in 0.041098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetsStore/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Boolean_Icon.png
-  artifactKey: Guid(2f8721c3878282b44bd0c8a689d4788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Boolean_Icon.png using Guid(2f8721c3878282b44bd0c8a689d4788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce05d7b5d733c7113f2c75777b55e921') in 0.038215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Pieces/ChairTall.prefab
-  artifactKey: Guid(db817f4c10fd36e44bfa64f8219e6692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Pieces/ChairTall.prefab using Guid(db817f4c10fd36e44bfa64f8219e6692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe398c3ecaa0acd03d4976b6161d576') in 0.494646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Pieces/ChairShort.prefab
-  artifactKey: Guid(821c34fe8f4fded42a9e6dadb2d6933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Prefabs/Pieces/ChairShort.prefab using Guid(821c34fe8f4fded42a9e6dadb2d6933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9277e9fae4306922bd07f9042340fe4') in 0.034458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AssetsStore/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Manual_Icon.png
-  artifactKey: Guid(426d721c1fc5bfa418c79dc808856464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Manual_Icon.png using Guid(426d721c1fc5bfa418c79dc808856464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5718de511ddda84c807e99ef8a2cb3e1') in 0.028202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetsStore/AurynSky/Arcade Pack 01/Textures/ChairTallTexture.png
-  artifactKey: Guid(b265636a0647da14ea96a2bab47484de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/AurynSky/Arcade Pack 01/Textures/ChairTallTexture.png using Guid(b265636a0647da14ea96a2bab47484de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c39e1807751d3a90a0b000440adf28a') in 0.011562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.415935 seconds.
-  path: Assets/AssetsStore/SteamVR/InteractionSystem/Core/Scripts/Hand.cs
-  artifactKey: Guid(29e3e4511966ba94d8ba0b98c6c62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsStore/SteamVR/InteractionSystem/Core/Scripts/Hand.cs using Guid(29e3e4511966ba94d8ba0b98c6c62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df567fd418b9608ade68cfa850d97b5d') in 0.001548 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009735 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000276C2999E60 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BB916010 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BD7E6040 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C420A4B0 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002770DCF4960 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276BEC79C40 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276C0F3A260 doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\tesi Triennali Magistrali\VR-CSEducation\Educational-Game-Room\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.16 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3179ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2747ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (502ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1883ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (154ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (393ms)
+				ProcessInitializeOnLoadAttributes (1175ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.67 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6775 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 7487.
+Memory consumption went from 277.3 MB to 276.5 MB.
+Total: 7.815800 ms (FindLiveObjects: 0.771100 ms CreateObjectMapping: 1.037700 ms MarkObjects: 5.591200 ms  DeleteObjects: 0.413900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

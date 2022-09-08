@@ -17,9 +17,9 @@ namespace UEBlockly
 
             endWhileBlock = transform.Find("container").Find("endwhile").gameObject;
 
-            nextIfTrue = transform.Find("DropNextBlock").GetComponentInChildren<DropPositionVR>();
-            nextIfFalse = endWhileBlock.transform.Find("DropNextNotContainedBlock").GetComponentInChildren<DropPositionVR>();
-            value = transform.Find("DropConditionBlock").GetComponentInChildren<DropPositionVR>();
+            nextIfTrue = transform.Find("DropNextBlock").GetComponent<DropPositionVR>();
+            nextIfFalse = endWhileBlock.transform.Find("DropNextNotContainedBlock").GetComponent<DropPositionVR>();
+            value = transform.Find("DropConditionBlock").GetComponent<DropPositionVR>();
         }
 
         private void Update()

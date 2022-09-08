@@ -3,6 +3,8 @@ using Valve.VR.InteractionSystem;
 
 namespace UEBlockly
 {
+    [RequireComponent(typeof(Throwable))]
+    [RequireComponent(typeof(Collider))]
     public class DragVR : MonoBehaviour
     {
         private Throwable throwable;
