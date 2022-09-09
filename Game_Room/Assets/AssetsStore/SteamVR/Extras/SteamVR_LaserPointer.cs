@@ -8,16 +8,13 @@ namespace Valve.VR.Extras
     {
         public SteamVR_Behaviour_Pose pose;
 
-        //public SteamVR_Action_Boolean interactWithUI = SteamVR_Input.__actions_default_in_InteractUI;
         public SteamVR_Action_Boolean interactWithUI = SteamVR_Input.GetBooleanAction("InteractUI");
-
-        public bool active = true;
         public Color color;
         public float thickness = 0.002f;
         public Color clickColor = Color.green;
         public GameObject holder;
         public GameObject pointer;
-        bool isActive = false;
+        public static bool isActive = true;//TODO set false
         public bool addRigidBody = false;
         public Transform reference;
         public event PointerEventHandler PointerIn;
@@ -91,12 +88,12 @@ namespace Valve.VR.Extras
 
         private void Update()
         {
-            if (!isActive)
-            {
-                isActive = true;
-                this.transform.GetChild(0).gameObject.SetActive(true);
-            }
-
+            /* if (isActive)
+             {
+                 isActive = true;
+                 this.transform.GetChild(0).gameObject.SetActive(true);
+             }*/
+            this.transform.Find("New Game Object").gameObject.SetActive(isActive);
             float dist = 100f;
 
             Ray raycast = new Ray(transform.position, transform.forward);

@@ -2,6 +2,7 @@ using UEBlockly;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Valve.VR;
+using Valve.VR.Extras;
 
 public class OpenBlockly : MonoBehaviour
 {
@@ -41,13 +42,19 @@ public class OpenBlockly : MonoBehaviour
 
     private void Update()
     {
-        //if (!Input.GetButtonDown("Blockly")) return;
+        if (BlocklyIsActive && SteamVR_Input.GetStateDown("default", "triggerLaser", SteamVR_Input_Sources.Any))
+            SteamVR_LaserPointer.isActive = !SteamVR_LaserPointer.isActive;
         if (!SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand)) return;
-        if(BlocklyIsActive)
+        if (BlocklyIsActive)
+        {
             SceneManager.UnloadSceneAsync(BlocklySceneName);
-        else 
+            SteamVR_LaserPointer.isActive = false;
+        }
+        else
             SceneManager.LoadScene(BlocklySceneName, LoadSceneMode.Additive);
+         
         BlocklyIsActive = !BlocklyIsActive;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
