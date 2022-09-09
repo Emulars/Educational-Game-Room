@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv1.unity
+- path: Assets/Game/MainGame/Scene/Main_Scenario.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
