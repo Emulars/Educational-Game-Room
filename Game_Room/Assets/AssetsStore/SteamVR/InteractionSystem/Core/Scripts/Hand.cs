@@ -502,16 +502,16 @@ namespace Valve.VR.InteractionSystem
                 // Set Parent to hand's canvas 
                 var handCanvas = gameObject.transform.Find("HandCanvas");
                 // Check if objectToAttach is a canvas element
-                if(objectToAttach.GetComponent<CanvasRenderer>() != null)
+                if (objectToAttach.GetComponent<CanvasRenderer>() != null)
                 {
                     //if (objectToAttach.GetComponent<UEBlockly.IBlock>().isInMain)
                     Transform canvasTransform = objectToAttach.transform.parent;
-                    while(canvasTransform.name != "Canvas")
+                    while (canvasTransform.name != "Canvas")
                     {
                         canvasTransform = canvasTransform.parent;
                     }
                     attachedObject.originalParent = canvasTransform.gameObject;
-                                
+
 
                     objectToAttach.transform.parent = handCanvas;
                 }

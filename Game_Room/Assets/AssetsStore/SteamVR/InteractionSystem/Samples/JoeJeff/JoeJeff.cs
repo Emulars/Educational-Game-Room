@@ -94,6 +94,7 @@ namespace Valve.VR.InteractionSystem.Sample
                     if (groundedTime < frictionTime) //slow down when first hitting the floor after a jump
                     {
                         float moveFac = Mathf.InverseLerp(0, frictionTime, groundedTime);
+                        //print(moveFac);
                         Vector3 lerpV = Vector3.Lerp(rigidbody.velocity, animationDelta, moveFac * Time.deltaTime * 30);
                         animationDelta.x = lerpV.x;
                         animationDelta.z = lerpV.z;

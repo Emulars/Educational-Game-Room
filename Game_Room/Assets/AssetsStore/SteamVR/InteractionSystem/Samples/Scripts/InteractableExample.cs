@@ -66,7 +66,6 @@ namespace Valve.VR.InteractionSystem.Sample
 
             if (interactable.attachedToHand == null && startingGrabType != GrabTypes.None)
             {
-				
                 // Save our position/rotation so that we can restore it when we detach
                 oldPosition = transform.position;
                 oldRotation = transform.rotation;
@@ -98,7 +97,7 @@ namespace Valve.VR.InteractionSystem.Sample
 		//-------------------------------------------------
 		private void OnAttachedToHand( Hand hand )
         {
-			generalText.text = string.Format("Attached: {0}", hand.name);
+            generalText.text = string.Format("Attached: {0}", hand.name);
             attachTime = Time.time;
 		}
 
