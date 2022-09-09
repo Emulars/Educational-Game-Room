@@ -29,7 +29,6 @@ namespace Assets.DM.Script.Metroidvania.Enemy
                 animator.SetTrigger(EnemyAnimationParam.IsDead);
                 collider.isTrigger = true;
                 isDead = true;
-                //Destroy(gameObject);
             }
 
         }
@@ -39,7 +38,6 @@ namespace Assets.DM.Script.Metroidvania.Enemy
             currentHealth -= damage;
             if(damage >= 1f)
                 animator.SetTrigger(EnemyAnimationParam.IsHit);
-            //animator.SetBool(EnemyAnimationParam.isHit, false);
         }
     }
 }

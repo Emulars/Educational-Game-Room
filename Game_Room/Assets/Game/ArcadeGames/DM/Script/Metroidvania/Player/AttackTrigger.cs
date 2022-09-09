@@ -10,7 +10,6 @@ namespace Assets.DM.Script.Metroidvania.Player
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.isTrigger != true && collision.CompareTag("Enemy"))
-                //collision.SendMessageUpwards("onDamage", damage);   // SEND MESSAGE TO METHOD "onDamage"
                 collision.transform.GetComponent<EnemyMovement>().OnDamage(damage);
         }
     }

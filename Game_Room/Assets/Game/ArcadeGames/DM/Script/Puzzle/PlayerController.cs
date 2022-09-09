@@ -86,12 +86,6 @@ namespace Assets.DM.Script.Puzzle
                 return false;
             }        
         }
-
-        /*
-        void OnMove(InputValue movementvalue)
-        {
-            movementInput = movementvalue.Get<Vector2>();
-        }*/
     }
 }
 
