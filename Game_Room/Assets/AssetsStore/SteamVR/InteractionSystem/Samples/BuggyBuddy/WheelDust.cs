@@ -43,10 +43,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
                 slip += Vector3.right * hit.sidewaysSlip;
                 slip += Vector3.forward * -hit.forwardSlip;
-                //print(slip);
             }
             amt = slip.magnitude;
-            //print(amt);
         }
 
         private IEnumerator emitter()

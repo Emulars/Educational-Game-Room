@@ -98,7 +98,6 @@ namespace Valve.VR.InteractionSystem.Sample
 		//-------------------------------------------------
 		private void OnAttachedToHand( Hand hand )
         {
-			print("ho afferrato sto obj");
 			generalText.text = string.Format("Attached: {0}", hand.name);
             attachTime = Time.time;
 		}

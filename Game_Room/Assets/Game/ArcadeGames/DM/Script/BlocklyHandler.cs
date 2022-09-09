@@ -5,6 +5,7 @@ using UEBlockly;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Valve.VR;
+using Valve.VR.Extras;
 using Random = System.Random;
 
 /* Build index
@@ -95,11 +96,13 @@ public class BlocklyHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Active/Deactive laser pointer for Blockly
+        LaserPointer(isGuiOpen);
+
         // if the gui is not already open
         //if (Input.GetButtonDown("Blockly") && !isGuiOpen)
         if (SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand) && !isGuiOpen)
         {
-            print("BLOCKLY OPEN PRESSED");
             isGuiOpen = true;
             SceneManager.LoadScene(guiLevelIndex, LoadSceneMode.Additive);
         }
@@ -236,6 +239,15 @@ public class BlocklyHandler : MonoBehaviour
             if (bindedObject.GetComponent<QuestGiver>().playerIsClose)
                 bindedObject.SetActive(false);  // disable quest giver 
         }
+    }
+
+    private void LaserPointer(bool BlocklyIsActive)
+    {
+        if(SteamVR_Input.GetStateDown("default", "triggerLaser", SteamVR_Input_Sources.Any) && BlocklyIsActive)
+                SteamVR_LaserPointer.isActive = !SteamVR_LaserPointer.isActive;
+
+        if(!BlocklyIsActive)
+            SteamVR_LaserPointer.isActive = false;
     }
 }
 

@@ -98,7 +98,6 @@ public class ChangeLevel : MonoBehaviour
         if (other.tag == "Hand") return;
         if (other.tag == "Player")
         {
-            print("tag uscito = " + other.tag + "   nome = " + other.name);
             SceneManager.UnloadSceneAsync(IndexToLoad - 1);
             gameInfo.sceneMaterialIndex--;
             

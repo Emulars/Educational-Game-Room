@@ -29,7 +29,6 @@ public class JoystickController : MonoBehaviour
     }
     private void OnAttachedToHand(Hand hand)
     {
-        print("preso");
         if (rb) rb.isKinematic = false;
     }
     //-------------------------------------------------
@@ -120,7 +119,6 @@ public class JoystickController : MonoBehaviour
     }
     private void OnDetachedFromHand(Hand hand)
     {
-        print("detached");
         leverVector = new Vector2(0, 0);
         if (rb) rb.isKinematic = true;
         //rimetto tutto a porto

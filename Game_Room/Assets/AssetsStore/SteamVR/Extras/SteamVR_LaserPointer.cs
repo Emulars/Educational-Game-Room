@@ -14,7 +14,7 @@ namespace Valve.VR.Extras
         public Color clickColor = Color.green;
         public GameObject holder;
         public GameObject pointer;
-        public static bool isActive = true;//TODO set false
+        public static bool isActive = false;
         public bool addRigidBody = false;
         public Transform reference;
         public event PointerEventHandler PointerIn;

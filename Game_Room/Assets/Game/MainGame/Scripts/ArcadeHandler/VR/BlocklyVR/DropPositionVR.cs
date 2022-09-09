@@ -27,7 +27,6 @@ namespace UEBlockly
         public void OnTriggerExit(Collider other)
         {
             if (!other.gameObject.Equals(droppedGameObject)) return;
-            print("block removed");
             droppedGameObject = null;
             isAttached = false;
         }
