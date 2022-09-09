@@ -8,7 +8,8 @@ namespace UEBlockly
     public class DragVR : MonoBehaviour
     {
         private Throwable throwable;
-        private bool isDragging = false, isFirstGrab = true;
+        private bool isDragging = false;
+        [SerializeField]private bool isFirstGrab = true;
         private DropPositionVR[] dropPositions;
         private Transform originalParent;
         [SerializeField] private Transform canvas;
