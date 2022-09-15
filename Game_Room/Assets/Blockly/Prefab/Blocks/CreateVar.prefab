@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2411905867410577731}
   - component: {fileID: 2411905867410577730}
   - component: {fileID: 2411905867410577729}
+  - component: {fileID: 1522432798869489577}
+  - component: {fileID: 5973962812034737655}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
@@ -147,6 +149,31 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_ShouldActivateOnSelect: 1
+--- !u!65 &1522432798869489577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411905867410577791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 393.1774, y: 78.02674, z: 0}
+  m_Center: {x: 0.5063142, y: -0.43121952, z: -0.49999887}
+--- !u!114 &5973962812034737655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411905867410577791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710234a885bec8249978471af4f7fbf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2411905867426007889
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493df28f28366e443994db9aedf79d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFirstGrab: 1
   canvas: {fileID: 0}
 --- !u!1 &2411905869098831954
 GameObject:

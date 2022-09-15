@@ -121,6 +121,22 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean OpenKeyboard
+        {
+            get
+            {
+                return SteamVR_Actions.default_OpenKeyboard;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean SelectTextArea
+        {
+            get
+            {
+                return SteamVR_Actions.default_SelectTextArea;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get

@@ -15,7 +15,7 @@ namespace Valve.VR.Extras
         public GameObject holder;
         public GameObject pointer;
         public static bool isActive = false;
-        public bool addRigidBody = false;
+        //public bool addRigidBody = false;
         public Transform reference;
         public event PointerEventHandler PointerIn;
         public event PointerEventHandler PointerOut;
@@ -41,11 +41,13 @@ namespace Valve.VR.Extras
             holder.transform.localRotation = Quaternion.identity;
 
             pointer = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            pointer.tag = "LaserPointer";            // Set the laser tag to be recognize in the Text Area trigger
             pointer.transform.parent = holder.transform;
             pointer.transform.localScale = new Vector3(thickness, thickness, 100f);
             pointer.transform.localPosition = new Vector3(0f, 0f, 50f);
             pointer.transform.localRotation = Quaternion.identity;
             BoxCollider collider = pointer.GetComponent<BoxCollider>();
+            /*
             if (addRigidBody)
             {
                 if (collider)
@@ -62,6 +64,7 @@ namespace Valve.VR.Extras
                     Object.Destroy(collider);
                 }
             }
+            */
             Material newMaterial = new Material(Shader.Find("Unlit/Color"));
             newMaterial.SetColor("_Color", color);
             pointer.GetComponent<MeshRenderer>().material = newMaterial;

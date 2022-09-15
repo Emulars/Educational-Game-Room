@@ -58,6 +58,14 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/OpenKeyboard",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/SelectTextArea",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

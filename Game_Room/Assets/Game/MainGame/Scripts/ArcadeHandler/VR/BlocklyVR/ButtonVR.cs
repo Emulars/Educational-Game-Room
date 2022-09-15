@@ -8,6 +8,7 @@ public class ButtonVR : MonoBehaviour
     public static bool button1 = false, button2 = false;
     public void OnButtonDown(Hand fromHand)
     {
+
         if (gameObject.name.Equals("ButtonVR1"))
             button1 = true;
         else if (gameObject.name.Equals("ButtonVR2"))

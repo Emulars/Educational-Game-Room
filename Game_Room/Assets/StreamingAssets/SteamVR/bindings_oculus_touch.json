@@ -287,10 +287,7 @@
                      "output" : "/actions/default/in/blocklyopen"
                   }
                },
-               "mode" : "toggle_button",
-               "parameters" : {
-                  "click_initial_state" : "false"
-               },
+               "mode" : "button",
                "path" : "/user/hand/left/input/x"
             },
             {
@@ -299,11 +296,44 @@
                      "output" : "/actions/default/in/blocklyopen"
                   }
                },
-               "mode" : "toggle_button",
-               "parameters" : {
-                  "click_initial_state" : "false"
-               },
+               "mode" : "button",
                "path" : "/user/hand/right/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/triggerlaser"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/triggerlaser"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/openkeyboard"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/selecttextarea"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
             }
          ]
       },
@@ -338,8 +368,8 @@
    },
    "category" : "steamvr_input",
    "controller_type" : "oculus_touch",
-   "description" : "",
-   "name" : "oculus_block",
+   "description" : "Binding for Game Room project",
+   "name" : "Game_Room",
    "options" : {},
    "simulated_actions" : []
 }
