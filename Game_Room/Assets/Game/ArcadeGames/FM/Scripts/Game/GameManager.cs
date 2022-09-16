@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using System;
 using Valve.VR;
+using Valve.VR.Extras;
 
 public class GameManager : MonoBehaviour
 {
@@ -51,6 +52,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        //attivazione laser
+        if (SteamVR_Input.GetStateDown("default", "triggerLaser", SteamVR_Input_Sources.Any) && isGuiOpen)
+            SteamVR_LaserPointer.isActive = !SteamVR_LaserPointer.isActive;
+
+        if (!isGuiOpen)
+            SteamVR_LaserPointer.isActive = false;
+
         if (SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand) && !isGuiOpen)
         {
             isGuiOpen = true;
@@ -58,6 +66,7 @@ public class GameManager : MonoBehaviour
             eventSystem.enabled = false;
 
             SetScene();
+
             if (nameScene != String.Empty) { 
                 SceneManager.LoadScene(nameScene, LoadSceneMode.Additive); 
             }
