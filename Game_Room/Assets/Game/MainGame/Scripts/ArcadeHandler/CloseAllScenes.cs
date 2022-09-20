@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Valve.VR.Extras;
 
 public class CloseAllScenes : MonoBehaviour
 {   private void OnTriggerExit(Collider other)
@@ -12,6 +13,6 @@ public class CloseAllScenes : MonoBehaviour
             if (scene.isLoaded && scene.name != "Main_Scenario")
                 SceneManager.UnloadSceneAsync(scene);
         }
-
+        SteamVR_LaserPointer.isActive = false;
     }
 }

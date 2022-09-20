@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LaunchBlocks : MonoBehaviour
 {
     public static bool launch = false;
+    public static bool firstLaunch = false;
     private Button startBtt;
 
     void Start()
@@ -16,7 +17,7 @@ public class LaunchBlocks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!launch)return;
+        if(!firstLaunch || !launch)return;
         startBtt.onClick.Invoke();
         launch = false;
     }
