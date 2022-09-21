@@ -36,6 +36,7 @@ public class MenuController : MonoBehaviour
     private int qualityLevel;
     private bool isFullScreen;
     private float brightnessLevel;
+    private Resolution resolution;
 
     public TMP_Dropdown resolutionDropdown;
     private Resolution[] resolutions;
@@ -70,7 +71,6 @@ public class MenuController : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
-        
     }
 
     public void NewGameDialogYes()
@@ -120,6 +120,7 @@ public class MenuController : MonoBehaviour
         StartCoroutine(ConfirmationBox());
     }
 
+
     //gameplay
     public void GetGameplayOptions()
     {
@@ -150,8 +151,9 @@ public class MenuController : MonoBehaviour
     }
     public void SetResolution(int resolutionIndex)
     {
-        Resolution resolution = resolutions[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        resolution = resolutions[resolutionIndex];
+        //Resolution resolution = resolutions[resolutionIndex];
+        //Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
     public void SetBrightness(float brightness)
     {
@@ -169,7 +171,6 @@ public class MenuController : MonoBehaviour
     public void GraphicsApply()
     {
         PlayerPrefs.SetFloat("masterBrightness", brightnessLevel);
-        //change your brightness with your post processing or whatever it is
 
         PlayerPrefs.SetInt("masterQuality", qualityLevel);
         QualitySettings.SetQualityLevel(qualityLevel);
@@ -177,6 +178,7 @@ public class MenuController : MonoBehaviour
         PlayerPrefs.SetInt("masterFullscreen", isFullScreen ? 1 : 0);
         Screen.fullScreen = isFullScreen;
 
+        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
         StartCoroutine(ConfirmationBox());
     }
 

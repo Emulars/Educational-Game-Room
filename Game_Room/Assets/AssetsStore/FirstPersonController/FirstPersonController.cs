@@ -23,7 +23,7 @@ public class FirstPersonController : MonoBehaviour
     public Camera playerCamera;
 
     public float fov = 60f;
-    public bool invertCamera = false;
+    public bool invertCamera;
     public bool cameraCanMove = true;
     public float mouseSensitivity = 2f;
     public float maxLookAngle = 50f;
@@ -183,6 +183,13 @@ public class FirstPersonController : MonoBehaviour
             crosshairObject.gameObject.SetActive(false);
         }
 
+        if (PlayerPrefs.GetFloat("masterSen") != 0)
+        {
+            mouseSensitivity = PlayerPrefs.GetFloat("masterSen");
+        }
+
+        if (PlayerPrefs.GetInt("masterInvertY") == 1)
+            invertCamera = true;
         #region Sprint Bar
 
         sprintBarCG = GetComponentInChildren<CanvasGroup>();
@@ -216,7 +223,6 @@ public class FirstPersonController : MonoBehaviour
     }
 
     float camRotation;
-
     private void Update()
     {
         Pause();

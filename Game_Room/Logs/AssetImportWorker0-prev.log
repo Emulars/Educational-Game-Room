@@ -15,7 +15,7 @@ D:/RepoUblockly/ArcadeRoom/Game_Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54853
+52719
 Successfully changed project path to: D:/RepoUblockly/ArcadeRoom/Game_Room
 D:/RepoUblockly/ArcadeRoom/Game_Room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/RepoUblockly/ArcadeRoom/Game_Room
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 227.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 266.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path D:/unity/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003650 seconds.
+Registered in 0.003246 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 214.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 225.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (955ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (729ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (140ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (485ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (487ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (215ms)
+				RefreshPlugins (225ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010106 seconds.
+Registered in 0.010832 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\RepoUblockly\ArcadeRoom\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\RepoUblockly\ArcadeRoom\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 209.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 232.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.207 seconds
+- Completed reload, in  2.442 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2208ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (2443ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1916ms)
-			LoadAssemblies (143ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2100ms)
+			LoadAssemblies (158ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (494ms)
+			SetupTypeCache (510ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (1095ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (1226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (209ms)
-				BeforeProcessingInitializeOnLoad (200ms)
-				ProcessInitializeOnLoadAttributes (547ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (232ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (608ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6628 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 61 unused Assets / (0.8 MB). Loaded Objects now: 7088.
 Memory consumption went from 262.8 MB to 262.0 MB.
-Total: 7.891600 ms (FindLiveObjects: 1.203700 ms CreateObjectMapping: 0.923200 ms MarkObjects: 5.167900 ms  DeleteObjects: 0.595500 ms)
+Total: 6.018400 ms (FindLiveObjects: 0.680400 ms CreateObjectMapping: 0.852700 ms MarkObjects: 4.029700 ms  DeleteObjects: 0.454000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,91 +159,1045 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6967.073596 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv1.unity
-  artifactKey: Guid(198ddce22d232444d98fe2cfd7161067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv1.unity using Guid(198ddce22d232444d98fe2cfd7161067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9724f8b38aa4b80f62d9a879d849be14') in 0.021497 seconds 
+  Time since last request: 1006.724010 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/15.png
+  artifactKey: Guid(f893e589bab9c9843acdc766bf79d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/15.png using Guid(f893e589bab9c9843acdc766bf79d6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbd07fc08606dba3764f1f8d69f2a6e') in 0.445289 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 837.722608 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv2.unity
-  artifactKey: Guid(059f8ff1601c935498578e49beedcf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv2.unity using Guid(059f8ff1601c935498578e49beedcf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d31925381d9e37ee5d2094fa723c30c') in 0.012112 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/FM/Art/Character/stormhead/idle.png
+  artifactKey: Guid(d8542dabc4717274aa10fc2bd6b379ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/FM/Art/Character/stormhead/idle.png using Guid(d8542dabc4717274aa10fc2bd6b379ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce98256647d6ac0e64c2d5a0f4ecc3e3') in 0.159005 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.882947 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv3.unity
-  artifactKey: Guid(fa465560690c97e4bb8fe91b20170bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv3.unity using Guid(fa465560690c97e4bb8fe91b20170bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7188a2213f5cfd6b345f8620d7942bb7') in 0.011201 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_4.png
+  artifactKey: Guid(7b283bdc1bdd5264fb53c47b30b7870f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_4.png using Guid(7b283bdc1bdd5264fb53c47b30b7870f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c481683a36abe6e452aa2c5c0491f3') in 0.066960 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.770927 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv1.unity
-  artifactKey: Guid(198ddce22d232444d98fe2cfd7161067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scenes/UBGame1_Lv1.unity using Guid(198ddce22d232444d98fe2cfd7161067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600baba88549e7f2136a6ea17a2b3893') in 0.002637 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/spikes.png
+  artifactKey: Guid(9c36e1b16de6b964d99432b8d2941fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/spikes.png using Guid(9c36e1b16de6b964d99432b8d2941fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c975fc1ef19aa7da2e24603aeeac1b') in 0.050247 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.518570 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scenes/Game1_Lv3.unity
-  artifactKey: Guid(9dad28a4d372f9a4da0e77cd915f063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scenes/Game1_Lv3.unity using Guid(9dad28a4d372f9a4da0e77cd915f063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf3136f44e678afa03c058298bf8521') in 0.010782 seconds 
+  Time since last request: 0.000190 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/tile guide.png
+  artifactKey: Guid(b23e7d7eba649024182f96faac20dae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/tile guide.png using Guid(b23e7d7eba649024182f96faac20dae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1052a75780a953a6a2568abf1ec2b4c7') in 0.071162 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.855226 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scripts/BossFight/BattleSystem.cs
-  artifactKey: Guid(1964c78888de4db48a12212239ccfc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scripts/BossFight/BattleSystem.cs using Guid(1964c78888de4db48a12212239ccfc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8435af13ab6f8300dcb0d5d7fb3ad356') in 0.116555 seconds 
+  Time since last request: 0.000093 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/Fire Worm/Preview.png
+  artifactKey: Guid(3ef380ca2c3566540a6483a67e673674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/Fire Worm/Preview.png using Guid(3ef380ca2c3566540a6483a67e673674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2d6494e09c60cb049c8586e67f226d') in 0.107520 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.743058 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scripts/OpenBlockly.cs
-  artifactKey: Guid(6634570492c614141bc176fd1c50038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scripts/OpenBlockly.cs using Guid(6634570492c614141bc176fd1c50038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5abe6408c5713f798c73c73655bacfa') in 0.011472 seconds 
+  Time since last request: 0.000077 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/41.png
+  artifactKey: Guid(41b644cf8637c5546acec219ef8c959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/41.png using Guid(41b644cf8637c5546acec219ef8c959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e127405c78dd8c938150a7a4fdc0a0') in 0.037360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_1.png
+  artifactKey: Guid(ad409463bfe140c4eb3594eb7a25db77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_1.png using Guid(ad409463bfe140c4eb3594eb7a25db77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1138e94887e4fc86465ec5e29a0349d') in 0.067196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_18.png
+  artifactKey: Guid(c9e7c3438b9667e4282d4e6164b0f188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_18.png using Guid(c9e7c3438b9667e4282d4e6164b0f188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95e17489c4a3c689a9bd489d8c3aa17') in 0.051850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001985 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/merlons_2.png
+  artifactKey: Guid(2dda2a80bcc1e884d89dba50cc03047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/merlons_2.png using Guid(2dda2a80bcc1e884d89dba50cc03047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b066aaefcf9db47de1de552ef5fb6d') in 0.073620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/ceiling_4.png
+  artifactKey: Guid(c0e38d39137f05a4a9cbc9a516ba53d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/ceiling_4.png using Guid(c0e38d39137f05a4a9cbc9a516ba53d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb47e35d2a0b4a2aaf4e082e3d279f62') in 0.042248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_3.png
+  artifactKey: Guid(2de5a7b513fcb464588cc06a418956bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_3.png using Guid(2de5a7b513fcb464588cc06a418956bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8b03a65f9e3fd61cca108b15c318c1') in 0.034167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/Tileset-Animated Terrains-8 frames-.png
+  artifactKey: Guid(1ac242966eba3db47804ba32e41d760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/Tileset-Animated Terrains-8 frames-.png using Guid(1ac242966eba3db47804ba32e41d760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2de9bdc60c9e260681e020235832aa3') in 0.084183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_3.png
+  artifactKey: Guid(8019fa8475593744ab88c112b207d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_3.png using Guid(8019fa8475593744ab88c112b207d290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4711d335405fb9e50c0cfe9586498b4') in 0.041237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_6.png
+  artifactKey: Guid(3b83d350fc7ab5742a3807a3fbf8659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_6.png using Guid(3b83d350fc7ab5742a3807a3fbf8659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba663316af25629a829aaf51997ab341') in 0.039683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_10.png
+  artifactKey: Guid(2108cdd631231564a8216af71727d915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_10.png using Guid(2108cdd631231564a8216af71727d915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6345ebc03eae2706b4f0fce2072fcf40') in 0.041816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_2.png
+  artifactKey: Guid(6c514445aa930d64a863d8635d25ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_2.png using Guid(6c514445aa930d64a863d8635d25ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c7e0aff3679d4a20152eb45455c667') in 0.161477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/35.png
+  artifactKey: Guid(6f8a0dfec8492684d891c497afb971b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/35.png using Guid(6f8a0dfec8492684d891c497afb971b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c71ab7ce82d9041e15f7c70ae0c5c5') in 0.051831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_3.png
+  artifactKey: Guid(970d6b4fde0dee54c94b03a420294314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_3.png using Guid(970d6b4fde0dee54c94b03a420294314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92387a50230eb07d39ced06db5ff5dd') in 0.036158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_4.png
+  artifactKey: Guid(ca9a56fae0d3a9c4fad8352a80306a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_4.png using Guid(ca9a56fae0d3a9c4fad8352a80306a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a18bf168740c7c23fee2c7e147a3b7') in 0.047464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_carpet_3.png
+  artifactKey: Guid(64666d88fc526ae46ba8460398ca36ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_carpet_3.png using Guid(64666d88fc526ae46ba8460398ca36ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f869883acdda15dd3d382fc6e84c2c') in 0.063143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_2.png
+  artifactKey: Guid(6997686ea4c916f4083d40c5f5079967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_2.png using Guid(6997686ea4c916f4083d40c5f5079967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871077bfcd2e1354d2a1539875d3013c') in 0.032182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Merchant_idle.png
+  artifactKey: Guid(bfe3a5915cbd8f94ab44e5c1e3792412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Merchant_idle.png using Guid(bfe3a5915cbd8f94ab44e5c1e3792412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6079fc4a3c4eb1e34f88c9faabfc87') in 0.130396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_3.png
+  artifactKey: Guid(5fb1a5e3dab65754087dd273173c41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_3.png using Guid(5fb1a5e3dab65754087dd273173c41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6db5245717f504a0164cba5cb020be') in 0.044168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big/torch_big_2.png
+  artifactKey: Guid(85fd2e4ed2e02e4409116326feade9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big/torch_big_2.png using Guid(85fd2e4ed2e02e4409116326feade9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145ac4932768d32a7531e529100a7afd') in 0.034576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_2.png
+  artifactKey: Guid(7ac59b8b57abb8543b7d87def448a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_2.png using Guid(7ac59b8b57abb8543b7d87def448a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787cb154be8d0cf8f13b8b702aa2a595') in 0.052111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Barmaid_walk.png
+  artifactKey: Guid(78e4f54861d29c344942b2266bb6d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Barmaid_walk.png using Guid(78e4f54861d29c344942b2266bb6d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8d8e79dacb9f5e0fea45781e337533') in 0.139624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/NPC Merchant-interacting-rest.png
+  artifactKey: Guid(c39b6fa9c843952488fb303ae5eb25fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/NPC Merchant-interacting-rest.png using Guid(c39b6fa9c843952488fb303ae5eb25fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8370d4549ba148cc8dd4f66804dd42b9') in 0.036818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_7.png
+  artifactKey: Guid(2df2e32d56a39614a95be3cc6d842dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_7.png using Guid(2df2e32d56a39614a95be3cc6d842dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea26f666d89d69c04e4952b794b6b53d') in 0.037502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_wood_carpet_transition_2.png
+  artifactKey: Guid(126596632acc281448af5ed85fff637f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_wood_carpet_transition_2.png using Guid(126596632acc281448af5ed85fff637f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cedcbcad9ae284b0be89f674bbbe4e2') in 0.052889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Game/ArcadeGames/FM/Art/background/Cyberpunk01.jpg
+  artifactKey: Guid(e570b09f20ebbe448b2caf290897669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/FM/Art/background/Cyberpunk01.jpg using Guid(e570b09f20ebbe448b2caf290897669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771d242dd15ac930cdb2f83b39c99eef') in 0.239228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_big_5.png
+  artifactKey: Guid(8d0424a39bd758245ae20fa27a95fc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_big_5.png using Guid(8d0424a39bd758245ae20fa27a95fc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6f3a84e46097a2c9d19ad533bb6981') in 0.047031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_3.png
+  artifactKey: Guid(291c927c055875e43992aa7df2316c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_3.png using Guid(291c927c055875e43992aa7df2316c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48172c31a5bcb99f3aa5eec98170b15d') in 0.043972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Background/layer_1.png
+  artifactKey: Guid(42c22dd7fc0f58c44bac53f3b3a988b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Background/layer_1.png using Guid(42c22dd7fc0f58c44bac53f3b3a988b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5366defc79c3431f40a79861edb8743d') in 0.051656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetsStore/Neon Pack/Sprites/04.png
+  artifactKey: Guid(bbd6a5c9ebc466945ad2322aef10959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Neon Pack/Sprites/04.png using Guid(bbd6a5c9ebc466945ad2322aef10959c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f09f79b3d22d49346f925b2d16dc0ee') in 0.429870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_8.png
+  artifactKey: Guid(525d589c449f7834cbf26ac0cc201c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_8.png using Guid(525d589c449f7834cbf26ac0cc201c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ca725e711a99f045aa3a56cfbd4ac3') in 0.052314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_6.png
+  artifactKey: Guid(9e97e89c208b97346bdf9da00cb5e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_6.png using Guid(9e97e89c208b97346bdf9da00cb5e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159119b5bde47ce2a38c965b81ff0132') in 0.042522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/merlons_4.png
+  artifactKey: Guid(4f4d167b0ca134f48994958543b42e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/merlons_4.png using Guid(4f4d167b0ca134f48994958543b42e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c434e7f09863cd9712a802e0cdf26') in 0.040745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_big_3.png
+  artifactKey: Guid(514821a76e255f749a390f6e8e769157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_big_3.png using Guid(514821a76e255f749a390f6e8e769157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2b0c3c4b6a6a981d826562210b36db') in 0.043014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_4.png
+  artifactKey: Guid(f5691f0bc5a3f5b4eaf5531f61c1f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_4.png using Guid(f5691f0bc5a3f5b4eaf5531f61c1f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d2629080610db80b238cc30b52ba60') in 0.059617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_6.png
+  artifactKey: Guid(7106bdce1466c2c44ab7f7a685827346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_6.png using Guid(7106bdce1466c2c44ab7f7a685827346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286b20a83c43281741914b4146cef2af') in 0.052479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_2/candle_2_5.png
+  artifactKey: Guid(42928be156119f444bdd08559f231c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_2/candle_2_5.png using Guid(42928be156119f444bdd08559f231c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5177315edbba0c4defbb58402457ed') in 0.046107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_12.png
+  artifactKey: Guid(d9fc07747d779fe49bb85234a54ddca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_12.png using Guid(d9fc07747d779fe49bb85234a54ddca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e7f08fc1fe7d7de9a07efea9fbbf8a') in 0.035505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_background.png
+  artifactKey: Guid(ed14ea5e7124256428ad1e4e74af5150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_background.png using Guid(ed14ea5e7124256428ad1e4e74af5150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7d5fb709ebbd1273f3d79d8361ca24') in 0.039010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/38.png
+  artifactKey: Guid(214963c17af71374c8f6ff4111c6adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/38.png using Guid(214963c17af71374c8f6ff4111c6adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cd8d092c01ae46910c6d3889f3a3b8') in 0.047673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_12.png
+  artifactKey: Guid(2bc8b82947c5b5d4e8cea3953524fb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_12.png using Guid(2bc8b82947c5b5d4e8cea3953524fb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b381145749265e6c9ef4d048d4ec238') in 0.040175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_wood_carpet_transition_2.png
+  artifactKey: Guid(903cfb36cc43b284c8100fb80e5d62be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_wood_carpet_transition_2.png using Guid(903cfb36cc43b284c8100fb80e5d62be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592e32d4caae093419d3fcfc877b2ffe') in 0.036925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_4.png
+  artifactKey: Guid(b30786d9b47eacf4e84053030f2bec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_4.png using Guid(b30786d9b47eacf4e84053030f2bec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590c17a898d6e9ff2fe36cf4280a0698') in 0.052767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/merlons_1.png
+  artifactKey: Guid(67d5a92d02f052b4b9e9244863d397eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/merlons_1.png using Guid(67d5a92d02f052b4b9e9244863d397eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90426c7d52b526cfdab025b9a1fc1bee') in 0.038576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_5.png
+  artifactKey: Guid(b07686dac5fe56a4ab80136a66c0155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_5.png using Guid(b07686dac5fe56a4ab80136a66c0155e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95139d4eee7a3ee336b38c659517929') in 0.046319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_1.png
+  artifactKey: Guid(af92c612f36ed6c4d922bdce1bb7f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_1.png using Guid(af92c612f36ed6c4d922bdce1bb7f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325721e8ba27b783fc60bb5df297da49') in 0.050198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/54.png
+  artifactKey: Guid(c31f7219182c0ef428e3dfc15eede6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/54.png using Guid(c31f7219182c0ef428e3dfc15eede6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65062fdfc70d2469d137f74d57f2dc7c') in 0.031059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/chest/chest_damaged.png
+  artifactKey: Guid(76cf067d510225d4cb8476b7e061fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/chest/chest_damaged.png using Guid(76cf067d510225d4cb8476b7e061fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b53edd7a2ff674481714cc22f27e3dc') in 0.049810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/NPC Merchant-interacting-entry.png
+  artifactKey: Guid(afc0bd9d382b26046ab143b3912886a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/NPC Merchant-interacting-entry.png using Guid(afc0bd9d382b26046ab143b3912886a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627039f5f7d2e7aca81a5b91ddda04af') in 0.061025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/24.png
+  artifactKey: Guid(ad974d43b92f9b344b7efc9e86ab3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/24.png using Guid(ad974d43b92f9b344b7efc9e86ab3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4754ee8053b760560587ec4f4497c') in 0.055852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small/torch_small_4.png
+  artifactKey: Guid(e79a2f9fa54055f44b0e2e2e6884661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small/torch_small_4.png using Guid(e79a2f9fa54055f44b0e2e2e6884661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2329b1ffc0579e2ecf0a3cb851076f8') in 0.064275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/3.png
+  artifactKey: Guid(72a837997a8219c449984ae268f896ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/3.png using Guid(72a837997a8219c449984ae268f896ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653b3ec426d32454f37378d6ce5ec2e1') in 0.058368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_small_2.png
+  artifactKey: Guid(010e35a066e5ea746bc438ff2353a741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_small_2.png using Guid(010e35a066e5ea746bc438ff2353a741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b32fc4a1d00733559c88d884d813d0') in 0.074472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/images/endingImage.jpg
+  artifactKey: Guid(42558dea4a973ee419580a6d1e4fbe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/images/endingImage.jpg using Guid(42558dea4a973ee419580a6d1e4fbe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05877ab71e41e3ce9fc1b3b434abdbd') in 0.257006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big/torch_big_3.png
+  artifactKey: Guid(c001ad89a78e82c4993c16485457cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big/torch_big_3.png using Guid(c001ad89a78e82c4993c16485457cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6316e856e646b36e4425d83d00af8da8') in 0.082240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/49.png
+  artifactKey: Guid(10ec540210e883149ae887d9a48e3ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/49.png using Guid(10ec540210e883149ae887d9a48e3ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3e5c96710890ca9e151e564864b7a6') in 0.056296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_8.png
+  artifactKey: Guid(9b59010bd1f4e5945bb439101f0db0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_8.png using Guid(9b59010bd1f4e5945bb439101f0db0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9511d19c12b6cb27f0b2c45cabb9f8b2') in 0.031953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_tall_2.png
+  artifactKey: Guid(fbcd2a0b46584cd46bb4aac2f5281f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_tall_2.png using Guid(fbcd2a0b46584cd46bb4aac2f5281f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8cbe9bc69ada5b32ec0dc8894fd393') in 0.044019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001002 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_6.png
+  artifactKey: Guid(392f3a88213866740a3b7b0ce2d73a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_6.png using Guid(392f3a88213866740a3b7b0ce2d73a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3cfd16c8e7dc284a32a737b8a356a2') in 0.051834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_3.png
+  artifactKey: Guid(63d8f99097a93ef4fa9f8128f92262c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_3.png using Guid(63d8f99097a93ef4fa9f8128f92262c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b658da840fd4088289107001108250d1') in 0.062582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/53.png
+  artifactKey: Guid(320267e2cc294884cacd52084c0611fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/53.png using Guid(320267e2cc294884cacd52084c0611fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e380f2d07c9a58dcea76ab69c4f22e9') in 0.044684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/FM/Art/Character/stormhead/run.png
+  artifactKey: Guid(586896baa37e09e4ca4b2caa76f53d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/FM/Art/Character/stormhead/run.png using Guid(586896baa37e09e4ca4b2caa76f53d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775472b1c09be404c901e1f7790d3b4') in 0.066175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/1.png
+  artifactKey: Guid(ab7016ae9ccfefb41913147b620ee718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/1.png using Guid(ab7016ae9ccfefb41913147b620ee718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e95873b1fadfafdb6ca67d0d5f99608') in 0.048272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_9.png
+  artifactKey: Guid(b60796ef490170d469139a659342dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_9.png using Guid(b60796ef490170d469139a659342dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03c16641e0b73191d8e617789fe186b') in 0.056365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_6.png
+  artifactKey: Guid(10a8ef7f8e165c143ba86e5e9e71a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_6.png using Guid(10a8ef7f8e165c143ba86e5e9e71a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545a8a726b622ea7beb6b34deba03648') in 0.062697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_1.png
+  artifactKey: Guid(e11dc3c40b616ac4e8855b9a3e963427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_1/candle_blue_1_1.png using Guid(e11dc3c40b616ac4e8855b9a3e963427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a663cdec161a0e5722f91a6435733d0') in 0.057684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_wood_1.png
+  artifactKey: Guid(2fb4f7cc628821c4aa45fc6b09694765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_wood_1.png using Guid(2fb4f7cc628821c4aa45fc6b09694765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54766451be02219409838881ccaeb35') in 0.051828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_4.png
+  artifactKey: Guid(0d75ccbe232f7724981b56e2d0739dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_2/candle_blue_2_4.png using Guid(0d75ccbe232f7724981b56e2d0739dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fed7d11154d1a7b961987aa2934850f') in 0.064958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_6.png
+  artifactKey: Guid(1495a23d5fb7b124e807f7c4211b567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_6.png using Guid(1495a23d5fb7b124e807f7c4211b567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40420e629aa90943bc414e3b39d09ab2') in 0.050653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/lion_column_3.png
+  artifactKey: Guid(4d603fafdbed3244b9e65e7613790dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/lion_column_3.png using Guid(4d603fafdbed3244b9e65e7613790dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e86b2a8b290c78b6710d719e2361a11') in 0.047791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_2.png
+  artifactKey: Guid(986418c76879fde47bc972ae08d00eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_2.png using Guid(986418c76879fde47bc972ae08d00eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8576c9b02bf65676795a92f0d9066d5') in 0.057035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_6.png
+  artifactKey: Guid(3cfb27da135afc24f8798657ee153ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_6.png using Guid(3cfb27da135afc24f8798657ee153ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077c81225848290bb65283d2f2826bc2') in 0.058759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_2.png
+  artifactKey: Guid(d9602f64dfb37f048961d3c2057f47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_2.png using Guid(d9602f64dfb37f048961d3c2057f47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a69f958668d7610e840004787b09424') in 0.038337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small/torch_small_3.png
+  artifactKey: Guid(fd59ea76cb6701d4fa2447b69e37f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small/torch_small_3.png using Guid(fd59ea76cb6701d4fa2447b69e37f0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad48bc4b5986210392497d4beede218') in 0.043808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/2.png
+  artifactKey: Guid(ba5469b708797fc4d9de4a03bfa37c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/2.png using Guid(ba5469b708797fc4d9de4a03bfa37c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e595a8606d15a5da790489036b8dc906') in 0.071335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Props/altar 224x288 - standing on grass.png
+  artifactKey: Guid(34ea542f197875e4aac8dd69e8bc232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Props/altar 224x288 - standing on grass.png using Guid(34ea542f197875e4aac8dd69e8bc232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba1a5a7af286e3e5e780b0cc888c499') in 0.011433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/sword_1.png
+  artifactKey: Guid(01dd4eb8a08c6aa4993e8a9ccf55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/sword_1.png using Guid(01dd4eb8a08c6aa4993e8a9ccf55acc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358c14dd5d152c52ce274ada19299acc') in 0.066846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight_2/_Idle.png
+  artifactKey: Guid(9f887e7a6a7f6e344943cc978d2bd7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight_2/_Idle.png using Guid(9f887e7a6a7f6e344943cc978d2bd7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb7d769367cfc5b441f3f02b9d81bdb') in 0.162812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_side_left_1.png
+  artifactKey: Guid(58b08bcf4b351c447b4ed83918243395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_side_left_1.png using Guid(58b08bcf4b351c447b4ed83918243395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadf9388ec96e370d91fe179d99131f9') in 0.068524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_transition_2.png
+  artifactKey: Guid(f8ca56ac4b730064ca3825bdaddfd22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_transition_2.png using Guid(f8ca56ac4b730064ca3825bdaddfd22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fdfff84be24cd5ed17f3ceab336ae8') in 0.041228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_tall_1.png
+  artifactKey: Guid(5faf2060b44877e40aeea738d489d072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_tall_1.png using Guid(5faf2060b44877e40aeea738d489d072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0f11403334bfb9c67d66ecb60fa1be') in 0.062279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_1.png
+  artifactKey: Guid(e8a202e3c93ebd1438eb19ff16a51106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_1.png using Guid(e8a202e3c93ebd1438eb19ff16a51106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bdf5b6d4e8ae44441fc912636a29b4') in 0.051088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/scroll_2.png
+  artifactKey: Guid(835d2ed6b0a020b4ead9d174491d8678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/scroll_2.png using Guid(835d2ed6b0a020b4ead9d174491d8678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf0136cc97f6829d0300476445e762') in 0.042390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Blacksmith_walk.png
+  artifactKey: Guid(fa30acb1a3f30244c9d8ddf30574b011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Blacksmith_walk.png using Guid(fa30acb1a3f30244c9d8ddf30574b011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b43ba7d6d23c456c5a4781acc33419') in 0.252631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/NPC Merchant-idle.png
+  artifactKey: Guid(57e0c782dd2731b4182c9baa77dc2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/NPC Merchant-idle.png using Guid(57e0c782dd2731b4182c9baa77dc2770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df07b76a759c742421d0e054a92183e2') in 0.129597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_2.psd
+  artifactKey: Guid(1a71a4ecc134c4541bd2413a22fe7a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_2.psd using Guid(1a71a4ecc134c4541bd2413a22fe7a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579eb2a843e8ab52330854c6aba87809') in 0.075721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_2.png
+  artifactKey: Guid(de08516b2c41d0e4391f8bd11be0dec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_2.png using Guid(de08516b2c41d0e4391f8bd11be0dec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26677523ef6f00c3aea8fb5370bac50b') in 0.097698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/48.png
+  artifactKey: Guid(9a62e13aeca98854186bed4241b34c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/48.png using Guid(9a62e13aeca98854186bed4241b34c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95779bae926aa5e82460b344ac356d18') in 0.063700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/31.png
+  artifactKey: Guid(70cc462c1f522384897c751974d37eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/31.png using Guid(70cc462c1f522384897c751974d37eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf40fe86f63ac5d4774be143a962d37f') in 0.068518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/wood_plank_3.png
+  artifactKey: Guid(215963ad21bf2c74fa0a97fe053158be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/wood_plank_3.png using Guid(215963ad21bf2c74fa0a97fe053158be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90ead2078124e3dd298a2005256e952') in 0.056287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/lion_column_2.png
+  artifactKey: Guid(97c9f764a30818248a3b4791a8381934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/lion_column_2.png using Guid(97c9f764a30818248a3b4791a8381934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d406f3a8b7a88528c8e1912d00cb54c') in 0.032825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_1/candle_1_1.png
+  artifactKey: Guid(32f843ba9fb2065419eb4839c388e3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_1/candle_1_1.png using Guid(32f843ba9fb2065419eb4839c388e3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ee3000489e80925c4e1ea5bc56c8df') in 0.040906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_5.png
+  artifactKey: Guid(d1d49fc6168b9f64f8d439512ed2e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_small_blue/torch_small_blue_5.png using Guid(d1d49fc6168b9f64f8d439512ed2e8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c222a569ada803c3ef244908a1f161f7') in 0.026450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_carpet_1.png
+  artifactKey: Guid(97e2f1a41f60f4549973c8dad51e6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_tile_carpet_1.png using Guid(97e2f1a41f60f4549973c8dad51e6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993e3240958cf0d3eda616f5975c369c') in 0.084447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/01 - Full spritesheet (32x48).png
+  artifactKey: Guid(6310f8f664aa760459dbde70128fd01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/01 - Full spritesheet (32x48).png using Guid(6310f8f664aa760459dbde70128fd01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c04f267c03a66f1beae631443fab9c') in 2.073856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/Fire Worm/Sprites/Fire Ball/Move.png
+  artifactKey: Guid(517adfc80babfff4e944350c75481a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/Fire Worm/Sprites/Fire Ball/Move.png using Guid(517adfc80babfff4e944350c75481a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c63bdd519a712cf68983eedb106d6a4') in 0.037209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_4.png
+  artifactKey: Guid(fe4b4ee4e473d374394ce9ac4cc0db45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_4.png using Guid(fe4b4ee4e473d374394ce9ac4cc0db45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f7b9de93e881a2dea8cfd5a694ddcb') in 0.073162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_side_right_1.png
+  artifactKey: Guid(1305067215f3e0a488c39027563842d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_side_right_1.png using Guid(1305067215f3e0a488c39027563842d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b77c0f35b5765b0dca24687ea76864') in 0.060443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_wall/lever_wall_2.png
+  artifactKey: Guid(28a6f94ea5f45f54d93935cd05dc83b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_wall/lever_wall_2.png using Guid(28a6f94ea5f45f54d93935cd05dc83b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507222d573be5cfda64d5758a9f31498') in 0.091079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_2/candle_2_6.png
+  artifactKey: Guid(290cb1127217aba40b3d7af3474d2d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_2/candle_2_6.png using Guid(290cb1127217aba40b3d7af3474d2d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0e66c118c929ced84090c8a5c118ac') in 0.050135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/ceiling_3.png
+  artifactKey: Guid(5c0b8a951611aee4eadcb258662ae841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/ceiling_3.png using Guid(5c0b8a951611aee4eadcb258662ae841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eace88de896760646dbae238e22978a8') in 0.039655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/25.png
+  artifactKey: Guid(6c980808e48765c45a12c05f1b4edc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/25.png using Guid(6c980808e48765c45a12c05f1b4edc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6cdb1c2c36522e87b0a69a015c1ba0') in 0.045723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_1.png
+  artifactKey: Guid(129251434bc18ad459b7b045b7cb31fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_1.png using Guid(129251434bc18ad459b7b045b7cb31fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d632b12e8b678b2e94719eb1779970') in 0.089793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_4.png
+  artifactKey: Guid(ff3022c904f520745a1aa4fd762a7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_4.png using Guid(ff3022c904f520745a1aa4fd762a7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604d113361b636c69fbab17f7bfc578f') in 0.071936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_background.png
+  artifactKey: Guid(5c6c6791da12230419f3f1b180185ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/torch_big_blue/torch_big_blue_background.png using Guid(5c6c6791da12230419f3f1b180185ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15c9a76acf0477b9936e646f1386409') in 0.052958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_2.png
+  artifactKey: Guid(6b929b9eedba1fe48a12c9ecb1b0084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_2.png using Guid(6b929b9eedba1fe48a12c9ecb1b0084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b32688da10df1202cc93b125cf6343d') in 0.054973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight_2/_Run.png
+  artifactKey: Guid(cfc67e4629c46c144af42510a21bb7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight_2/_Run.png using Guid(cfc67e4629c46c144af42510a21bb7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6989a1cf0954e842d31a29d426dbfb5') in 0.105158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_3.png
+  artifactKey: Guid(8b50ab3d5d83d6a4fb5e8a90eedbb805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_blue_3/candle_blue_3_3.png using Guid(8b50ab3d5d83d6a4fb5e8a90eedbb805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcd12a408a3159be584c6f829c42789') in 0.047055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_3.png
+  artifactKey: Guid(31889f1ed8dd6d64ab120be71d067aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_3.png using Guid(31889f1ed8dd6d64ab120be71d067aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7983fbceb87acc856e543eecdb95df') in 0.041298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Fisherman_walk.png
+  artifactKey: Guid(4c36633e037f203428a66f9634db9bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Fisherman_walk.png using Guid(4c36633e037f203428a66f9634db9bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c970b2726a7e3991b2da9a4f9a0a30e') in 0.176906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/langdebeve.png
+  artifactKey: Guid(ca92c0ed44cc1cb408533de1d0d5bbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/langdebeve.png using Guid(ca92c0ed44cc1cb408533de1d0d5bbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5761675e4836103f86f1b0780cdebe58') in 0.053251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_1.png
+  artifactKey: Guid(0bf5b90f89f7ec14fb7a4daae0172f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_1.png using Guid(0bf5b90f89f7ec14fb7a4daae0172f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df24a077324fc59e48c1984555e422b8') in 0.079754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_3.png
+  artifactKey: Guid(c223a6ed5c33d544097f05e23ecd6934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_3.png using Guid(c223a6ed5c33d544097f05e23ecd6934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1212598a606a54058c4b82ee2bc298d0') in 0.108920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/wall-8 - 2 tiles tall-transparency.png
+  artifactKey: Guid(3ba0fae4ad013c54ab511f92a787b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/wall-8 - 2 tiles tall-transparency.png using Guid(3ba0fae4ad013c54ab511f92a787b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be444bd90178c9fc847903063cf54017') in 0.386256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_3/candle_3_6.png
+  artifactKey: Guid(c53391ea2e541184e87a5ea3bd233bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_3/candle_3_6.png using Guid(c53391ea2e541184e87a5ea3bd233bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b4849307cb96897387ad8959e5c431') in 0.081992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_2.png
+  artifactKey: Guid(fbf77ef6c77a12d44be2302f0d3d963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_glass_tall_2.png using Guid(fbf77ef6c77a12d44be2302f0d3d963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76e29120775987ce0479c9390f430ac') in 0.070855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_1/candle_1_6.png
+  artifactKey: Guid(6a7bd6616a1e0164cb3c2cd6078af9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_1/candle_1_6.png using Guid(6a7bd6616a1e0164cb3c2cd6078af9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ab2c41858f9421f52517cc997909de') in 0.060448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001451 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_10.png
+  artifactKey: Guid(676635df1876f90489ee7bb212a60466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_10.png using Guid(676635df1876f90489ee7bb212a60466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37a9e39d5a3c27e711dc8159a98302d') in 0.092991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetsStore/Neon Pack/Sprites/09.png
+  artifactKey: Guid(46a7725354f9c5c46a3cbde51b688cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/Neon Pack/Sprites/09.png using Guid(46a7725354f9c5c46a3cbde51b688cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b942cd349be742de59133780f67e5f') in 0.574412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_7.png
+  artifactKey: Guid(7e1b76defa458ce49a0edb4bbb3c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_7.png using Guid(7e1b76defa458ce49a0edb4bbb3c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eb3b74813f96e63ec944c9aa923737') in 0.093015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Merchant_walk.png
+  artifactKey: Guid(68f8931e8cf1461408055579e7de71eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Characters/Merchant_walk.png using Guid(68f8931e8cf1461408055579e7de71eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a493a68bcf9455cb75ef849382057333') in 0.279667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/45.png
+  artifactKey: Guid(27a9b4c430af1734389c2346d56d5284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/45.png using Guid(27a9b4c430af1734389c2346d56d5284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c6557481352c05e3433732fb04e9be') in 0.041946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_1.png
+  artifactKey: Guid(543e9b3d5244ae94587251a03f183dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_1.png using Guid(543e9b3d5244ae94587251a03f183dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38739fa8f97ac3b78e81d71c98818fe2') in 0.076981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_6.png
+  artifactKey: Guid(5f7b93778a41c0e4bb37a4748d831b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_6.png using Guid(5f7b93778a41c0e4bb37a4748d831b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58348fd2d5d9c9ee4233d7dcdaf154fc') in 0.059932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_16.png
+  artifactKey: Guid(5c8b6bf0cb15e73408deeec5ed651c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/brick_16.png using Guid(5c8b6bf0cb15e73408deeec5ed651c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf38892d993310fb14ab62af642af10') in 0.057181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_small_1.png
+  artifactKey: Guid(501642d79fc4a4e46a48700845d20439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_small_1.png using Guid(501642d79fc4a4e46a48700845d20439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87afdfd1e6bf64a7c0aa5b5e3591f9a') in 0.060489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/9.png
+  artifactKey: Guid(e54fddf2a2a499f41a175e7b55d7af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/9.png using Guid(e54fddf2a2a499f41a175e7b55d7af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4069454280dfd90bb52ff4e45e2b434') in 0.047152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/Fire Worm/Sprites/Worm/Idle.png
+  artifactKey: Guid(6f470b33646c72945beaf1d07c46999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/Fire Worm/Sprites/Worm/Idle.png using Guid(6f470b33646c72945beaf1d07c46999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fef57882ae828481d618fdecfd3d619') in 0.112321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_wood_2.png
+  artifactKey: Guid(481b9e4230cc4094ca9da102a26acdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/floor_wood_2.png using Guid(481b9e4230cc4094ca9da102a26acdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9c67928eac3b9cb4eaf5e1e618c6a') in 0.043599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_3.png
+  artifactKey: Guid(7ca7adfb60a1133498fc8ec0e89b39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_3.png using Guid(7ca7adfb60a1133498fc8ec0e89b39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f7508babbd7c4bf10f88adf9a2fb5a') in 0.043734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/19.png
+  artifactKey: Guid(7627e64a78218844894faf8e88735f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/19.png using Guid(7627e64a78218844894faf8e88735f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8037e6e608d727ecb21f746e0eb437f2') in 0.037559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/tile_side_right.png
+  artifactKey: Guid(066bda59bf50a994797fa68a02152f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/tile_side_right.png using Guid(066bda59bf50a994797fa68a02152f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160e57fec9d93e7d1721380f060ee13b') in 0.053352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Props/golden chalice 64x64-spirits.png
+  artifactKey: Guid(aabd13ef70669c048a51189c79cd52f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Props/golden chalice 64x64-spirits.png using Guid(aabd13ef70669c048a51189c79cd52f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fe8d81626da80ec64054d556fda819') in 0.105178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_4.png
+  artifactKey: Guid(652fb912a88acd84e894344321a77736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/lever_floor/lever_floor_4.png using Guid(652fb912a88acd84e894344321a77736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d20a4b1dfbff4fa4b9f6fc40c99f90') in 0.025158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_big_1.png
+  artifactKey: Guid(00f74fffe33da3d43b4224c8d9c5c829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/window_big_1.png using Guid(00f74fffe33da3d43b4224c8d9c5c829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eef960f0d56a72015adb0f1ddc4f9d') in 0.078531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_3/candle_3_1.png
+  artifactKey: Guid(45e471a2c44006a4491612d24577439a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_3/candle_3_1.png using Guid(45e471a2c44006a4491612d24577439a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e030c4a792772c9aef1d4ee36cbf938') in 0.046891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_12.png
+  artifactKey: Guid(42795d8f3697ff9429b59c246c2a8b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_12.png using Guid(42795d8f3697ff9429b59c246c2a8b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83485d75feba5b0d16db6cb48aa0551f') in 0.079319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_10.png
+  artifactKey: Guid(203ec4a2292cd9c4db03f7331da65d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_10.png using Guid(203ec4a2292cd9c4db03f7331da65d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9a1b7f225c2ace80642c6e1774e004') in 0.059132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/curtain_blue_2.png
+  artifactKey: Guid(7c7bb64eb4955af4592705cf24368be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/curtain_blue_2.png using Guid(7c7bb64eb4955af4592705cf24368be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ac0910947b07ab5620cf39a644d64e') in 0.070788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_5.png
+  artifactKey: Guid(ef74b74fd7931cb4b98af647d2fefab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_5.png using Guid(ef74b74fd7931cb4b98af647d2fefab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a559de1943a7f1b2010efcc5bcbb332f') in 0.048746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/56.png
+  artifactKey: Guid(4894da4a396cb4c49b049e5cd52b5450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/56.png using Guid(4894da4a396cb4c49b049e5cd52b5450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4518c1118c44a97a81d1b89b8d7913cd') in 0.085423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/tilesets/cave/cave-removebg-preview.png
+  artifactKey: Guid(3763054d9209e6f4f931f21eb89472bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/tilesets/cave/cave-removebg-preview.png using Guid(3763054d9209e6f4f931f21eb89472bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a602e50a4336ce0dd8e3d2e2b72dd63a') in 1.792603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_2.png
+  artifactKey: Guid(f15d2bc3ac6c23e4cac13d7f2ad83370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/arch_2.png using Guid(f15d2bc3ac6c23e4cac13d7f2ad83370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c15e49d7acf3ae2da58a8bb95769c8f') in 0.041068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/ceiling_2.png
+  artifactKey: Guid(e0723b67a6ef3a042a56a4c884c8cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/ceiling_2.png using Guid(e0723b67a6ef3a042a56a4c884c8cf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd5935c352cd25f7615000daab8cf4d') in 0.056877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/10.png
+  artifactKey: Guid(a84a3e7d34514154e9eed3410f9252d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/10.png using Guid(a84a3e7d34514154e9eed3410f9252d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfe2c25dd920a09d6c043b70e7d1456') in 0.196739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_1.png
+  artifactKey: Guid(f5429068cae48fb4aa305d6aa06fc37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_1.png using Guid(f5429068cae48fb4aa305d6aa06fc37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669c88dd580ea29c6006c5d543ab2abf') in 0.059775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_carpet_4.png
+  artifactKey: Guid(c658a972a8e002b40950d44942b40cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_carpet_4.png using Guid(c658a972a8e002b40950d44942b40cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932af067d7b3f50239aece7fdd33fc34') in 0.044861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_1.png
+  artifactKey: Guid(075454649151f204980b00402d7b97ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_1.png using Guid(075454649151f204980b00402d7b97ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb53228b7f99d30bbe2b1a3be5d867d0') in 0.057508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_carpet_3.png
+  artifactKey: Guid(0de51ce93bf7c704f99aa0a91a221c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_carpet_3.png using Guid(0de51ce93bf7c704f99aa0a91a221c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e24157069c749d41f184e1f3c1c3548') in 0.064949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_11.png
+  artifactKey: Guid(620b086cb52e7da419a17f8e5ad4a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/wall_11.png using Guid(620b086cb52e7da419a17f8e5ad4a958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c37fb2e670fb86495fe873d59a335c') in 0.058935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_5.png
+  artifactKey: Guid(1d87e567ebe2bb6418df8734a3310167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/idle/idle_knight_5.png using Guid(1d87e567ebe2bb6418df8734a3310167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb271ecd5ecd56b46cf81ee8c86ae27') in 0.053872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/tilesets/sea/Water+.png
+  artifactKey: Guid(d5a15b2fee5cfed42af1ca76ff7f41f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/tilesets/sea/Water+.png using Guid(d5a15b2fee5cfed42af1ca76ff7f41f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc446d67bd7c858dfa2154d2ae735a27') in 1.495022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_nofire.png
+  artifactKey: Guid(1e10fae3738af39459d8864ff4a262fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_nofire.png using Guid(1e10fae3738af39459d8864ff4a262fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6beb403f731392ec6da9251c338c1c0d') in 0.056770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_2/candle_2_3.png
+  artifactKey: Guid(d40ec8e0130f805438fb503ff1936148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Decorations/Animated Decorations/candle_2/candle_2_3.png using Guid(d40ec8e0130f805438fb503ff1936148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8782c1b9f05727e049f20c942e3660a6') in 0.054726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/55.png
+  artifactKey: Guid(98e438f6fee079a4c9109c0ec7f3dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/particles/fire/Effect3/55.png using Guid(98e438f6fee079a4c9109c0ec7f3dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3ab24cf6888c8d9d9023c7d25eeeb2') in 0.041572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_6.png
+  artifactKey: Guid(82010a16becd8a94dbe107d8b9912e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Characters/knight/walk/walk_knight_6.png using Guid(82010a16becd8a94dbe107d8b9912e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9a12f6d6cb7741c834bdf33f68bd05') in 0.085756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/ArcadeGames/DG/Game1/sprites 1/tilesets/Mountain/plains.png
+  artifactKey: Guid(dde72332a03190a4386512ccd28dcb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DG/Game1/sprites 1/tilesets/Mountain/plains.png using Guid(dde72332a03190a4386512ccd28dcb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73d5d05cd34678115245b361eaa1df3') in 0.537845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_7.png
+  artifactKey: Guid(5b206c53c60977e40ba3e720cc3292ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/column_7.png using Guid(5b206c53c60977e40ba3e720cc3292ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2a10d9b3bcc31ab289f8bccb65b85d') in 0.104392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/platform_wall_connection_left.png
+  artifactKey: Guid(a9556e9e358dcbf448988f5b7a804ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/Medieval_Castle_Asset_Pack/Tiles/platform_wall_connection_left.png using Guid(a9556e9e358dcbf448988f5b7a804ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4221b9157116420328cc8a20d6b6441c') in 0.048911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/Tileset-Terrain2.png
+  artifactKey: Guid(5445ae8040d26a648a061506da294ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ArcadeGames/DM/2D/Art/EPIC RPG World Pack - Ancient Ruins/Tilesets/Tileset-Terrain2.png using Guid(5445ae8040d26a648a061506da294ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ff35e9314848be3cf7ab3bf7c9a4f2') in 1.284221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 474.233623 seconds.
+  path: Assets/Game/MainGame/Images/MainMenuBackground.png
+  artifactKey: Guid(abf970184d4ed514cb2e35da0e137658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/MainGame/Images/MainMenuBackground.png using Guid(abf970184d4ed514cb2e35da0e137658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfecec86e6b5fcecccf5c0420c891e1') in 0.118952 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008477 seconds.
+Registered in 0.010133 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\RepoUblockly\ArcadeRoom\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\RepoUblockly\ArcadeRoom\Game_Room\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.907 seconds
+- Completed reload, in  4.003 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1907ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (4014ms)
+		BeginReloadAssembly (378ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (24ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1561ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (3454ms)
+			LoadAssemblies (235ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (483ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (785ms)
+			SetupTypeCache (869ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (1917ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (503ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (306ms)
+				ProcessInitializeOnLoadAttributes (1305ms)
+				ProcessInitializeOnLoadMethodAttributes (239ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6465 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.8 MB). Loaded Objects now: 7103.
-Memory consumption went from 262.5 MB to 261.8 MB.
-Total: 7.433900 ms (FindLiveObjects: 0.711300 ms CreateObjectMapping: 0.630400 ms MarkObjects: 5.594400 ms  DeleteObjects: 0.496000 ms)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 7227.
+Memory consumption went from 267.2 MB to 266.4 MB.
+Total: 16.025700 ms (FindLiveObjects: 2.096900 ms CreateObjectMapping: 4.279300 ms MarkObjects: 9.213000 ms  DeleteObjects: 0.435400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -255,9 +1209,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 235.264050 seconds.
-  path: Assets/Game/ArcadeGames/DG/Game1/Scripts/OpenBlockly.cs
-  artifactKey: Guid(6634570492c614141bc176fd1c50038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/ArcadeGames/DG/Game1/Scripts/OpenBlockly.cs using Guid(6634570492c614141bc176fd1c50038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eee34eff56ae85bd5e1131afb44ca88') in 0.012837 seconds 
