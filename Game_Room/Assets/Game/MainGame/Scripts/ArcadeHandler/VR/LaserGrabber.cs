@@ -32,12 +32,11 @@ public class LaserGrabber : MonoBehaviour
 
 
     public void PointerClick(object sender, PointerEventArgs e)
-    {
-        if (e.target.name == "Cube")
+    {   if (e.target.name.Contains("Key"))
         {
-            Debug.Log("Cube was clicked");
+            e.target.GetComponent<LetterKeyVR>().PrintKeyValue(e.target.gameObject);
         }
-        else if (e.target.GetComponent<Button>() != null)
+        if (e.target.GetComponent<Button>() != null)
         {
             Debug.Log("Button was clicked");
             var btt = e.target.GetComponent<Button>();

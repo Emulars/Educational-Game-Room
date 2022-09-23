@@ -99,6 +99,9 @@ public class BlocklyHandler : MonoBehaviour
         // Active/Deactive laser pointer for Blockly
         LaserPointer(isGuiOpen);
 
+        // Activate/Deactivate virtual keyboard for blockly
+        VirtualKeyboard(isGuiOpen);
+
         // if the gui is not already open
         //if (Input.GetButtonDown("Blockly") && !isGuiOpen)
         if (SteamVR_Input.GetStateDown("default", "BlocklyOpen", SteamVR_Input_Sources.LeftHand) && !isGuiOpen)
@@ -149,6 +152,7 @@ public class BlocklyHandler : MonoBehaviour
         }
     }
 
+    #region Game Levels
     // Create one method for each level to handle
     private void MetroidvaniaLevel1()
     {
@@ -240,7 +244,8 @@ public class BlocklyHandler : MonoBehaviour
                 bindedObject.SetActive(false);  // disable quest giver 
         }
     }
-
+    #endregion
+    
     private void LaserPointer(bool BlocklyIsActive)
     {
         if(SteamVR_Input.GetStateDown("default", "triggerLaser", SteamVR_Input_Sources.Any) && BlocklyIsActive)
@@ -248,6 +253,17 @@ public class BlocklyHandler : MonoBehaviour
 
         if(!BlocklyIsActive)
             SteamVR_LaserPointer.isActive = false;
+    }
+
+    private void VirtualKeyboard(bool BlocklyIsActive)
+    {
+        if (SteamVR_Input.GetStateDown("default", "OpenKeyboard", SteamVR_Input_Sources.Any) && BlocklyIsActive)
+            // setActive(true)
+
+        if (!BlocklyIsActive)
+        {
+                // setActive(false)
+        }
     }
 }
 
