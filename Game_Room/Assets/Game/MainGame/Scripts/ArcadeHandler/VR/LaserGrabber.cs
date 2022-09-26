@@ -32,10 +32,21 @@ public class LaserGrabber : MonoBehaviour
 
 
     public void PointerClick(object sender, PointerEventArgs e)
-    {   if (e.target.name.Contains("Key"))
+    {   
+        // Virtual Keyboard
+        if (e.target.name.Contains("Key"))
         {
-            e.target.GetComponent<LetterKeyVR>().PrintKeyValue(e.target.gameObject);
+            e.target.GetComponent<LetterKeyVR>().DoAction(e.target.gameObject);
         }
+        if (e.target.name.Contains("Shift"))
+        {
+            e.target.GetComponent<ShiftKeyVR>().DoAction(e.target.gameObject);
+        }
+        if (e.target.name.Contains("Backspace"))
+        {
+            e.target.GetComponent<BackspaceKeyVR>().DoAction(e.target.gameObject);
+        }
+
         if (e.target.GetComponent<Button>() != null)
         {
             Debug.Log("Button was clicked");

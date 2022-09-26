@@ -21,7 +21,7 @@ public class KeyboardVR : MonoBehaviour
 	[Space(15)]
 	public GameObject cavasStartBtt;
 	public GameObject keyboardWrapper;
-	public ShiftKey shiftKey;
+	public ShiftKeyVR shiftKey;
 	public KeyVR[] extraKeys;
 	private LetterKeyVR[] keys;
 
@@ -188,6 +188,7 @@ public class KeyboardVR : MonoBehaviour
 	/// </summary>
 	public void Backspace()
 	{
+		print("Backspace - text.Lentgh " + text.Length);
 		if (text.Length > 0)
 		{
 			text = text.Substring(0, text.Length - 1);

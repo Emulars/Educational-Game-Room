@@ -33,7 +33,7 @@ public class LetterKeyVR : KeyVR
 		keyboard.AddCharacter(GetCharacter());
 	}
 
-	public void PrintKeyValue(GameObject key)
+	public void DoAction(GameObject key)
 	{
 		var keyLabel = key.transform.Find("Label").GetComponent<TextMeshPro>().text;
 		print("KeyVR: key pressed - " + keyLabel);
