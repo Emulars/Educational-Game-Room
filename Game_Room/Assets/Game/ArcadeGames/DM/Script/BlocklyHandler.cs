@@ -42,10 +42,6 @@ public class BlocklyHandler : MonoBehaviour
     private bool isGuiOpen = false; // To check if the Block UI is already open, to be able to close it with the same key
     private int currentLevel; // To store the current level index
 
-    //[Header("VR")]
-    //[SteamVR_DefaultAction("")]
-    //[SerializeField] SteamVR_Action_Boolean openBlockAction;
-
     // Start is called before the first frame update
     void Start()
     {

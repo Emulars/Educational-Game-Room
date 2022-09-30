@@ -64,46 +64,4 @@ public class LetterKeyVR : KeyVR
 				break;
 		}
 	}
-
-
-	// TODO: to be deleted
-	public void OnTriggerStay(Collider other)
-	{
-		if (other.CompareTag("LaserPointer"))
-		{
-			print("KeyVR: TRIGGER STAY");
-			if (SteamVR_Input.GetStateDown("default", "InteractUI", SteamVR_Input_Sources.Any))
-			{
-				var keyLabel = other.gameObject.transform.Find("Label").GetComponent<TextMeshProUGUI>().text;
-				print("KeyVR: key pressed - " + keyboard);
-
-				if ((string.IsNullOrEmpty(keyLabel))) return;
-
-				// Check the type of key selected
-				switch (keyLabel)
-				{
-					// Call KeyBoardVR method to shift the char
-					case "SHIFT":
-						keyboard.ToggleShift();
-						break;
-
-					// Call KeyBoardVR method to remove char from string
-					case "BACKSPACE":
-						keyboard.Backspace();
-						break;
-
-					// Call KeyBoardVR method to submit the string
-					case "ENTER":
-						keyboard.Submit();
-						break;
-
-					// Call KeyBoardVR method to add char to string
-					default:
-						keyboard.AddCharacter(keyLabel);
-						break;
-				}
-			}
-
-		}
-	}
 }

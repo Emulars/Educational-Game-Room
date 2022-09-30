@@ -157,6 +157,9 @@ public class KeyboardVR : MonoBehaviour
 
 			yield return null;
 		}
+
+		// Disable the key generator 
+		keyPrefab.SetActive(false);
 	}
 
 	#region Keys action
@@ -212,10 +215,12 @@ public class KeyboardVR : MonoBehaviour
 	}
 	#endregion
 
+	// Reset the position of the keyboard and open/close
 	public void TriggerKeyboard()
     {
 		if (SteamVR_Input.GetStateDown("default", "OpenKeyboard", SteamVR_Input_Sources.Any))
         {
+			transform.localPosition = positionRelativeToUser;
 			isOpen = !isOpen;
 			transform.Find("Keyboard").gameObject.SetActive(isOpen);
 		}
