@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using Valve.VR;
 using VRKeys;
 
 public class KeyboardVR : MonoBehaviour
@@ -34,6 +35,9 @@ public class KeyboardVR : MonoBehaviour
 	public Color displayTextColor = Color.black;
 	public Color caretColor = Color.gray;
 
+	// Open/close keyboard
+	private bool isOpen = false;
+
 	private IEnumerator Start()
 	{
 		transform.localPosition = positionRelativeToUser;
@@ -41,10 +45,15 @@ public class KeyboardVR : MonoBehaviour
 		initialized = true;
 	}
 
-	/// <summary>
-	/// Setup the keys
-	/// </summary>
-	private IEnumerator SetupKeys()
+    private void Update()
+    {
+		TriggerKeyboard();
+	}
+
+    /// <summary>
+    /// Setup the keys
+    /// </summary>
+    private IEnumerator SetupKeys()
 	{
 		layout = LayoutList.GetLayout(keyboardLayout);
 		keys = new LetterKeyVR[layout.TotalKeys()];
@@ -157,8 +166,7 @@ public class KeyboardVR : MonoBehaviour
 	/// <param name="character">Character.</param>
 	public void AddCharacter(string character)
 	{
-		text += character;
-		SelectTextArea.input.text = text;
+		SelectTextArea.input.text += character;
 	}
 
 	/// <summary>
@@ -189,12 +197,10 @@ public class KeyboardVR : MonoBehaviour
 	public void Backspace()
 	{
 		print("Backspace - text.Lentgh " + text.Length);
-		if (text.Length > 0)
+		if (SelectTextArea.input.text.Length > 0)
 		{
-			text = text.Substring(0, text.Length - 1);
+			SelectTextArea.input.text = SelectTextArea.input.text.Substring(0, SelectTextArea.input.text.Length - 1);
 		}
-
-		SelectTextArea.input.text = text;
 	}
 
 	/// <summary>
@@ -205,4 +211,13 @@ public class KeyboardVR : MonoBehaviour
 
 	}
 	#endregion
+
+	public void TriggerKeyboard()
+    {
+		if (SteamVR_Input.GetStateDown("default", "OpenKeyboard", SteamVR_Input_Sources.Any))
+        {
+			isOpen = !isOpen;
+			transform.Find("Keyboard").gameObject.SetActive(isOpen);
+		}
+	}
 }

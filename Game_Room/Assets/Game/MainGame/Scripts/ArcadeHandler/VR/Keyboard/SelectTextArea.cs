@@ -13,6 +13,8 @@ public class SelectTextArea : MonoBehaviour
         if(SteamVR_Input.GetStateDown("default", "SelectTextArea", SteamVR_Input_Sources.Any))
         {
             input = GetComponent<InputField>();
+            // Reset each time
+            input.text = "";
             print("SelectTextArea: " + input.text);
         }
     }

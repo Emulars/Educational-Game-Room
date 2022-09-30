@@ -11828,6 +11828,10 @@ PrefabInstance:
       propertyPath: autoInit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011638992124, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114000011813929276, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
       propertyPath: m_Enabled
       value: 0
