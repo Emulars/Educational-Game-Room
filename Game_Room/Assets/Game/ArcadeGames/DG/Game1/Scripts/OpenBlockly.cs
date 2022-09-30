@@ -27,7 +27,7 @@ public class OpenBlockly : MonoBehaviour
             case "UBGame1_Lv2":
                 Executor.variabili.Add("collisioni", "true");
                 Executor.variabili.Add("sullUscita", "false");
-                Executor.variabili.Add("uscita", "false");
+                Executor.variabili.Add("esci", "false");
                 break;
             case "UBGame1_Lv3":
                 Executor.variabili.Add("playerHP", "");

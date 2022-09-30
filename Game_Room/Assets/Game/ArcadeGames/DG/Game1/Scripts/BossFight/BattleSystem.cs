@@ -18,7 +18,7 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] private GameObject victoryTab, lostTab, debugTab;
     
-    private bool HPareModified = false;
+    private bool HPareModified = false, victory = false;
 
     private void Start()
     {
@@ -30,6 +30,7 @@ public class BattleSystem : MonoBehaviour
 
     private void Update()
     {
+        if (victory) playerBehaviour.currentHP = 0;
         if (playerBehaviour == null || playerBehaviour.currentHP<=0 ) {
             state = BattleState.LOST;
             StartCoroutine(Lost());
@@ -85,7 +86,7 @@ public class BattleSystem : MonoBehaviour
              
             if (stillEnemies == false)
             {
-               
+                victory = true;
                 Victory();
             }
             else

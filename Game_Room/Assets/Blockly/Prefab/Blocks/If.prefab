@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 0
   droppedGameObject: {fileID: 0}
 --- !u!65 &8093431412800714600
 BoxCollider:
@@ -406,6 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 0
   droppedGameObject: {fileID: 0}
 --- !u!65 &825322079364077119
 BoxCollider:
@@ -769,6 +771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493df28f28366e443994db9aedf79d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFirstGrab: 1
   canvas: {fileID: 0}
 --- !u!1 &3956047248697563174
 GameObject:
@@ -860,6 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 1
   droppedGameObject: {fileID: 0}
 --- !u!65 &2084887771002033773
 BoxCollider:

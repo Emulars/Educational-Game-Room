@@ -18,7 +18,7 @@ public class StartBossFight : MonoBehaviour
     {
         if (other.tag != "Player") return;
         Executor.variabili["sullUscita"] = "true";
-        if(!bool.Parse(Executor.variabili["uscita"]))return;
+        if(!bool.Parse(Executor.variabili["esci"]))return;
         other.GetComponent<OpenWorldPlayerController>().LockMovement();
         HUD.SetActive(true);
         initialButton.Select();
@@ -39,7 +39,7 @@ public class StartBossFight : MonoBehaviour
         LaunchBlocks.launch = true;
         //aspetto la fine dell'esecuzione per leggere
         bool sullUscita = bool.Parse(Executor.variabili["sullUscita"]);
-        bool uscita = bool.Parse(Executor.variabili["uscita"]);
+        bool uscita = bool.Parse(Executor.variabili["esci"]);
         bool collisioni = bool.Parse(Executor.variabili["collisioni"]);
         if (!sullUscita && uscita)
         {

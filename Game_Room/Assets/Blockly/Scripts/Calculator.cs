@@ -90,15 +90,7 @@ namespace UEBlockly
             {
                 Transform valueField1 = updateValue.Value.transform.Find("InputField");
                 string valueName = valueField1.transform.Find("Text").GetComponent<Text>().text;
-
-                //if the name is valid
-                ErrorCode err = IBlock.IsValidName(valueName);
-                if (err != ErrorCode.NoError)
-                    throw new ArgumentException("Errore: " + err);
-
-                //if the variable exist
-                if (executor.isInDictionary(valueName) == null)
-                    throw new ArgumentException("variable named " + valueName + " not found");
+                CheckValidName(valueName);
 
                 executor.UpdateVariable((updateValue.Name, executor.isInDictionary(valueName)));
             }
@@ -137,15 +129,7 @@ namespace UEBlockly
                 Transform valueField1 = condition.Value.transform.Find("InputField");
                 string valueName = valueField1.transform.Find("Text").GetComponent<Text>().text;
 
-                //if the name is valid
-                ErrorCode err = IBlock.IsValidName(valueName);
-                if (err != ErrorCode.NoError)
-                    throw new ArgumentException("Errore: " + err);
-
-                //if the variable exist
-                var varValue = executor.isInDictionary(valueName);
-                if (varValue == null)
-                    throw new ArgumentException("variabili named " + valueName + " not found");
+                var varValue = CheckValidName(valueName);
 
                 //if the variable is bool
                 if (!IBlock.IsBool(varValue))
@@ -305,6 +289,19 @@ namespace UEBlockly
                     Debug.Log("blocco non valido");
                     throw new Exception("questo blocco non restituisce una variabile");
             }
+        }
+        private string CheckValidName(string valueName)
+        {
+            //if the name is valid
+            ErrorCode err = IBlock.IsValidName(valueName);
+            if (err != ErrorCode.NoError)
+                throw new ArgumentException("Errore: " + err);
+
+            //if the variable exist
+            var varValue = executor.isInDictionary(valueName);
+            if (varValue == null)
+                throw new ArgumentException("variabili named " + valueName + " not found");
+            return varValue;
         }
     }
 }
