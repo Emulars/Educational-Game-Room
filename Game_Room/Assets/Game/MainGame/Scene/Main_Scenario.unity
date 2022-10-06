@@ -9429,7 +9429,7 @@ GameObject:
   - component: {fileID: 349433564}
   - component: {fileID: 349433565}
   m_Layer: 0
-  m_Name: Keyboard
+  m_Name: Controls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9443,8 +9443,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349433563}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.0054, y: -0.0021, z: 0}
-  m_LocalScale: {x: 0.17673063, y: 0.53200424, z: 1}
+  m_LocalPosition: {x: -0.0044, y: -0.0191, z: -0.024}
+  m_LocalScale: {x: 0.101454884, y: 0.17689376, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1468654191}
@@ -9491,12 +9491,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d82cbda6aa3151a42ade37da0a779b7c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33673a0a7871ed54eaf33eeb9ece5c11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.67, y: 1.89}
+  m_Size: {x: 9.93, y: 5.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -11776,10 +11776,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 65000012297558264, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -11828,6 +11824,10 @@ PrefabInstance:
       propertyPath: autoInit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012720594730, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
+      propertyPath: autoInit
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7675250893017906005, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
       propertyPath: shiftKey
       value: 
@@ -11840,30 +11840,6 @@ PrefabInstance:
       propertyPath: extraKeys.Array.data[1]
       value: 
       objectReference: {fileID: 410195262}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012720594730, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
-      propertyPath: autoInit
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f28287b1c722ebd4aa4f4d8547ed7fa8, type: 3}
 --- !u!114 &410195262 stripped
@@ -23662,7 +23638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4824187044237946, guid: 54eea9ff82041408db99fdb730a30d7a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.9211826
+      value: 2.477893
       objectReference: {fileID: 0}
     - target: {fileID: 4824187044237946, guid: 54eea9ff82041408db99fdb730a30d7a, type: 3}
       propertyPath: m_LocalScale.y
