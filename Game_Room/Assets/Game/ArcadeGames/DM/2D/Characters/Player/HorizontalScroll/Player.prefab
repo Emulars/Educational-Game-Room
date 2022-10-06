@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 7253851088680186205}
   - component: {fileID: 4072224895004826976}
   - component: {fileID: 3169399399767560694}
+  - component: {fileID: 4598728103665892614}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -264,6 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  enableJump: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -331,3 +333,18 @@ MonoBehaviour:
   m_ShapePathHash: -1026945441
   m_Mesh: {fileID: 0}
   m_InstanceId: -113802
+--- !u!114 &4598728103665892614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172099297252525910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe0cec3dc9711041bcdd31e5a444c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bindedObject: {fileID: 8172099297252525910}
+  guiLevelIndex: 13
+  questGiver2: {fileID: 0}

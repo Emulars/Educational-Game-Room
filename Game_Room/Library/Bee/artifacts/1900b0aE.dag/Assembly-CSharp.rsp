@@ -469,6 +469,7 @@
 "Assets/Game/ArcadeGames/DM/Script/Menu/MainMenu.cs"
 "Assets/Game/ArcadeGames/DM/Script/Metroidvania/Enemy/EnemyAnimationParam.cs"
 "Assets/Game/ArcadeGames/DM/Script/Metroidvania/Enemy/EnemyMovement.cs"
+"Assets/Game/ArcadeGames/DM/Script/Metroidvania/Enemy/Fireball.cs"
 "Assets/Game/ArcadeGames/DM/Script/Metroidvania/Player/AttackTrigger.cs"
 "Assets/Game/ArcadeGames/DM/Script/Metroidvania/Player/PlayerAnimationParam.cs"
 "Assets/Game/ArcadeGames/DM/Script/Metroidvania/Player/PlayerAttack.cs"

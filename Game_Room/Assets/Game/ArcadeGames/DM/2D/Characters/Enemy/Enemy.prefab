@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1135167299734012996}
   - component: {fileID: 6507864410845688123}
   - component: {fileID: 2193326144028024367}
+  - component: {fileID: 6788373559148878482}
   - component: {fileID: 392367851775345927}
   - component: {fileID: 7359555273362940170}
   - component: {fileID: 8407168765086501201}
@@ -114,6 +115,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5425719, y: 0.45406577}
   m_EdgeRadius: 0
+--- !u!70 &6788373559148878482
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059065865924020141}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.74316096, y: 0.06587794}
+  m_Size: {x: 1.5381782, y: 0.4636015}
+  m_Direction: 1
 --- !u!50 &392367851775345927
 Rigidbody2D:
   serializedVersion: 4
@@ -134,7 +151,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!95 &7359555273362940170
 Animator:
   serializedVersion: 4
@@ -168,3 +185,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 20
+  fireBallPrefab: {fileID: 0}

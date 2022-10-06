@@ -5,5 +5,6 @@ namespace Assets.DM.Script.Metroidvania.Enemy
         // Animation variables
         public const string IsHit = "isHit";
         public const string IsDead = "isDead";
+        public const string IsInrange = "isInRange";
     }
 }
