@@ -8,11 +8,7 @@ namespace Assets.DM.Script.Puzzle
     public class Player : MonoBehaviour
     {
         public CharacterDatabase characterDb;
-        public SpriteRenderer artworkSprite;    // UI, character's sprite
-
         private int selectedOption = 0;         // To track currently selected character
-
-        public GameObject[] playerPrefabs;
         public CinemachineVirtualCamera virtualCamera;
         public static Vector2 lastCheckPointPos = new Vector2(-0.49f, 16.74f);
 
@@ -31,7 +27,7 @@ namespace Assets.DM.Script.Puzzle
             //Character character = characterDB.GetCharacter(selectedOption);
             //artworkSprite.sprite = character.characterSprite;
 
-            GameObject player = Instantiate(playerPrefabs[selectedOption], lastCheckPointPos, Quaternion.identity);
+            GameObject player = Instantiate(characterDb.GetCharacterPrefab(selectedOption), lastCheckPointPos, Quaternion.identity);
             virtualCamera.m_Follow = player.transform;
         }
 

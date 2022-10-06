@@ -15,19 +15,28 @@ MonoBehaviour:
   characters:
   - characterName: Alexander
     characterSprite: {fileID: 878439868, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 5376799867332711360, guid: 18e4594616664394da463064d3e5c811, type: 3}
   - characterName: Melis
     characterSprite: {fileID: 842678050, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 4597841760801782416, guid: 61c11a74dc4edd24aa3d7730a1190603, type: 3}
   - characterName: Gwillym
     characterSprite: {fileID: 878200300, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 868035846173665808, guid: 6e830a8f1bb3a2f43be256805d6da0d2, type: 3}
   - characterName: Aurora
     characterSprite: {fileID: 352928328, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 3127507828357213617, guid: 9af2e1917f6f84248a033530fd2fb339, type: 3}
   - characterName: Gwen
     characterSprite: {fileID: 1586393599, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 1312695521731392024, guid: 3323e30be79f28f49a5a775bb87620e5, type: 3}
   - characterName: Randy
     characterSprite: {fileID: -1930099187, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 4148475923123700137, guid: f88c3bf7115b838429c7ed0da16453b5, type: 3}
   - characterName: Gregory
     characterSprite: {fileID: -753114926, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 4960585109387718232, guid: a5e7c9ea04f5fb245ac8fb7930cc9ddf, type: 3}
   - characterName: Howard
     characterSprite: {fileID: 1186601004, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 6333663765662472754, guid: f061711a42461054cb04aabcb2ae5d93, type: 3}
   - characterName: Jude
     characterSprite: {fileID: 1437726978, guid: 6310f8f664aa760459dbde70128fd01f, type: 3}
+    characterPrefab: {fileID: 3279553184281141335, guid: 2329b9260fdd6f64fad0dbc2240b42c4, type: 3}

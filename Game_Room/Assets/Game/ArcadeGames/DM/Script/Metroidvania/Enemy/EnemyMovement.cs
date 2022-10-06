@@ -36,7 +36,7 @@ namespace Assets.DM.Script.Metroidvania.Enemy
         public void OnDamage(float damage)
         {
             currentHealth -= damage;
-            if(damage >= 1f)
+            if(damage >= 0f)
                 animator.SetTrigger(EnemyAnimationParam.IsHit);
         }
     }

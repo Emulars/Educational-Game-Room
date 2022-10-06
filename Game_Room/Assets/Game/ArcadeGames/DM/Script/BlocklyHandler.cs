@@ -40,15 +40,11 @@ public class BlocklyHandler : MonoBehaviour
     [SerializeField] GameObject questGiver2;
 
     private bool isGuiOpen = false; // To check if the Block UI is already open, to be able to close it with the same key
-    private int currentLevel; // To store the current level index
 
     // Start is called before the first frame update
     void Start()
     {
         LevelInizializer();
-
-        // Pick the current scene buildIndex
-        currentLevel = SceneManager.GetActiveScene().buildIndex;
     }
 
     private void LevelInizializer()
@@ -94,9 +90,6 @@ public class BlocklyHandler : MonoBehaviour
     {
         // Active/Deactive laser pointer for Blockly
         LaserPointer(isGuiOpen);
-
-        // Activate/Deactivate virtual keyboard for blockly
-        VirtualKeyboard(isGuiOpen);
 
         // if the gui is not already open
         //if (Input.GetButtonDown("Blockly") && !isGuiOpen)
@@ -249,17 +242,6 @@ public class BlocklyHandler : MonoBehaviour
 
         if(!BlocklyIsActive)
             SteamVR_LaserPointer.isActive = false;
-    }
-
-    private void VirtualKeyboard(bool BlocklyIsActive)
-    {
-        if (SteamVR_Input.GetStateDown("default", "OpenKeyboard", SteamVR_Input_Sources.Any) && BlocklyIsActive)
-            // setActive(true)
-
-        if (!BlocklyIsActive)
-        {
-                // setActive(false)
-        }
     }
 }
 

@@ -20,6 +20,10 @@ namespace Assets.DM.Script.Puzzle
             return characters[index];
         }
 
+        public GameObject GetCharacterPrefab(int index)
+        {
+            return characters[index].characterPrefab;
+        }
     }
 }
 

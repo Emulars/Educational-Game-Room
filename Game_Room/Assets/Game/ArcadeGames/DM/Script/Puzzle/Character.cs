@@ -9,6 +9,7 @@ namespace Assets.DM.Script.Puzzle
     {
         public string characterName;
         public Sprite characterSprite;
+        public GameObject characterPrefab;
     }
 }
 

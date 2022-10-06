@@ -35382,18 +35382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4be9198725e7bfe4c92f5c25a4e59b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterDb: {fileID: 0}
-  artworkSprite: {fileID: 0}
-  playerPrefabs:
-  - {fileID: 5376799867332711360, guid: 18e4594616664394da463064d3e5c811, type: 3}
-  - {fileID: 4597841760801782416, guid: 61c11a74dc4edd24aa3d7730a1190603, type: 3}
-  - {fileID: 868035846173665808, guid: 6e830a8f1bb3a2f43be256805d6da0d2, type: 3}
-  - {fileID: 3127507828357213617, guid: 9af2e1917f6f84248a033530fd2fb339, type: 3}
-  - {fileID: 1312695521731392024, guid: 3323e30be79f28f49a5a775bb87620e5, type: 3}
-  - {fileID: 4148475923123700137, guid: f88c3bf7115b838429c7ed0da16453b5, type: 3}
-  - {fileID: 4960585109387718232, guid: a5e7c9ea04f5fb245ac8fb7930cc9ddf, type: 3}
-  - {fileID: 6333663765662472754, guid: f061711a42461054cb04aabcb2ae5d93, type: 3}
-  - {fileID: 3279553184281141335, guid: 2329b9260fdd6f64fad0dbc2240b42c4, type: 3}
+  characterDb: {fileID: 11400000, guid: d3c42eb100d7bd14e944faa677e8669b, type: 2}
   virtualCamera: {fileID: 1260661105}
 --- !u!4 &754455025
 Transform:

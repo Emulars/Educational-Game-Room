@@ -9,7 +9,7 @@ namespace Assets.DM.Script.Metroidvania.Player
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.isTrigger != true && collision.CompareTag("Enemy"))
+            if (!collision.isTrigger && collision.CompareTag("Enemy"))
                 collision.transform.GetComponent<EnemyMovement>().OnDamage(damage);
         }
     }
