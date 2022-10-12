@@ -172,7 +172,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.4, y: -1054}
+  m_AnchoredPosition: {x: 586.4, y: -821.15}
   m_SizeDelta: {x: 1172.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44288098
@@ -310,6 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 0
   droppedGameObject: {fileID: 0}
 --- !u!65 &289695410
 BoxCollider:
@@ -988,7 +989,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Utilizza le due variabili max e min per settare un range di et\xE0 lavorativa
     per le persone e assegna alla variabile lavoro true nel caso opportuno.\n\r\nPremi
-    Start quando hai finito.\r\nPremi F1 per tornare algioco."
+    il bottone verde quando hai finito.\nPremi X per tornare algioco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1447,6 +1448,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1102612147}
     m_Modifications:
+    - target: {fileID: 3670964639499200452, guid: 04d176549bb9cbc4da3547299dfd6e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2063988103}
+    - target: {fileID: 3670964639499200452, guid: 04d176549bb9cbc4da3547299dfd6e3f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     - target: {fileID: 3670964639499200474, guid: 04d176549bb9cbc4da3547299dfd6e3f, type: 3}
       propertyPath: m_Name
       value: QuestionMark
@@ -2437,8 +2446,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 876740047}
   m_HandleRect: {fileID: 876740046}
   m_Direction: 2
-  m_Value: 0.92076683
-  m_Size: 0.7479639
+  m_Value: 0.5
+  m_Size: 0.74796396
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
