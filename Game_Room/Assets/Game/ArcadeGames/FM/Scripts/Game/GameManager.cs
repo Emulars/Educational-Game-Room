@@ -28,12 +28,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float wordSpeed; //0.06
     [SerializeField] private AudioSource audioSource;
 
+    private bool ifjustpressed = false;
+
     private void Start()
     {
         //inizializzo le varie parti del testo
         textOnScreen = new List<string>
         {
             TextOnScreen.p1,
+            "C",
             TextOnScreen.p2,
             TextOnScreen.q1,
             TextOnScreen.q2,
@@ -132,12 +135,17 @@ public class GameManager : MonoBehaviour
             }
         }
 
+
+
         //if (Input.GetKeyDown(KeyCode.Return))
-        if(ButtonVR.button2 || ButtonVR.button1)
-        {
-            if (nextButton.activeSelf) 
+        if (!ifjustpressed){
+            if (ButtonVR.button2 || ButtonVR.button1)
             {
-                NextQuestion();
+                if (nextButton.activeSelf)
+                {
+                    NextQuestion();
+                    StartCoroutine(ifjustpressedTime());
+                }
             }
         }
 
@@ -240,5 +248,12 @@ public class GameManager : MonoBehaviour
         //utilizzo WaitForSeconds per evitare che contemporaneamente nelle scene ci sia attivo eventSystem
         yield return new WaitForSeconds(0.5f);
         eventSystem.enabled = true;
+    }
+
+    private IEnumerator ifjustpressedTime() 
+    {
+        ifjustpressed = true;
+        yield return new WaitForSeconds(3f);
+        ifjustpressed = false;
     }
 }
