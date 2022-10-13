@@ -11,8 +11,12 @@ namespace Assets.DM.Script.Metroidvania.Player
         private Rigidbody2D body;
         private Animator animator;
         private CapsuleCollider2D capsuleCollider;
-
         private float horizontalInput;
+
+        [Header("Health")]
+        [SerializeField] private float maxHealth = 100f;
+        [SerializeField] private GameObject healthBarObj;
+        private float currentHealth;
 
         private void Awake()
         {
@@ -20,6 +24,7 @@ namespace Assets.DM.Script.Metroidvania.Player
             body = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             capsuleCollider = GetComponent<CapsuleCollider2D>();
+            currentHealth = maxHealth;
         }
 
         // Update is called once per frame
@@ -68,5 +73,22 @@ namespace Assets.DM.Script.Metroidvania.Player
             return horizontalInput == 0 && isOnGround();
         }
 
+        public void OnDamage(float damage)
+        {
+            currentHealth -= damage;
+            print("Player Health: " + currentHealth);
+            HealthBar();
+            if(currentHealth <= 0)
+            {
+                // Activate death zone
+                healthBarObj.transform.GetComponentInChildren<BoxCollider2D>().size = new Vector2(1f, 0.5f);
+            }
+        }
+
+        private void HealthBar()
+        {
+            healthBarObj.transform.localScale =
+                new Vector3(Mathf.InverseLerp(0f, maxHealth, currentHealth), 1f);
+        }
     }
 }
