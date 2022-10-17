@@ -304,6 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 0
   droppedGameObject: {fileID: 0}
 --- !u!65 &289695410
 BoxCollider:
@@ -886,19 +887,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Objective:
-
-    We must defeat the enemy that blocks our way.
-
-    To
-    make it possible we have to modify the damage value of our character to weaken
-    our enemy.
-
-
-    Available variables: (variable name: type)
-
-    - damage: number
-    (float)'
+  m_text: "Obiettivo:\nDobbiamo sconfiggere il nemico che ci blocca la strada. Per
+    riuscirci, dobbiamo modificare il valore del danno del nostro cavaliere per indebolire
+    il nostro nemico ad ogni colpo.\nBisogna anche prestare attenzione poich\xE9
+    il nemico non rimmarr\xE0 fermo a farsi sconfiggere...\n\nVariabili disponibili:\n-
+    damage: numero intero o in virgola mobile"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

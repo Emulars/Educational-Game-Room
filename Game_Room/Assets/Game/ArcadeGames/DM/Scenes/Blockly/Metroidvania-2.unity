@@ -319,6 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 0
   droppedGameObject: {fileID: 0}
 --- !u!1 &391304624
 GameObject:
@@ -681,23 +682,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Objective:
-
-    We want to make sure that our character can jump to avoid
-    falling into the hole.
-
-    To make it possible we have to change the speed value
-    to 1 and only in that case activate the jump.
-
-
-
-
-    Available variables: (variable
-    name: type)
-
-    - speed: number (float)
-
-    - enableJump: true / false'
+  m_text: "Obiettivo:\nVogliamo assicurarci che il nostro cavalieri possa saltare
+    per evitare di cadere nel buco. Per renderlo possibile dobbiamo cambiare il valore
+    della velocit\xE0 a 1 e, solo in questo caso, attivare il salto attraverso la
+    variabile \"enableJump\".\n\n\nVariabili disponibili:\n- speed: numero intero
+    o in virgola mobile\n- enableJump: true/false"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

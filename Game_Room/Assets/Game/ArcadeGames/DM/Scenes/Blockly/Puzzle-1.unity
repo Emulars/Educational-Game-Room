@@ -314,6 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a433870ad47a2064285cf3702f27f736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyValueBlock: 0
   droppedGameObject: {fileID: 0}
 --- !u!1 &391304624
 GameObject:
@@ -818,8 +819,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objective:\nReturn a string with a murmur: \"1 sheep...2 sheep...3 sheep...\".\n\nAvailable
-    variables: \n- word = \"sheep\"\n- space = \" \" \n- result = \"\";\r\n\r\n"
+  m_text: "Obiettivo:\nRitornare una stringa che rappresenti il seguente mormorio:
+    \"1 sheep...2 sheep...3 sheep...\".\n\nVariabili disponibili:\n- word = \"sheep\"\n-
+    space = \" \" \n- result : stringa vuota\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

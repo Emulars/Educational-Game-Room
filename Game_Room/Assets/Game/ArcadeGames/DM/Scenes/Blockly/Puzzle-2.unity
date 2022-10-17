@@ -164,7 +164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 586.4, y: -1062.9822}
+  m_AnchoredPosition: {x: 586.4, y: -821.15027}
   m_SizeDelta: {x: 1172.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44288098
@@ -927,7 +927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56.866917, y: -44.164837}
+  m_AnchoredPosition: {x: -56.866917, y: 41}
   m_SizeDelta: {x: 1318.3352, y: 847.9267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854582890
@@ -950,11 +950,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objective:\n\rEach dragon takes 2 bullets to be defeated, our hero has
-    no idea how many bullets he should carry..\r\nAssuming he's gonna grab a specific
-    given number of bullets and move forward to fight another specific given number
-    of dragons, will he survive?\r\n\rReturn result= true if yes, return=false otherwise\n\nAvailable
-    Variables :\n- result : bool\n- numBullets : integer\n- numDragons : integer"
+  m_text: "Obiettivo:\nUn eroe sta avanzando verso un castello per completare la
+    sua missione. Tuttavia, il castello \xE8 circondato da diversi potenti draghi!
+    Sapendo che per sconfiggere un singolo drago ha bisogno di due proiettili, e
+    supponendo che prender\xE0 un determinato numero di proiettili e andr\xE0 a combattere
+    un numero specifico di draghi, il nostro eroe sopravviver\xE0? Restituire \"true\"
+    in caso positivo, \"false\" altrimenti.\n\nVariabili disponibili:\n- result :
+    true/false\n- numBullets : numero intero\n- numDragons : numero intero"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -981,8 +983,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2378,8 +2380,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 876740047}
   m_HandleRect: {fileID: 876740046}
   m_Direction: 2
-  m_Value: 0.9999995
-  m_Size: 1
+  m_Value: 0.5000005
+  m_Size: 0.7724965
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

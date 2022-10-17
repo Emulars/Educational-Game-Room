@@ -167,7 +167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 613.9, y: -1031.5758}
+  m_AnchoredPosition: {x: 613.9, y: -821.15}
   m_SizeDelta: {x: 1227.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44288098
@@ -797,22 +797,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Objective:
+  m_text: 'Obietivo:
 
-    We want to ensure that our character can move in order
-    to advance in the level.
-
-    To make this possible we could modify the value
-    of the variable speed ...
+    Vogliamo assicurarci che il nostro cavaliere possa muoversi
+    per avanzare nel livello. Per renderlo possibile potremmo modificare il valore
+    della variabile "speed"...
 
 
 
+    Variabili a disposizione:
 
+    - speed : numero
+    intero o in virgola mobile
 
-    Available variables: (variable name: type)
-
-    -
-    speed: number (float)'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1996,8 +1994,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 876740047}
   m_HandleRect: {fileID: 876740046}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0.4999997
+  m_Size: 0.7960153
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

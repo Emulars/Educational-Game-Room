@@ -55,11 +55,22 @@ public class BlocklyHandler : MonoBehaviour
         // Add the needed variables for each level
         switch (guiLevelIndex)
         {
-            // Second Metroidvania level
-            case 12:
+            // First Metroidvania level
+            case 11:
                 Executor.variabili.Add("speed", "0");
                 break;
 
+            // Second Metroidvania level
+            case 12:
+                Executor.variabili.Add("speed", "0");
+                Executor.variabili.Add("enableJump", "false");
+                break;
+            
+            // Third Metroidvania level
+            case 13:
+                Executor.variabili.Add("damage", "0");
+                break;
+                
             // First Puzzle interaction
             case 14:
                 Executor.variabili.Add("word", "sheep");
