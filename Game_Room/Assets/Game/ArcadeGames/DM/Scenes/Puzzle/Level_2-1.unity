@@ -35520,7 +35520,7 @@ PrefabInstance:
       objectReference: {fileID: 516143495}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -35528,29 +35528,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: There will be a quiz !!!
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[2]
+      value: There will be a quiz !!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
+      propertyPath: dialogue.Array.data[3]
       value: A hero is on his way to the castle to complete his mission. However,
         he's been told that the castle is surrounded with a couple of powerful dragons!
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
-      propertyPath: dialogue.Array.data[3]
+      propertyPath: dialogue.Array.data[4]
       value: 'each dragon takes 2 bullets to be defeated, our hero has no idea how
         many bullets he should carry.. '
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
-      propertyPath: dialogue.Array.data[4]
+      propertyPath: dialogue.Array.data[5]
       value: Assuming he's gonna grab a specific given number of bullets and move
         forward to fight another specific given number of dragons, will he survive?
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
-      propertyPath: dialogue.Array.data[5]
+      propertyPath: dialogue.Array.data[6]
       value: Return True if yes, False otherwise
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
-      propertyPath: dialogue.Array.data[6]
+      propertyPath: dialogue.Array.data[7]
       value: Press F1 to open the Block UI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -44111,7 +44115,7 @@ PrefabInstance:
       objectReference: {fileID: 516143495}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -44119,24 +44123,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: There will be a quiz !!!
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[2]
+      value: There will be a quiz !!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
+      propertyPath: dialogue.Array.data[3]
       value: 'Given the following variables: "word" = "sheep", "space" = " " , "result"
         = "";'
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
-      propertyPath: dialogue.Array.data[3]
+      propertyPath: dialogue.Array.data[4]
       value: 'return a string with a murmur: "1 sheep...2 sheep...3 sheep...".'
       objectReference: {fileID: 0}
     - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
-      propertyPath: dialogue.Array.data[4]
-      value: Press F1 to open the Block UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 8908011996624677318, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: '"word" = "sheep"\n, "space" = " "\n , "result" = "";'
+      value: Press F1 to open the Block UI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c41308f2ece69aa40920d7a213851ece, type: 3}
