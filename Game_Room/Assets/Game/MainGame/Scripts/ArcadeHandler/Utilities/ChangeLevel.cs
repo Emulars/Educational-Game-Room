@@ -69,8 +69,6 @@ public class ChangeLevel : MonoBehaviour
             gameInfo = GameDatabase.games[gameName];
             LoadNextLevel(false);
 
-            StartCoroutine(ActiveMessage());
-
             // Increse the counter for the next level
             UpdateCounter();
 
@@ -81,15 +79,14 @@ public class ChangeLevel : MonoBehaviour
 
     private void LoadNextLevel(bool restart)
     {
-        
         // Get the game's material
         renderTextures = Resources.LoadAll("RenderTextures/" + gameInfo.sceneMaterialPath, typeof(Material));
 
         // Player entered, so move level
         if (restart)
-            SceneManager.LoadScene(IndexToLoad-1, LoadSceneMode.Additive);
+            StartCoroutine(LoadYourAsyncScene(IndexToLoad-1));//SceneManager.LoadScene(IndexToLoad-1, LoadSceneMode.Additive);
         else
-            SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
+            StartCoroutine(LoadYourAsyncScene(IndexToLoad));//SceneManager.LoadScene(IndexToLoad, LoadSceneMode.Additive);
     }
 
     private void OnTriggerExit(Collider other)
@@ -108,15 +105,14 @@ public class ChangeLevel : MonoBehaviour
         }
     }
 
-    private IEnumerator ActiveMessage()
+    IEnumerator LoadYourAsyncScene(int indexToLoad)
     {
-        if(canvasImage != null)
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(indexToLoad, LoadSceneMode.Additive);
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
         {
-            Transform canvasText = canvasImage.transform.Find("Text");
-            canvasText.GetComponent<TextMeshProUGUI>().text = "Press 'F2' to start/stop playing";
-            canvasImage.SetActive(true);
-            yield return new WaitForSeconds(3);
-            canvasImage.SetActive(false);
+            yield return null;
         }
     }
 
