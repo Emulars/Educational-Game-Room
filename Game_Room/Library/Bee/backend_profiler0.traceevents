@@ -1,0 +1,745 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666701367176870, "dur":1433, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367178322, "dur":1016, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666701367179432, "dur":66, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666701367179500, "dur":621, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666701367180165, "dur":1442, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367181608, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569884, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569907, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569928, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569935, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569947, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569953, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569964, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569968, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569977, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569981, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569991, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367569995, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570010, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570015, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570028, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570034, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570047, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570081, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367570111, "dur":2987, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666701367180420, "dur":1207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367181631, "dur":11321, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367192971, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666701367192973, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367193214, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666701367193216, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367193319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367193824, "dur":7877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666701367201702, "dur":979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367202681, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367202716, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367202939, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367202981, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367203655, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367203681, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367203796, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367203818, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204250, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204328, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204414, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204487, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204620, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204668, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204716, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204759, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204825, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204878, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204911, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204954, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367204980, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367205002, "dur":15928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367220953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367221002, "dur":46313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666701367267352, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666701367267383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367267393, "dur":7452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666701367275020, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666701367275130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367275136, "dur":7465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666701367282857, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666701367283109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367283120, "dur":26686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666701367309837, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets17.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666701367309864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367309871, "dur":188296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets17.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666701367498272, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level27" }}
+,{ "pid":12345, "tid":1, "ts":1666701367498348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367498352, "dur":36335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level27" }}
+,{ "pid":12345, "tid":1, "ts":1666701367534724, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level19" }}
+,{ "pid":12345, "tid":1, "ts":1666701367534743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367534747, "dur":11862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level19" }}
+,{ "pid":12345, "tid":1, "ts":1666701367546643, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level12" }}
+,{ "pid":12345, "tid":1, "ts":1666701367546674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367546681, "dur":16133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level12" }}
+,{ "pid":12345, "tid":1, "ts":1666701367562840, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1666701367562898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666701367562906, "dur":4121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1666701367567049, "dur":2439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367180853, "dur":879, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367181732, "dur":11232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367192971, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666701367193372, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367193468, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666701367193962, "dur":886, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367194850, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367195701, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367195790, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196179, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196320, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196431, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196596, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196653, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196846, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367196913, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367197058, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367197365, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367197666, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367197733, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367197929, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198042, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198136, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198162, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198182, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198210, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198245, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198291, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198326, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198382, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198432, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198463, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198484, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198574, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198616, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198823, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198853, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198878, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198898, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198922, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198939, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367198993, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199014, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199039, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199057, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199076, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199115, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199162, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199319, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199452, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367199529, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200175, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200206, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200316, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200340, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200448, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200481, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200663, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200686, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367200795, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367201236, "dur":1122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367202359, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367202407, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367202677, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367202709, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367203757, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367203798, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204197, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204324, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204401, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204475, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204600, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204647, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204693, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204733, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204782, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204830, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204886, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204926, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367204976, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367205000, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666701367205279, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367205301, "dur":917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":2, "ts":1666701367206218, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367206258, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":2, "ts":1666701367207130, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367207169, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":2, "ts":1666701367207991, "dur":47798, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367255790, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":2, "ts":1666701367256232, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367256298, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367256330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367256336, "dur":16831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367273202, "dur":1508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666701367274725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367274735, "dur":6987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666701367282210, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367282272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367282278, "dur":6058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367289914, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets27.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367290226, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367290245, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets27.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367294780, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367294808, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367294825, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367296248, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets23.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666701367296275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367296282, "dur":3967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets23.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666701367300288, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367300324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367300334, "dur":8652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367309021, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367309091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367309106, "dur":6880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367316011, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367316044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367316073, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367318005, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367318030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367318035, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666701367320914, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1666701367321021, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367321057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367321064, "dur":18228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1666701367339616, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level8" }}
+,{ "pid":12345, "tid":2, "ts":1666701367339941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367339948, "dur":158041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level8" }}
+,{ "pid":12345, "tid":2, "ts":1666701367498013, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1666701367498096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367498101, "dur":24867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1666701367523003, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level24" }}
+,{ "pid":12345, "tid":2, "ts":1666701367523031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367523038, "dur":23343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level24" }}
+,{ "pid":12345, "tid":2, "ts":1666701367546491, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level14" }}
+,{ "pid":12345, "tid":2, "ts":1666701367546585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666701367546590, "dur":20191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level14" }}
+,{ "pid":12345, "tid":2, "ts":1666701367567365, "dur":2413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367180545, "dur":1091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367181636, "dur":11346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367192983, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666701367193349, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367193450, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666701367193702, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367193740, "dur":1103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1666701367194843, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367195049, "dur":830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1666701367195879, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367195993, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196108, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196211, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196342, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196516, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196548, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196572, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196631, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196674, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196724, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196750, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196776, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196793, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196814, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196830, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196898, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367196962, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367197260, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367197603, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367197710, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367197857, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198004, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198123, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198152, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198172, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198202, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198221, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198249, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198272, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198301, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198351, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198402, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198450, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198490, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198597, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198644, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198855, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198879, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198905, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198929, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198947, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367198997, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199023, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199053, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199071, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199096, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199135, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199279, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199417, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199740, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199776, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199819, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367199844, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200126, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200152, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200263, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200285, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200409, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200472, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200624, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200647, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367200754, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367201157, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367201553, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367202076, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367202379, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367202431, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367202801, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367202864, "dur":1348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204212, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204318, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204390, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204448, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204576, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204623, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204661, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204711, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204754, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367204820, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666701367205420, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367205443, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":3, "ts":1666701367206631, "dur":47064, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367253698, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":3, "ts":1666701367254522, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367254563, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":3, "ts":1666701367254959, "dur":943, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367255903, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1666701367255932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367255956, "dur":12948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1666701367268938, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666701367268974, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367268988, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666701367270718, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367270757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367270768, "dur":10586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367281502, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367281773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367281782, "dur":6478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367289602, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets28.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666701367290158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367290176, "dur":5190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets28.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666701367295390, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets24.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367295414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367295420, "dur":5449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets24.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367300893, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666701367300923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367300933, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666701367301763, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367301794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367301805, "dur":11142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367312978, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets16.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367313004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367313011, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets16.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367316444, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367316476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367316482, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367318339, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367319237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367319249, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666701367330783, "dur":7330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367338120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367338125, "dur":159802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367497955, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1666701367497986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367497994, "dur":24949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1666701367522971, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level25" }}
+,{ "pid":12345, "tid":3, "ts":1666701367523004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367523011, "dur":11947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level25" }}
+,{ "pid":12345, "tid":3, "ts":1666701367534980, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level18" }}
+,{ "pid":12345, "tid":3, "ts":1666701367535005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367535012, "dur":11574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level18" }}
+,{ "pid":12345, "tid":3, "ts":1666701367546615, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level13" }}
+,{ "pid":12345, "tid":3, "ts":1666701367546640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367546644, "dur":18990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level13" }}
+,{ "pid":12345, "tid":3, "ts":1666701367565665, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367565707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666701367565740, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666701367569460, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1666701367569462, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367180611, "dur":1080, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367181692, "dur":11294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367192990, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666701367193304, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367193392, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666701367193693, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367193737, "dur":1060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1666701367194798, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367195021, "dur":768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1666701367195789, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367195917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367195924, "dur":77255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1666701367274994, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367275122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367275128, "dur":7141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367282555, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666701367282641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367282649, "dur":11073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666701367293746, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets25.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367293775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367293783, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets25.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367295716, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367295749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367295756, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367296647, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367296680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367296686, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367297898, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367297934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367297944, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367299156, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets22.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367299184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367299190, "dur":15429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets22.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367314641, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367314665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367314672, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367317397, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367317428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367317436, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666701367319586, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367319615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367319622, "dur":20069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666701367339991, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1666701367340304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367340313, "dur":157775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1666701367498130, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1666701367498207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367498215, "dur":25232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1666701367523466, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level22" }}
+,{ "pid":12345, "tid":4, "ts":1666701367523490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367523563, "dur":22599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level22" }}
+,{ "pid":12345, "tid":4, "ts":1666701367546195, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level17" }}
+,{ "pid":12345, "tid":4, "ts":1666701367546247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367546256, "dur":9490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level17" }}
+,{ "pid":12345, "tid":4, "ts":1666701367555762, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1666701367555783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367555787, "dur":10109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1666701367565920, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1666701367566094, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367566150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666701367566156, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1666701367567424, "dur":2063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367180683, "dur":1017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367181700, "dur":11261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367192971, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1666701367193294, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367193367, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1666701367193672, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367193730, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1666701367194049, "dur":862, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367194913, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367195682, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367195783, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367195857, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367195955, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196070, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196158, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196275, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196353, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196578, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196635, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196702, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196735, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196760, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196778, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196798, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196815, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196836, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367196852, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367197360, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367197641, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367197719, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367197903, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198033, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198127, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198262, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198297, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198361, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198411, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198458, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198481, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198503, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198607, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367198644, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367199127, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367199233, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367199372, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367199887, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367199913, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367200502, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367200538, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367200700, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367200723, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367201418, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367201501, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367202193, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367202313, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367202501, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367202561, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203203, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203253, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203295, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203329, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203365, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203403, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367203816, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204000, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204470, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204610, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204658, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204695, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204752, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204815, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367204988, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205010, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205038, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205085, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205108, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205135, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205163, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205187, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205209, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367205263, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":5, "ts":1666701367206159, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367206223, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":5, "ts":1666701367206849, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367206893, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":5, "ts":1666701367207620, "dur":47932, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367255555, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":5, "ts":1666701367256184, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367256217, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666701367256254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367256258, "dur":18675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666701367275091, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1666701367275163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367275167, "dur":15326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1666701367291205, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets26.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666701367292264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367292275, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets26.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666701367294859, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets24.resource" }}
+,{ "pid":12345, "tid":5, "ts":1666701367294891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367294896, "dur":10933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets24.resource" }}
+,{ "pid":12345, "tid":5, "ts":1666701367305902, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666701367305948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367306099, "dur":6111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1666701367312235, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367312274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367312284, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367314342, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367314366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367314372, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367316105, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367316156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367316163, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367319407, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367319437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367319443, "dur":14082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1666701367338453, "dur":1009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level9" }}
+,{ "pid":12345, "tid":5, "ts":1666701367339472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367339479, "dur":158613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level9" }}
+,{ "pid":12345, "tid":5, "ts":1666701367498134, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level29" }}
+,{ "pid":12345, "tid":5, "ts":1666701367498231, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367498253, "dur":25418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level29" }}
+,{ "pid":12345, "tid":5, "ts":1666701367523695, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level21" }}
+,{ "pid":12345, "tid":5, "ts":1666701367523720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367523725, "dur":31817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level21" }}
+,{ "pid":12345, "tid":5, "ts":1666701367555569, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level11" }}
+,{ "pid":12345, "tid":5, "ts":1666701367555611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367555617, "dur":10146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level11" }}
+,{ "pid":12345, "tid":5, "ts":1666701367565785, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1666701367565813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1666701367565818, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1666701367568350, "dur":1518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367180752, "dur":956, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367181709, "dur":11258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367192972, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1666701367193342, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367193406, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1666701367193682, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367193736, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1666701367194068, "dur":846, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367194915, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666701367195727, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367195820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367195825, "dur":125038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1666701367321313, "dur":8570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1666701367329884, "dur":8031, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367337925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367337933, "dur":160222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1666701367498208, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level28" }}
+,{ "pid":12345, "tid":6, "ts":1666701367498310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367498315, "dur":36219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level28" }}
+,{ "pid":12345, "tid":6, "ts":1666701367534568, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level20" }}
+,{ "pid":12345, "tid":6, "ts":1666701367534602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367534611, "dur":11790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level20" }}
+,{ "pid":12345, "tid":6, "ts":1666701367546469, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level15" }}
+,{ "pid":12345, "tid":6, "ts":1666701367546516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367546523, "dur":19121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level15" }}
+,{ "pid":12345, "tid":6, "ts":1666701367565670, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1666701367565741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1666701367565747, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1666701367567640, "dur":1852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367180933, "dur":805, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367181738, "dur":11286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367193024, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1666701367193362, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367193467, "dur":1335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1666701367194802, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367195035, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room.exe" }}
+,{ "pid":12345, "tid":7, "ts":1666701367195171, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367195534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367195539, "dur":73128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room.exe" }}
+,{ "pid":12345, "tid":7, "ts":1666701367268707, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666701367268752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367268765, "dur":7503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1666701367279866, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367280328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367280338, "dur":7495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367287957, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets29.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367288201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367288207, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets29.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367293430, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets25.resource" }}
+,{ "pid":12345, "tid":7, "ts":1666701367293457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367293463, "dur":5936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets25.resource" }}
+,{ "pid":12345, "tid":7, "ts":1666701367299424, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367299471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367299477, "dur":6318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367306233, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367306283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367306449, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367309456, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367309486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367309494, "dur":5598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367315119, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367315142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367315147, "dur":4889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367320062, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367320089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367320095, "dur":10924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367338117, "dur":1081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367339209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367339219, "dur":169854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1666701367509106, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level26" }}
+,{ "pid":12345, "tid":7, "ts":1666701367509132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367509139, "dur":25508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level26" }}
+,{ "pid":12345, "tid":7, "ts":1666701367534680, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1666701367534706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367534711, "dur":11684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1666701367546434, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level16" }}
+,{ "pid":12345, "tid":7, "ts":1666701367546495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367546500, "dur":16358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level16" }}
+,{ "pid":12345, "tid":7, "ts":1666701367562883, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1666701367562906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1666701367562910, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1666701367567828, "dur":1948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367180799, "dur":926, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367181725, "dur":11235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367192971, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1666701367193357, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367193457, "dur":1673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1666701367195130, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367195647, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367195900, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367196007, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367196128, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367196295, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367196872, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367196956, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367197224, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367197592, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367197711, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367197966, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367198271, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367198314, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367198376, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367198421, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367198622, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367199144, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367199294, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367199424, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367199704, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367199727, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367200377, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367200444, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367200598, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367200621, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367200725, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367200778, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367201497, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367201673, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367202270, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367202343, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367202561, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367202626, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367202871, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367202961, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203005, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203105, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203245, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203276, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203313, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203346, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367203548, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204029, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204252, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204354, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204437, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204569, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204636, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204685, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204720, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204782, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204850, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204895, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204949, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367204971, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1666701367205317, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367205340, "dur":1142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":8, "ts":1666701367206482, "dur":47402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367253887, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":8, "ts":1666701367254582, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367254617, "dur":1211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":8, "ts":1666701367255828, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367255876, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1666701367256012, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367256039, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":8, "ts":1666701367256059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367256064, "dur":19092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":8, "ts":1666701367275288, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367275352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367275356, "dur":10132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367287251, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666701367287688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367287725, "dur":5471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666701367293220, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets26.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666701367293243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367293248, "dur":18952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets26.assets" }}
+,{ "pid":12345, "tid":8, "ts":1666701367312230, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367312269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367312320, "dur":6931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367319338, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367319373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367319382, "dur":178668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367498115, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1666701367498191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367498195, "dur":25079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1666701367523298, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level23" }}
+,{ "pid":12345, "tid":8, "ts":1666701367523324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367523329, "dur":39014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level23" }}
+,{ "pid":12345, "tid":8, "ts":1666701367562439, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367562489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1666701367562496, "dur":6436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/tesi Triennali Magistrali/VR-CSEducation/Build/Game_Room_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1666701367568956, "dur":887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666701367575565, "dur":3277, "ph":"X", "name": "ProfilerWriteOutput" }
+,
